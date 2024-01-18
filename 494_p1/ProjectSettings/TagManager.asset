@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - rupee
+  - ->North
+  - ->South
+  - ->West
+  - ->East
   layers:
   - Default
   - TransparentFX

@@ -5,6 +5,8 @@ using UnityEngine;
 public class Collector : MonoBehaviour
 {
     Inventory inventory;
+
+    public AudioClip RupCollect;
     void Start()
     {
         inventory = GetComponent<Inventory>();
@@ -22,6 +24,8 @@ public class Collector : MonoBehaviour
                 inventory.AddRupees(1);
             }
             Destroy(object_collided_with);
+
+            AudioSource.PlayClipAtPoint(RupCollect, Camera.main.transform.position);
         }
     }
 }

@@ -1,0 +1,5684 @@
+fileFormatVersion: 2
+guid: ef938784a6e804437a31d4d80683d433
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 288
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba283510dc4c469aa3935516def6ae2
+      internalID: 859275205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 287
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78bf401cb2d44ef9a819b1b33374c2b
+      internalID: 208930437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053edd568b32a4b00b48ec00da3060e7
+      internalID: -312969867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 288
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2c69c08c684499e93ce16684cfb510
+      internalID: 1316387819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 288
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d24aece27cc34ba688ee980c3549e59
+      internalID: -1171290661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 288
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57597570885ac46d4b8a1be066aa1b1f
+      internalID: 897263547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_6
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 288
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e37a3c6289544e4ab47d82a2a611e67
+      internalID: 192293306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_7
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 288
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66d112056bc04b9686b6039c8823b72
+      internalID: -42796527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 288
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0729079a9e47a48d4a21c0334fa048fe
+      internalID: 737716825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_9
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 288
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd4cddf719814754a0a2b1888533116
+      internalID: -990986761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 288
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127c675181ba24c9bbdc9fc3ba7736e5
+      internalID: -562918487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_11
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 288
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f4e41f6cafc44c89469af4330f01ae
+      internalID: 1003731238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_12
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 288
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519206a96284e49348b729fd632b3f6e
+      internalID: 264769461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_13
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 288
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455b5dba89862498a94682592a7d6f40
+      internalID: -1572258404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_14
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 288
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8663e94c85d41d993136f49d95b714
+      internalID: -390062546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_15
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 288
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6606b0105238f4801a428b7c112c08b6
+      internalID: -1115831865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_16
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 288
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c9a675dca7141178dbf4b835ad192b
+      internalID: -958883402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 253
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25a65132be524fbabfb7fd00a961f4f
+      internalID: 1997113154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_18
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 253
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cb0bbd9817b4728bf16bb406e116fa
+      internalID: 983440500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 253
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36abafdaba484f448b0346396618f2a
+      internalID: 1200048667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_20
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 253
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a833b7cb45ac410ea16f6278fd07ddc
+      internalID: 1986823742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 272
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b70f8440bde04e368c97ab3f96ca340
+      internalID: 749085690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_22
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 272
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df7bfb76e46a4804ba0bbb124ae3b66
+      internalID: 435809367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_23
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 272
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ccd16c5e8f84e71ae5cd9ba764a129
+      internalID: -338032111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 272
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed83b2ea62584372942b9d762b97764
+      internalID: 705763941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_25
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 253
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015a272f7b0f44000aae0f9cd857bb38
+      internalID: 2103835218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_26
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 253
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230c40e10d02b460488601dafd519de2
+      internalID: 1612790721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_27
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 253
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876eb095cb4704d5bbf472bba2cc6afc
+      internalID: 1541611401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_28
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 271
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85edeedcc2b764683adf885ee4ebcc3c
+      internalID: -1013357963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_29
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 269
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949a04a6fadb34feeb63c87a148356bd
+      internalID: 135265853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_30
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 269
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becc2973f58544980a1b825fda52c244
+      internalID: 1368773693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_31
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 269
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b41cc75ba86b49f7b5b0c5212e2e6aa
+      internalID: -1437455650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_32
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 253
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca384b6e61fcd4471b54a782be9e8cd7
+      internalID: -1656664932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_33
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 255
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8225b18b4e5949078daa0a940101a02
+      internalID: -1614819545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_34
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 255
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb8ae646b2e44d5c82a022f9a3ee3aa
+      internalID: -1703843057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_35
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 255
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49936b822c8ad4d1db6aded895b0a686
+      internalID: -357137330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_36
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 255
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15315ead4e6034e0eb72785639baa0ec
+      internalID: 1226328140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 241
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf17e9fbe9674c10a178e9bdc6e01f1
+      internalID: -17850768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_38
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 241
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871a80394e3ed4ace8cfd0443fd5c705
+      internalID: 868428201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 241
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c01bceb892244799c95e923177eef3
+      internalID: 1633818540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_40
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 241
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084815feab1f44607bf4f6caf0b36dc3
+      internalID: -1232380658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_41
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 241
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de50062f198f4512b62b6b54d5406a1
+      internalID: -525316375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 240
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63a81b0cf6864662b4015ca22bd4ce8
+      internalID: -248998744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_43
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 241
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e575c74655d4c848a50445ce756173
+      internalID: -327695190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_44
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 241
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084cf3cee06b74a6da42a94c9d7241a3
+      internalID: -1929593978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_45
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 240
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d216d516c64344073b52a7bb60578ddb
+      internalID: -1861144020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_46
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 241
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92be2b4aa03274b6db2a2b010906995a
+      internalID: 123306182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_47
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 241
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3031720e98f6644c8ae8c5881fd5cb5f
+      internalID: 606361367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_48
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 240
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d1a63850d844752b1ed755cf647290
+      internalID: -1088307734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_49
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 240
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f990d8729bdb406aa384a05165e1930
+      internalID: -951753653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_50
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 241
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb90d391d4484fb4bf323dc1e7f6a9c
+      internalID: -325853598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_51
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 241
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4148a4a520fb544ed89e6486e928a6d5
+      internalID: -697161479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 222
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23a684e459e04dbd8b4506e56a7f27a
+      internalID: -703885201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_53
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d2199b3aec24d75a6f228b7f1e0af7
+      internalID: 1795537532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_54
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 222
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8c5d97624764b7a893adc99622cbca
+      internalID: 1389138558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_55
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef31dd3713f3546dc8fd8105e5cec5a7
+      internalID: -787229339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_56
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 222
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0f431aa30ca448c8c48f473c23edf8
+      internalID: -203767829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_57
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 222
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f45a6d2016b347ea858da8857a75948
+      internalID: 1376996136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_58
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 222
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39948d007e9b4bfa9582f2391c096a8
+      internalID: 174564508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_59
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 206
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7fdb719a17247c5bf2e62b7466da8f
+      internalID: -1763123986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_60
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 206
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a020343789164044808a70dccfab7ac
+      internalID: 939011546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_61
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 206
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e33154cd9de4427bb0a67e3fffd99dd
+      internalID: -661474433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_62
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 206
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e1043041d0d4e76a820f2292bc4bb0
+      internalID: 1675089221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_63
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 206
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8565be00e1e4c75af298c5ae0aecc6
+      internalID: 1815624532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_64
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857642d46ebde4191ab23dd7559cdbc2
+      internalID: -213640786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_65
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20487c4e65c72449abcdfd891986f07e
+      internalID: 819740351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_66
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 210
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a260d8e8880764b3eb1396f9086ed06b
+      internalID: 682925292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_67
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 210
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2074603d5034581bfcef0651b921b2
+      internalID: -1684843208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_68
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 210
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb8127ade5704e7ebe55d65be2d0380
+      internalID: -546689421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_69
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 210
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f7639c16edf43f391bbf0f72472eb5
+      internalID: -239572920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_70
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 210
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf419d1009ed4da3a1a3a3a560b6b7e
+      internalID: -18325477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_71
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 210
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be73d6bf01d95410ba8a666d8131df11
+      internalID: -1164481184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_72
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 210
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9c4f04283be4fb1945c5b6dfa87010
+      internalID: 426722501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_73
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 210
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf4a63f6b31146b68bb59de7d0db49c
+      internalID: 843720639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_74
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 191
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980e1015352de40d4909450710dacc24
+      internalID: 1577416755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_75
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 193
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e1b38da09c544f38053c524b5b5450
+      internalID: 2097897868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_76
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 191
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fc5c05dd40740eca9a7806b749ccfd
+      internalID: 1110598876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_77
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 191
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a18b2665d314011b64af48d867e52b
+      internalID: 928929607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_78
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355fdb484dfe74a79a05dab47d98efd4
+      internalID: 1513472897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_79
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 191
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcccf900e46f4736b587447d1432966
+      internalID: 1307358736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_80
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 191
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40b13221d05a4198a3ae41d68ac861b
+      internalID: 75576656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_81
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 194
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ac1e3d53a584f59a75552fb1f6678d
+      internalID: -1530576156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_82
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 194
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c52ab562250451f8354fba456d0712
+      internalID: 556877322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_83
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 194
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619ec24c3737f4ad5bac8f3ceedcb992
+      internalID: 191824738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_84
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 194
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6661737b92b674ec5909fa6486a2cb37
+      internalID: -1029721186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_85
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 194
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442b33765b90a4adfbf5813686a7a523
+      internalID: -2008945886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_86
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 177
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca5902d3021845faa36a5ece21ef99c
+      internalID: 910003024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_87
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 177
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fdf1287d8d24737963b316d5c223ec
+      internalID: 233680898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_88
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 177
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b009b1d69687d4f6d87937c1cf089595
+      internalID: -310517701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_89
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 177
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fca87a043ecb46baacdf43468aea6ca
+      internalID: -806771506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_90
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 176
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8a981cf3dc44f09aee6fe7e448da3e
+      internalID: 826621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_91
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4525ea4d8041f43f58e49a5d375b0a3a
+      internalID: -109509514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_92
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 176
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f7059533575466c98e3e66ac08464d
+      internalID: -1904178914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_93
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 174
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c9d5ee96b8747e0a32569e60662c9f
+      internalID: 1877363227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_94
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf21a025ca1a9456e9ca75093dd30f36
+      internalID: 608284166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_95
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 174
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d744a7c0e0bb946d1a201f33505d1941
+      internalID: -418540729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_96
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 175
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca347b3dce6c4acc987b0afedb10b59
+      internalID: 1746165217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_97
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a3c6624bc4f4d91aa45003b898e71e
+      internalID: -633125547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_98
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 175
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e59fdfdcd6e24acc8d121c09bb724fb
+      internalID: -1937271064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_99
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 175
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e045df5fd19084f229a502d54371e165
+      internalID: -1011672275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_100
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 175
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf83dc8d347d34e38987d50b42ecbcb1
+      internalID: -1214155552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_101
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 175
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2d8f8a061354429ad9be843be44f00
+      internalID: 2087288519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_102
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 175
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d88aff5f055495fa4e4b46001aa5c7
+      internalID: 594705217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_103
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 175
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee1ce062387345daacee029559f4846
+      internalID: 1452641772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_104
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 175
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6aadf932eb04457c87932e78050d3b6
+      internalID: 2008785728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_105
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 175
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cb2efeac4a349c4a1121cbd09c4eba
+      internalID: 1959066583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_106
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 157
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e82fc4d0e1b46df883e7ca5edbe651
+      internalID: -646045634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_107
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 159
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa033eaf840994499a66f5c0dac4bd55
+      internalID: 1381661923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_108
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 158
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd1049514a1b4821ae9061d31fd7fd1
+      internalID: -1093378285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_109
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd814229491040dcafc07fd8e41a487
+      internalID: 2018777452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_110
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 158
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9452d31dd64094074a9ac18b45046d75
+      internalID: 584783992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_111
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 158
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2083185e7ddf74cbf8b12acf50fa94be
+      internalID: -300113621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_112
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 158
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e873c56c4004563ad2a40c85551efd
+      internalID: -312710440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_113
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 158
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de3c875702e44807b42a9190f5d1851
+      internalID: -614085604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_114
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 158
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc39c7daaff845ecb275f3d29aed2c8
+      internalID: -165490441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_115
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 158
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f7e617492cb45c5923959422215fd0
+      internalID: 806665496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_116
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 158
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a3f017898f24592aa5b0599df2ed25
+      internalID: 894690468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_117
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 158
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a788e5374492b4e2b9763a3cb5088633
+      internalID: -539898374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_118
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 145
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d56f4f230ba4b4ea1767cc0e22c94c
+      internalID: -1933601447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_119
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 145
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ed2382e127842f7be7f0e6f3d044f5
+      internalID: -1055612626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_120
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 145
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2cb25d2eb7145efbfcff54d0e37e25
+      internalID: 320875960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_121
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 145
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3492d09c6f3db4560b6294dbd36071a2
+      internalID: -1653339980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_122
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 145
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c5bf9d0a4bc449eacf5cd8e2c6de3d
+      internalID: -299602623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_123
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ab1bab6f30545dbbfa5aa4b94787f1
+      internalID: 1166843654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_124
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddeccab06b685417caac0c826d96bbe9
+      internalID: 1190297717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_125
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a620ecd5d005a4a64a3027e295b3e414
+      internalID: -913300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_126
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 128
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4fea42321f34049be6bbbf46ef2464
+      internalID: 771848491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_127
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 130
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701a235379ca24228b08e33a8dd52c36
+      internalID: 1857815244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_128
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 130
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3379ab2029ee4ae5ad6e8f38aba8fa5
+      internalID: 605818311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_129
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ca799c35a7b4ab9891f747e64d3a09
+      internalID: -408960669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_130
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3464f00d295334d90b3e47baf0d66deb
+      internalID: 2093327426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_131
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a648a26a379264fa3940805719932d33
+      internalID: -1609576473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_132
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab1962dcc9244e148105de10d6b306c
+      internalID: 14673372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_133
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0784fffcca8794d59b1d803334aaad66
+      internalID: -49872622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_134
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602ef5c6b9adf4e669e08facb5188e9f
+      internalID: 1060339904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_135
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 129
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ad758fd785847f88afe4e644d17d83
+      internalID: -306345469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_136
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 129
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5527ca02f044aea9633860399916fc
+      internalID: -1772715333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_137
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 129
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba332ce21bb1461a80874d6b39934f5
+      internalID: 1274369144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_138
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 129
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186e9708eea6741ed8f2b0e6d8ccfbf7
+      internalID: -1596386929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_139
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 129
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cce1b20f8d44144baf3ad46ab1ab9f
+      internalID: 842619197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_140
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 129
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1116a07bcf1484e91c224310b5718e
+      internalID: 1618649811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_141
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 129
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d681def9fea34c1ab22b0f7e347c847
+      internalID: -1184706951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_142
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 129
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854acef2e17314c4bb390b7b9c2b17aa
+      internalID: 793796568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_143
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 126
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647b1b32be1824c2181844babcd13772
+      internalID: -1969926805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_144
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 137
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ec0d07c036d405f9bf0789ad2e8cf0
+      internalID: 1223485257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_145
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 126
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0684b0b418a864eefaace81ed9de56f0
+      internalID: 76111687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_146
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 137
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537a96e4eb5ba450fa76035dc7883ed8
+      internalID: 676862208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_147
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 126
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99033bb18a18e44ac8c471ec89bd7d2d
+      internalID: 1641654617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_148
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 128
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b018ce23eca2428bb3154cbbeab6d94
+      internalID: 74152095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_149
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 128
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a4855633e484542964e7b41b02299a
+      internalID: 83660826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_150
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 126
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776ae417bfc5d493bb3c64810a7fa513
+      internalID: 57248431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_151
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 112
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4f0d312d1b5452c9a45ff9ef50911d
+      internalID: 372143574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_152
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 112
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe803827d8f94b66be41329c4644bcd
+      internalID: 884449177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_153
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 112
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa824a6caaeba4f8da01136b3e8fb495
+      internalID: 555191906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_154
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 112
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41fc8778cf9a4a7d97ba58fd8912f77
+      internalID: -1542353625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_155
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9c5c884ec4041b2bfe3370357533e5
+      internalID: 1825411646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_156
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bfc90f2ebcb473cb1c913285dd70ee
+      internalID: 1007455486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_157
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288194249a9344240896e87e3eeda735
+      internalID: -277397816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_158
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9a813cc026646feb101a7df166cd26
+      internalID: -557596860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_159
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40039de8b6014eb2ba57f71574b6af3
+      internalID: 2120163728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_160
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495769aaded7f408cb0e66e16c55a3c9
+      internalID: 2042448403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_161
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24c433f7dc3b427e87b794eef7ddb28
+      internalID: 19377116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_162
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f600d997e9324f84854bf711683c06d
+      internalID: -313733844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_163
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 92
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fc0ea7a4c8440d1a593a8dd62034b6
+      internalID: -929221216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_164
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 92
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2270716f3bf9b4616912059cb32e8a5d
+      internalID: -828373060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_165
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 92
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45e5e698277447669df1edd52118e45
+      internalID: -1114941329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_166
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 92
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ee4a642b15549618e2937916f7e5da
+      internalID: -2112311308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_167
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aace15c2ecc54a12b9668e9e2f94955
+      internalID: -1036153921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_168
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 80
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3b2a1eb5d8e4438931f0549b89fd81
+      internalID: -1727728129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_169
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16fed0e15db24510a76d5b837955795
+      internalID: -1422901226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_170
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 80
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d04ffd5615e048c3bdf2c363f78a0cd
+      internalID: -1671796052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_171
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0aab6059dca44088d434afe25b06f2
+      internalID: 13836991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_172
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 80
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ed604bdaff14e9ab5eb71f33fc131f
+      internalID: 1146524687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_173
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 80
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68503335033fe473e85eb791d6b32b52
+      internalID: 1188145445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_174
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 80
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac03c9baece554621ae5966e6ee2a4d5
+      internalID: 2089531903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_175
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 80
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c549bbf5fe1954e448e25e770f894357
+      internalID: 1671045495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_176
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9358beba39ff847b9802b2935d4729e1
+      internalID: 382368478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_177
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 80
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec19c7b2f03a54a028ecb50462f2b482
+      internalID: -1824066723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_178
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 80
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845a4c9aa765c4139b36ca7cb5df772b
+      internalID: -56774612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_179
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 80
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd484262ab4974af88e39a332dd4db71
+      internalID: -56477492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_180
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 79
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201c62a1490b94fe196bedaa0b984751
+      internalID: 1100320075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_181
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 80
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d126b4a464ec4e828fc7e2a7e509fc6
+      internalID: 1820018628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_182
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27af41f0ef1f4b018f633da170e40bc
+      internalID: -1827224981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_183
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 80
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dcde48cb1484cbf9f2f27249c2ce2e
+      internalID: 2074469530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_184
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 80
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21212b16475744599dbe20bbeb08fb9
+      internalID: -2044515132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_185
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 80
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0179326da8a64214b2a446f06015bb6
+      internalID: 1381366614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_186
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42504181a9e4a4a9aaab0d4d9f300f7a
+      internalID: -2136069803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_187
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 80
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08814e09727e4293a0c5de1640992d3
+      internalID: 2095040475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_188
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 80
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4305ade07974bf4a09f834b77e49f0
+      internalID: -860261226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_189
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c5fc54ece4d40a2badadc3eaed461b
+      internalID: 834951144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_190
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 80
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ef250e6b1b64ee2ac5326bea510e5d
+      internalID: 293138265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_191
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6512589330aa47b8a23e585ff1269bd
+      internalID: -1653116563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_192
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 80
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c095f0e3498264a0a9d5f3c6ebb08a70
+      internalID: 1070267124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_193
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 80
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42afbfb91382431da683fe8e9073e88
+      internalID: 11962221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_194
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 80
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47370ad6f8ea43f2acbe1c9e6058480
+      internalID: -2144087520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_195
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 79
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7f839d4c6804eccb0679c6662d9508
+      internalID: -1774287983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_196
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 80
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91583508af6004acdb6786df12bb557a
+      internalID: 893769367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_197
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 80
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42197735ac69642b098638249efc015c
+      internalID: 1649446391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_198
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98debbbc11ca45cdba4c95aa1b8432d
+      internalID: -1132248135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_199
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba4fedaa5d2649ada2bf5f8e80b53ce
+      internalID: -1610337712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_200
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 80
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab39bedc231e41b0b6649debaa09d0e
+      internalID: -771977577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_201
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 80
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8119ef81ab595486f8afe4a72a93f9f1
+      internalID: 1221127987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_202
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 80
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f2e11cf2b8f4c9fade9e2a2c66e5fb
+      internalID: 419141598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_203
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 80
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ceb904ef2f56418a96ac49378cf6e2e
+      internalID: -817946042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_204
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 80
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4835bd3fb5fcb4eabb48c26a8fdd2b34
+      internalID: 55163584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_205
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 80
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a10736809c34df1882d83c836fa5b3
+      internalID: -852525353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_206
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 80
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18a9816416104f23b4c087cba90a66f
+      internalID: -922981543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_207
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 70
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54741596187004c368c43bf087b4ec88
+      internalID: -1568352458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_208
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 70
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3125a4d51150442c6bc8fc7001660412
+      internalID: -1942181464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_209
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 70
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a9a12e3ff9945ba9509c6b4a2a0373
+      internalID: 1339601767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_210
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 70
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37f7d4f777364911be6e971fea8c5c0
+      internalID: -1049861782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_211
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 70
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a557a48cc7e4843cfbaadb128af279e1
+      internalID: -350155587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_212
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 70
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285d6185a83884ba7ab626c5a84532fc
+      internalID: -1655758335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_213
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb61df9dbb494e379ea96933253e500
+      internalID: 1053215835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_214
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308e3951edf4140f29a72d2903ce3912
+      internalID: -1373904517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_215
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cdc59e6ab914a8f82c0432b30bfedc
+      internalID: 1717475411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_216
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef5ae10872de4ae497e610b3465da56
+      internalID: -68571047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_217
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09dbaa2f21f3440689bd21f8b4a6e50
+      internalID: 1370795862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_218
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3fd9a1f7cbf407c814df7926d109ab
+      internalID: -719504894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_219
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c76776eda9464770a00817612ce5cc9
+      internalID: 1735468001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_220
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4673f5be2a2b40498c271aaef114e4a
+      internalID: -344064625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_221
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9df1df483d6463a99504691a56b621
+      internalID: 110791914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_222
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad52702f4d52484484ab4672cc9d94d
+      internalID: 1394329242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_223
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fed1b634a0c4764bcb99dcd28ba922
+      internalID: -180790755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_224
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035fc27fdf02e4832b464b81ac7db9d1
+      internalID: -128371435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_225
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a139429f22c45708cb2245570d0810
+      internalID: -63661702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_226
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 37
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7760b9bbb49d4f09b137de75c22bd91
+      internalID: 708944492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_227
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 37
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610ea72cb16794049a2cc10e5d6aba34
+      internalID: 628822173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_228
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 37
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264f7da4a0fd44f9d84e6a24ba328a07
+      internalID: 988005042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_229
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 37
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f4f8f3bfd6447f0acfcd892939d06e
+      internalID: -1086005891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_230
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb91868c935c46e7a4c3befe94ca7fd
+      internalID: -1341172375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_231
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53eea199f654f449590a09b46262f3d6
+      internalID: 1441862801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_232
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ff43292430240078d5ea775ff8af70
+      internalID: -1314566231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_233
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 49
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503e313c2d8904f249b1bb64e4c58eb0
+      internalID: -546710455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_234
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6e330ba11804a47a3e70906bc091c9
+      internalID: -407455571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_235
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2de4d500933448d8304d1699ec8404
+      internalID: -102043193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_236
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5df34db45c524c0bb95a37b4872f2b8
+      internalID: -1764582258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_237
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27e54ee8fe7441e29d7235d2fbac0c7
+      internalID: 2144110706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_238
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba4047d64f974fd2b2a848be31d5753
+      internalID: -1085636651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_239
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022befe9b671540ab847abd50be9d114
+      internalID: -322953788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_240
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f018b652ffb354480ae2d8cecda59e8f
+      internalID: -1085659424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_241
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 49
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dbf3139c21b4fd1b4e11d4bcd3ef6e
+      internalID: 1350555029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_242
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 44
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188075200da08469ca9828669fa7639e
+      internalID: -1529473176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_243
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 49
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a785bcf3cb9045aa8bce42b4c2dbc14
+      internalID: -117534080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_244
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 44
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b2f855d15234c0c81af48eea7e9510
+      internalID: 1404641950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_245
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 49
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e062692269254ecaaba8956f8bbf620
+      internalID: 1224041803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_246
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 49
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a179a66b662db41b4b605f3514ec6487
+      internalID: -877790831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_247
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 50
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe66c1ca4e51242f8987fed18c0694b9
+      internalID: -469440785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_248
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 50
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28202a560b2148a5a3765e3148f63b1
+      internalID: -1471158288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_249
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 50
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61c21485e68045de9bcdc04b116406e
+      internalID: -276274569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_250
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 50
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdb98eba52f1434287af9607197e7d5
+      internalID: -191874246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Bosses_251
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 50
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a7cf3eb7fb4496bb1f9db1e728cc68
+      internalID: -2086842413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NES - The Legend of Zelda - Bosses_0: 859275205
+      NES - The Legend of Zelda - Bosses_1: 208930437
+      NES - The Legend of Zelda - Bosses_10: -562918487
+      NES - The Legend of Zelda - Bosses_100: -1214155552
+      NES - The Legend of Zelda - Bosses_101: 2087288519
+      NES - The Legend of Zelda - Bosses_102: 594705217
+      NES - The Legend of Zelda - Bosses_103: 1452641772
+      NES - The Legend of Zelda - Bosses_104: 2008785728
+      NES - The Legend of Zelda - Bosses_105: 1959066583
+      NES - The Legend of Zelda - Bosses_106: -646045634
+      NES - The Legend of Zelda - Bosses_107: 1381661923
+      NES - The Legend of Zelda - Bosses_108: -1093378285
+      NES - The Legend of Zelda - Bosses_109: 2018777452
+      NES - The Legend of Zelda - Bosses_11: 1003731238
+      NES - The Legend of Zelda - Bosses_110: 584783992
+      NES - The Legend of Zelda - Bosses_111: -300113621
+      NES - The Legend of Zelda - Bosses_112: -312710440
+      NES - The Legend of Zelda - Bosses_113: -614085604
+      NES - The Legend of Zelda - Bosses_114: -165490441
+      NES - The Legend of Zelda - Bosses_115: 806665496
+      NES - The Legend of Zelda - Bosses_116: 894690468
+      NES - The Legend of Zelda - Bosses_117: -539898374
+      NES - The Legend of Zelda - Bosses_118: -1933601447
+      NES - The Legend of Zelda - Bosses_119: -1055612626
+      NES - The Legend of Zelda - Bosses_12: 264769461
+      NES - The Legend of Zelda - Bosses_120: 320875960
+      NES - The Legend of Zelda - Bosses_121: -1653339980
+      NES - The Legend of Zelda - Bosses_122: -299602623
+      NES - The Legend of Zelda - Bosses_123: 1166843654
+      NES - The Legend of Zelda - Bosses_124: 1190297717
+      NES - The Legend of Zelda - Bosses_125: -913300222
+      NES - The Legend of Zelda - Bosses_126: 771848491
+      NES - The Legend of Zelda - Bosses_127: 1857815244
+      NES - The Legend of Zelda - Bosses_128: 605818311
+      NES - The Legend of Zelda - Bosses_129: -408960669
+      NES - The Legend of Zelda - Bosses_13: -1572258404
+      NES - The Legend of Zelda - Bosses_130: 2093327426
+      NES - The Legend of Zelda - Bosses_131: -1609576473
+      NES - The Legend of Zelda - Bosses_132: 14673372
+      NES - The Legend of Zelda - Bosses_133: -49872622
+      NES - The Legend of Zelda - Bosses_134: 1060339904
+      NES - The Legend of Zelda - Bosses_135: -306345469
+      NES - The Legend of Zelda - Bosses_136: -1772715333
+      NES - The Legend of Zelda - Bosses_137: 1274369144
+      NES - The Legend of Zelda - Bosses_138: -1596386929
+      NES - The Legend of Zelda - Bosses_139: 842619197
+      NES - The Legend of Zelda - Bosses_14: -390062546
+      NES - The Legend of Zelda - Bosses_140: 1618649811
+      NES - The Legend of Zelda - Bosses_141: -1184706951
+      NES - The Legend of Zelda - Bosses_142: 793796568
+      NES - The Legend of Zelda - Bosses_143: -1969926805
+      NES - The Legend of Zelda - Bosses_144: 1223485257
+      NES - The Legend of Zelda - Bosses_145: 76111687
+      NES - The Legend of Zelda - Bosses_146: 676862208
+      NES - The Legend of Zelda - Bosses_147: 1641654617
+      NES - The Legend of Zelda - Bosses_148: 74152095
+      NES - The Legend of Zelda - Bosses_149: 83660826
+      NES - The Legend of Zelda - Bosses_15: -1115831865
+      NES - The Legend of Zelda - Bosses_150: 57248431
+      NES - The Legend of Zelda - Bosses_151: 372143574
+      NES - The Legend of Zelda - Bosses_152: 884449177
+      NES - The Legend of Zelda - Bosses_153: 555191906
+      NES - The Legend of Zelda - Bosses_154: -1542353625
+      NES - The Legend of Zelda - Bosses_155: 1825411646
+      NES - The Legend of Zelda - Bosses_156: 1007455486
+      NES - The Legend of Zelda - Bosses_157: -277397816
+      NES - The Legend of Zelda - Bosses_158: -557596860
+      NES - The Legend of Zelda - Bosses_159: 2120163728
+      NES - The Legend of Zelda - Bosses_16: -958883402
+      NES - The Legend of Zelda - Bosses_160: 2042448403
+      NES - The Legend of Zelda - Bosses_161: 19377116
+      NES - The Legend of Zelda - Bosses_162: -313733844
+      NES - The Legend of Zelda - Bosses_163: -929221216
+      NES - The Legend of Zelda - Bosses_164: -828373060
+      NES - The Legend of Zelda - Bosses_165: -1114941329
+      NES - The Legend of Zelda - Bosses_166: -2112311308
+      NES - The Legend of Zelda - Bosses_167: -1036153921
+      NES - The Legend of Zelda - Bosses_168: -1727728129
+      NES - The Legend of Zelda - Bosses_169: -1422901226
+      NES - The Legend of Zelda - Bosses_17: 1997113154
+      NES - The Legend of Zelda - Bosses_170: -1671796052
+      NES - The Legend of Zelda - Bosses_171: 13836991
+      NES - The Legend of Zelda - Bosses_172: 1146524687
+      NES - The Legend of Zelda - Bosses_173: 1188145445
+      NES - The Legend of Zelda - Bosses_174: 2089531903
+      NES - The Legend of Zelda - Bosses_175: 1671045495
+      NES - The Legend of Zelda - Bosses_176: 382368478
+      NES - The Legend of Zelda - Bosses_177: -1824066723
+      NES - The Legend of Zelda - Bosses_178: -56774612
+      NES - The Legend of Zelda - Bosses_179: -56477492
+      NES - The Legend of Zelda - Bosses_18: 983440500
+      NES - The Legend of Zelda - Bosses_180: 1100320075
+      NES - The Legend of Zelda - Bosses_181: 1820018628
+      NES - The Legend of Zelda - Bosses_182: -1827224981
+      NES - The Legend of Zelda - Bosses_183: 2074469530
+      NES - The Legend of Zelda - Bosses_184: -2044515132
+      NES - The Legend of Zelda - Bosses_185: 1381366614
+      NES - The Legend of Zelda - Bosses_186: -2136069803
+      NES - The Legend of Zelda - Bosses_187: 2095040475
+      NES - The Legend of Zelda - Bosses_188: -860261226
+      NES - The Legend of Zelda - Bosses_189: 834951144
+      NES - The Legend of Zelda - Bosses_19: 1200048667
+      NES - The Legend of Zelda - Bosses_190: 293138265
+      NES - The Legend of Zelda - Bosses_191: -1653116563
+      NES - The Legend of Zelda - Bosses_192: 1070267124
+      NES - The Legend of Zelda - Bosses_193: 11962221
+      NES - The Legend of Zelda - Bosses_194: -2144087520
+      NES - The Legend of Zelda - Bosses_195: -1774287983
+      NES - The Legend of Zelda - Bosses_196: 893769367
+      NES - The Legend of Zelda - Bosses_197: 1649446391
+      NES - The Legend of Zelda - Bosses_198: -1132248135
+      NES - The Legend of Zelda - Bosses_199: -1610337712
+      NES - The Legend of Zelda - Bosses_2: -312969867
+      NES - The Legend of Zelda - Bosses_20: 1986823742
+      NES - The Legend of Zelda - Bosses_200: -771977577
+      NES - The Legend of Zelda - Bosses_201: 1221127987
+      NES - The Legend of Zelda - Bosses_202: 419141598
+      NES - The Legend of Zelda - Bosses_203: -817946042
+      NES - The Legend of Zelda - Bosses_204: 55163584
+      NES - The Legend of Zelda - Bosses_205: -852525353
+      NES - The Legend of Zelda - Bosses_206: -922981543
+      NES - The Legend of Zelda - Bosses_207: -1568352458
+      NES - The Legend of Zelda - Bosses_208: -1942181464
+      NES - The Legend of Zelda - Bosses_209: 1339601767
+      NES - The Legend of Zelda - Bosses_21: 749085690
+      NES - The Legend of Zelda - Bosses_210: -1049861782
+      NES - The Legend of Zelda - Bosses_211: -350155587
+      NES - The Legend of Zelda - Bosses_212: -1655758335
+      NES - The Legend of Zelda - Bosses_213: 1053215835
+      NES - The Legend of Zelda - Bosses_214: -1373904517
+      NES - The Legend of Zelda - Bosses_215: 1717475411
+      NES - The Legend of Zelda - Bosses_216: -68571047
+      NES - The Legend of Zelda - Bosses_217: 1370795862
+      NES - The Legend of Zelda - Bosses_218: -719504894
+      NES - The Legend of Zelda - Bosses_219: 1735468001
+      NES - The Legend of Zelda - Bosses_22: 435809367
+      NES - The Legend of Zelda - Bosses_220: -344064625
+      NES - The Legend of Zelda - Bosses_221: 110791914
+      NES - The Legend of Zelda - Bosses_222: 1394329242
+      NES - The Legend of Zelda - Bosses_223: -180790755
+      NES - The Legend of Zelda - Bosses_224: -128371435
+      NES - The Legend of Zelda - Bosses_225: -63661702
+      NES - The Legend of Zelda - Bosses_226: 708944492
+      NES - The Legend of Zelda - Bosses_227: 628822173
+      NES - The Legend of Zelda - Bosses_228: 988005042
+      NES - The Legend of Zelda - Bosses_229: -1086005891
+      NES - The Legend of Zelda - Bosses_23: -338032111
+      NES - The Legend of Zelda - Bosses_230: -1341172375
+      NES - The Legend of Zelda - Bosses_231: 1441862801
+      NES - The Legend of Zelda - Bosses_232: -1314566231
+      NES - The Legend of Zelda - Bosses_233: -546710455
+      NES - The Legend of Zelda - Bosses_234: -407455571
+      NES - The Legend of Zelda - Bosses_235: -102043193
+      NES - The Legend of Zelda - Bosses_236: -1764582258
+      NES - The Legend of Zelda - Bosses_237: 2144110706
+      NES - The Legend of Zelda - Bosses_238: -1085636651
+      NES - The Legend of Zelda - Bosses_239: -322953788
+      NES - The Legend of Zelda - Bosses_24: 705763941
+      NES - The Legend of Zelda - Bosses_240: -1085659424
+      NES - The Legend of Zelda - Bosses_241: 1350555029
+      NES - The Legend of Zelda - Bosses_242: -1529473176
+      NES - The Legend of Zelda - Bosses_243: -117534080
+      NES - The Legend of Zelda - Bosses_244: 1404641950
+      NES - The Legend of Zelda - Bosses_245: 1224041803
+      NES - The Legend of Zelda - Bosses_246: -877790831
+      NES - The Legend of Zelda - Bosses_247: -469440785
+      NES - The Legend of Zelda - Bosses_248: -1471158288
+      NES - The Legend of Zelda - Bosses_249: -276274569
+      NES - The Legend of Zelda - Bosses_25: 2103835218
+      NES - The Legend of Zelda - Bosses_250: -191874246
+      NES - The Legend of Zelda - Bosses_251: -2086842413
+      NES - The Legend of Zelda - Bosses_26: 1612790721
+      NES - The Legend of Zelda - Bosses_27: 1541611401
+      NES - The Legend of Zelda - Bosses_28: -1013357963
+      NES - The Legend of Zelda - Bosses_29: 135265853
+      NES - The Legend of Zelda - Bosses_3: 1316387819
+      NES - The Legend of Zelda - Bosses_30: 1368773693
+      NES - The Legend of Zelda - Bosses_31: -1437455650
+      NES - The Legend of Zelda - Bosses_32: -1656664932
+      NES - The Legend of Zelda - Bosses_33: -1614819545
+      NES - The Legend of Zelda - Bosses_34: -1703843057
+      NES - The Legend of Zelda - Bosses_35: -357137330
+      NES - The Legend of Zelda - Bosses_36: 1226328140
+      NES - The Legend of Zelda - Bosses_37: -17850768
+      NES - The Legend of Zelda - Bosses_38: 868428201
+      NES - The Legend of Zelda - Bosses_39: 1633818540
+      NES - The Legend of Zelda - Bosses_4: -1171290661
+      NES - The Legend of Zelda - Bosses_40: -1232380658
+      NES - The Legend of Zelda - Bosses_41: -525316375
+      NES - The Legend of Zelda - Bosses_42: -248998744
+      NES - The Legend of Zelda - Bosses_43: -327695190
+      NES - The Legend of Zelda - Bosses_44: -1929593978
+      NES - The Legend of Zelda - Bosses_45: -1861144020
+      NES - The Legend of Zelda - Bosses_46: 123306182
+      NES - The Legend of Zelda - Bosses_47: 606361367
+      NES - The Legend of Zelda - Bosses_48: -1088307734
+      NES - The Legend of Zelda - Bosses_49: -951753653
+      NES - The Legend of Zelda - Bosses_5: 897263547
+      NES - The Legend of Zelda - Bosses_50: -325853598
+      NES - The Legend of Zelda - Bosses_51: -697161479
+      NES - The Legend of Zelda - Bosses_52: -703885201
+      NES - The Legend of Zelda - Bosses_53: 1795537532
+      NES - The Legend of Zelda - Bosses_54: 1389138558
+      NES - The Legend of Zelda - Bosses_55: -787229339
+      NES - The Legend of Zelda - Bosses_56: -203767829
+      NES - The Legend of Zelda - Bosses_57: 1376996136
+      NES - The Legend of Zelda - Bosses_58: 174564508
+      NES - The Legend of Zelda - Bosses_59: -1763123986
+      NES - The Legend of Zelda - Bosses_6: 192293306
+      NES - The Legend of Zelda - Bosses_60: 939011546
+      NES - The Legend of Zelda - Bosses_61: -661474433
+      NES - The Legend of Zelda - Bosses_62: 1675089221
+      NES - The Legend of Zelda - Bosses_63: 1815624532
+      NES - The Legend of Zelda - Bosses_64: -213640786
+      NES - The Legend of Zelda - Bosses_65: 819740351
+      NES - The Legend of Zelda - Bosses_66: 682925292
+      NES - The Legend of Zelda - Bosses_67: -1684843208
+      NES - The Legend of Zelda - Bosses_68: -546689421
+      NES - The Legend of Zelda - Bosses_69: -239572920
+      NES - The Legend of Zelda - Bosses_7: -42796527
+      NES - The Legend of Zelda - Bosses_70: -18325477
+      NES - The Legend of Zelda - Bosses_71: -1164481184
+      NES - The Legend of Zelda - Bosses_72: 426722501
+      NES - The Legend of Zelda - Bosses_73: 843720639
+      NES - The Legend of Zelda - Bosses_74: 1577416755
+      NES - The Legend of Zelda - Bosses_75: 2097897868
+      NES - The Legend of Zelda - Bosses_76: 1110598876
+      NES - The Legend of Zelda - Bosses_77: 928929607
+      NES - The Legend of Zelda - Bosses_78: 1513472897
+      NES - The Legend of Zelda - Bosses_79: 1307358736
+      NES - The Legend of Zelda - Bosses_8: 737716825
+      NES - The Legend of Zelda - Bosses_80: 75576656
+      NES - The Legend of Zelda - Bosses_81: -1530576156
+      NES - The Legend of Zelda - Bosses_82: 556877322
+      NES - The Legend of Zelda - Bosses_83: 191824738
+      NES - The Legend of Zelda - Bosses_84: -1029721186
+      NES - The Legend of Zelda - Bosses_85: -2008945886
+      NES - The Legend of Zelda - Bosses_86: 910003024
+      NES - The Legend of Zelda - Bosses_87: 233680898
+      NES - The Legend of Zelda - Bosses_88: -310517701
+      NES - The Legend of Zelda - Bosses_89: -806771506
+      NES - The Legend of Zelda - Bosses_9: -990986761
+      NES - The Legend of Zelda - Bosses_90: 826621
+      NES - The Legend of Zelda - Bosses_91: -109509514
+      NES - The Legend of Zelda - Bosses_92: -1904178914
+      NES - The Legend of Zelda - Bosses_93: 1877363227
+      NES - The Legend of Zelda - Bosses_94: 608284166
+      NES - The Legend of Zelda - Bosses_95: -418540729
+      NES - The Legend of Zelda - Bosses_96: 1746165217
+      NES - The Legend of Zelda - Bosses_97: -633125547
+      NES - The Legend of Zelda - Bosses_98: -1937271064
+      NES - The Legend of Zelda - Bosses_99: -1011672275
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
