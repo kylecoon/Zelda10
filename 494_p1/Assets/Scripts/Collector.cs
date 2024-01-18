@@ -6,9 +6,11 @@ public class Collector : MonoBehaviour
 {
     Inventory inventory;
 
+
     public AudioClip RupCollect;
     void Start()
     {
+        
         inventory = GetComponent<Inventory>();
         if (inventory == null) {
             Debug.LogWarning("WARNING: Gameobject with a collector has no inventory to store things in!");
