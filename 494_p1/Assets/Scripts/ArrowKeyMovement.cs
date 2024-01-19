@@ -14,8 +14,20 @@ public class ArrowKeyMovement : MonoBehaviour
     private int spriteVersion = 0;
     public Sprite[] sprites;
 
+    private sword mSword;
+
+    private weapon[] altWeapons;
+    private int curAltIndex;
+    private weapon curAlt;
+
+    private bool usingWeapon = false;
+
     // private int curDirection = 0;
     // Start is called before the first frame update
+    void Awake(){
+        Screen.SetResolution(1020, 960, true);
+    }
+
     void Start()
     {
         sprt = GetComponent<SpriteRenderer>();
@@ -31,7 +43,7 @@ public class ArrowKeyMovement : MonoBehaviour
         rb.velocity = current_input * movement_speed;
 
         
-
+        // should probably move these to OnMove
         int hold = spriteVersion;
         if(Mathf.Abs(rb.velocity.x) > math.abs(rb.velocity.y)){
             if(rb.velocity.x > 0){
@@ -46,13 +58,37 @@ public class ArrowKeyMovement : MonoBehaviour
                 spriteVersion = 0;
             }
         }
+
         if(hold == spriteVersion && rb.velocity != Vector3.zero) spriteVersion += 4;
 
-        sprt.sprite = sprites[spriteVersion];
+        if(!usingWeapon) sprt.sprite = sprites[spriteVersion];
+
+        rb.velocity = Vector2.zero;
+        usingWeapon = false;
 
     }
 
     Vector2 GetInput() {
+
+        if(Input.GetKey(KeyCode.Space)){
+            curAltIndex = curAltIndex + 1 % altWeapons.Length;
+            curAlt = altWeapons[curAltIndex];
+
+        } 
+
+        if(Input.GetKey(KeyCode.X)){ // use alt
+            usingWeapon = true;
+            altWeapon();
+            
+        } else if(Input.GetKey(KeyCode.Z)){ // use main
+            usingWeapon = true;
+            SwordSwing();
+
+        } else if(Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow) 
+        || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow) 
+        || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) 
+        || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) ){
+
         float horizontal_input = Input.GetAxisRaw("Horizontal");
         float vertical_input = Input.GetAxisRaw("Vertical");
 
@@ -60,9 +96,23 @@ public class ArrowKeyMovement : MonoBehaviour
             vertical_input = 0.0f;
         }
 
-        
 
-        return new Vector2(horizontal_input, vertical_input);
+
+            return new Vector2(horizontal_input, vertical_input);
+        } 
+
+        return new Vector2(0,0);
+    }
+
+    
+    void SwordSwing(){
+        sprt.sprite = this.mSword.SwapSprite(spriteVersion);
+        mSword.useWeapon(3,3,spriteVersion);
+    }
+
+    void altWeapon(){
+        sprt.sprite = this.curAlt.SwapSprite(spriteVersion);
+        // use weapon
     }
 
     void OnTriggerExit(Collider collider){
@@ -70,6 +120,7 @@ public class ArrowKeyMovement : MonoBehaviour
         
     }
 
+    // camera moving coroutine
     IEnumerator WaitForPlayerInputToTransition(Collider other)
     {
 
@@ -83,9 +134,9 @@ public class ArrowKeyMovement : MonoBehaviour
                     final_position.x += 16;
                     // final_position.y += 10;
                 } else if(other.tag == "->North" && rb.velocity.y > 0 ){
-                    final_position.y += 16;
+                    final_position.y += 20;
                 } else if (other.tag == "->South" && rb.velocity.y < 0){ 
-                    final_position.y -= 16;
+                    final_position.y -= 20;
                 } else{ 
                     yield return null;
                 }

@@ -9,6 +9,8 @@ TagManager:
   - ->South
   - ->West
   - ->East
+  - key
+  - attack
   layers:
   - Default
   - TransparentFX

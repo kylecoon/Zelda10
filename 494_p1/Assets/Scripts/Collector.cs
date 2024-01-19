@@ -8,6 +8,7 @@ public class Collector : MonoBehaviour
 
 
     public AudioClip RupCollect;
+    public AudioClip keyCollect;
     void Start()
     {
         
@@ -28,6 +29,11 @@ public class Collector : MonoBehaviour
             Destroy(object_collided_with);
 
             AudioSource.PlayClipAtPoint(RupCollect, Camera.main.transform.position);
+            
+        } else if(object_collided_with.CompareTag("key")){
+            coll.gameObject.SetActive(false);
+            AudioSource.PlayClipAtPoint(keyCollect, Camera.main.transform.position);
+
         }
     }
 }
