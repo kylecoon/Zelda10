@@ -147,9 +147,9 @@ public class Movement : MonoBehaviour
                     final_position.x += 16;
                     // final_position.y += 10;
                 } else if(other.tag == "->North" && rb.velocity.y > 0 ){
-                    final_position.y += 16;
+                    final_position.y += 20;
                 } else if (other.tag == "->South" && rb.velocity.y < 0){ 
-                    final_position.y -= 16;
+                    final_position.y -= 20;
                 } else{ 
                     yield return null;
                 }
