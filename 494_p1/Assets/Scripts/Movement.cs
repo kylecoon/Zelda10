@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class ArrowKeyMovement : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     SpriteRenderer sprt;
     private Rigidbody rb;
