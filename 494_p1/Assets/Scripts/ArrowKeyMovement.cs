@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
@@ -11,16 +12,25 @@ public class ArrowKeyMovement : MonoBehaviour
     public float movement_speed = 4;
 
     public GameObject cam;
-    private int spriteVersion = 0;
-    public Sprite[] sprites;
 
-    // private int curDirection = 0;
+    private Dictionary<Vector2, Sprite[]> sprite_dictionary = new Dictionary<Vector2, Sprite[]>();
+
     // Start is called before the first frame update
     void Start()
     {
         sprt = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody>();
-        // sprites = Resources.LoadAll<Sprite>("Link_Sprites");
+
+        Sprite[] sprites = Resources.LoadAll<Sprite>("Zelda/Link_Sprites");
+
+        //match left direction to left facing sprites
+        sprite_dictionary.Add(Vector2.left, new Sprite[] {sprites[1], sprites[13]});
+        //match right direction to right facing sprites
+        sprite_dictionary.Add(Vector2.right, new Sprite[] {sprites[3], sprites[15]});
+        //match up direction to up facing sprites
+        sprite_dictionary.Add(Vector2.up, new Sprite[] {sprites[2], sprites[14]});
+        //match down direction to down facing sprites
+        sprite_dictionary.Add(Vector2.down, new Sprite[] {sprites[0], sprites[12]});
     }
 
     // Update is called once per frame
@@ -29,26 +39,6 @@ public class ArrowKeyMovement : MonoBehaviour
         Vector2 current_input = GetInput();
         
         rb.velocity = current_input * movement_speed;
-
-        
-
-        int hold = spriteVersion;
-        if(Mathf.Abs(rb.velocity.x) > math.abs(rb.velocity.y)){
-            if(rb.velocity.x > 0){
-                spriteVersion = 3;
-            } else {
-                spriteVersion = 1;
-            }
-        } else {
-            if(rb.velocity.y > 0){
-                spriteVersion = 2;
-            } else {
-                spriteVersion = 0;
-            }
-        }
-        if(hold == spriteVersion && rb.velocity != Vector3.zero) spriteVersion += 4;
-
-        sprt.sprite = sprites[spriteVersion];
 
     }
 
@@ -60,9 +50,83 @@ public class ArrowKeyMovement : MonoBehaviour
             vertical_input = 0.0f;
         }
 
-        
+        Vector2 new_direction = new Vector2(horizontal_input, vertical_input);
 
-        return new Vector2(horizontal_input, vertical_input);
+        //return if not moving
+        if (new_direction == new Vector2(0.0f, 0.0f)) {
+            return new_direction;
+        }
+
+        //attempting to walk vertically
+        if (new_direction.x == 0.0f) {
+
+            //pretty much on grid, snap to left
+            if (transform.position.x % 0.5f < 0.1f) {
+                transform.position = transform.position + new Vector3(-(transform.position.x % 0.5f), 0.0f, 0.0f);
+            }
+
+            //pretty much on grid, snap to right
+            else if (transform.position.x % 0.5 > 0.4){
+                transform.position = transform.position + new Vector3(0.5f - (transform.position.x % 0.5f), 0.0f, 0.0f);
+            }
+            //not close enough to grid, override input direction
+            else {
+                if (transform.position.x % 0.5 > 0.25){
+                    new_direction = Vector2.right;
+                }
+                else {
+                    new_direction = Vector2.left;
+                }
+            }
+        }
+
+        //attempting to walk horizontally
+        else {
+
+            //pretty much on grid, snap to down
+            if (transform.position.y % 0.5f < 0.1f) {
+                transform.position = transform.position + new Vector3(0.0f, -(transform.position.y % 0.5f), 0.0f);
+            }
+
+            //pretty much on grid, snap to up
+            else if (transform.position.y % 0.5f > 0.4f){
+                transform.position = transform.position + new Vector3(0.0f, 0.5f - (transform.position.y % 0.5f), 0.0f);
+            }
+            //not close enough to grid, override input direction
+            else {
+                if (transform.position.y % 0.5f > 0.25f){
+                    new_direction = Vector2.up;
+                }
+                else {
+                    new_direction = Vector2.down;
+                }
+            }
+        }
+        
+        UpdateSprite(new_direction);
+
+        return new_direction;
+    }
+
+    void UpdateSprite(Vector2 new_direction) {
+        //walking vertically
+        if (new_direction.x == 0.0f) {
+            if (transform.position.y % 1.0f < 0.5) {
+                sprt.sprite = sprite_dictionary[new_direction][0];
+            }
+            else {
+                sprt.sprite = sprite_dictionary[new_direction][1];
+            }
+        }
+        //walking horizontally
+        else {
+            if (transform.position.x % 1.0f < 0.5) {
+                sprt.sprite = sprite_dictionary[new_direction][0];
+            }
+            else {
+                sprt.sprite = sprite_dictionary[new_direction][1];
+            }
+        }
     }
 
     void OnTriggerExit(Collider collider){
