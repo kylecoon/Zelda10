@@ -8,7 +8,7 @@ public class Collector : MonoBehaviour
 
 
     public AudioClip RupCollect;
-    public AudioClip keyCollect;
+    //public AudioClip keyCollect;
     void Start()
     {
         
@@ -26,21 +26,20 @@ public class Collector : MonoBehaviour
         Debug.Log("trigger");
 
         if (object_collided_with.CompareTag("rupee")) {
-            if (inventory != null) {
+            if (inventory) {
                 inventory.AddRupees(1);
             }
             Destroy(object_collided_with);
 
             AudioSource.PlayClipAtPoint(RupCollect, Camera.main.transform.position);
             
-        } 
-        if(object_collided_with.CompareTag("key")){
+        } else if(object_collided_with.CompareTag("key")){
             coll.gameObject.SetActive(false);
             Debug.Log("worked");
-            AudioSource.PlayClipAtPoint(keyCollect, Camera.main.transform.position);
+            //AudioSource.PlayClipAtPoint(keyCollect, Camera.main.transform.position);
 
-        }
-        if(object_collided_with.CompareTag("heart")){
+        } else if(object_collided_with.CompareTag("heart")){
+            Debug.Log("pickup heart");
             Health curHP = GetComponent<Health>();
             if(curHP.health < curHP.MaxHP) curHP.health++;
             Destroy(object_collided_with);

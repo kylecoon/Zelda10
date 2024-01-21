@@ -31,6 +31,7 @@ public class Health : MonoBehaviour
     void Start()
     {
         //parent = GetComponentInParent<>();
+        Screen.SetResolution(1020, 960, true);
        animations = GetComponent<Animation>();
        sprites = Resources.LoadAll<Sprite>("Zelda/Link_Sprites");
 
@@ -86,11 +87,12 @@ public class Health : MonoBehaviour
         return null;
     }
 
-    void OnCollisionEnter(Collision collision){
-
+    void OnCollisionEnter(Collision c){
+        Debug.Log("collide");
         
-        if(collision.gameObject.CompareTag(DamageFromTag)){
-            hit(collision.transform);
+        if(c.gameObject.tag == DamageFromTag){
+            Debug.Log("hit");
+            StartCoroutine(hit(c.transform.position));
         }
 
         if(health <= 0){
@@ -99,14 +101,14 @@ public class Health : MonoBehaviour
         
     }
 
-    IEnumerator hit(Transform collider){
+    IEnumerator hit(Vector3 collider){
 
         Debug.Log("hit");
         // if(!Invincible && Time.frameCount > lastHurtFrame + 5){
             Vector2 finalPos = gameObject.transform.position;
 
-            float xDif = collider.position.x - finalPos.x;
-            float yDif = collider.position.y - finalPos.y;
+            float xDif = collider.x - finalPos.x;
+            float yDif = collider.y - finalPos.y;
 
             //Vector2 finalPos = collider.transform.position;
             if(xDif == 0){ // so above or below
@@ -128,9 +130,9 @@ public class Health : MonoBehaviour
             GetComponent<Movement>().movement_speed = 0;
             
             //animations.Play();
-            Debug.Log("hit");
+            Debug.Log("hit2");
             Rigidbody rb = GetComponent<Rigidbody>();
-            yield return StartCoroutine(CoroutineUtilities.MoveObjectOverTime(rb.transform, gameObject.transform.position, finalPos, 0.3f));
+            yield return StartCoroutine(CoroutineUtilities.MoveObjectOverTime(rb.transform, gameObject.transform.position, finalPos, 0.2f));
 
             GetComponent<Movement>().movement_speed = 4;
             lastHurtFrame = Time.frameCount;
@@ -140,9 +142,6 @@ public class Health : MonoBehaviour
         yield return null;
     }
 
-    void hurtAnimation(){
-
-    }
 
     
 

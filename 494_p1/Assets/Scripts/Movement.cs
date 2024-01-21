@@ -156,7 +156,9 @@ public class Movement : MonoBehaviour
     }
 
     void OnTriggerExit(Collider collider){
-        StartCoroutine(WaitForPlayerInputToTransition(collider));
+        if(!(collider.gameObject.CompareTag("rupee") || collider.gameObject.CompareTag("heart") || collider.gameObject.CompareTag("key"))){
+            StartCoroutine(WaitForPlayerInputToTransition(collider));
+        }
         
     }
 
