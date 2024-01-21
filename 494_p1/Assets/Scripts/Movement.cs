@@ -41,15 +41,37 @@ public class Movement : MonoBehaviour
 
     }
 
+
+    /*
+    Vector2 inputDir = Vector2.zero;
+    Vector2 getInputDir() 
+    {
+        Dictionary<KeyCode, Vector2> keymap = new Dictionary<KeyCode, Vector2>();
+        keymap.Add(KeyCode.LeftArrow, Vector2.left);
+        keymap.Add(KeyCode.RightArrow, Vector2.right);
+        keymap.Add(KeyCode.UpArrow, Vector2.up);
+        keymap.Add(KeyCode.DownArrow, Vector2.down);
+
+        foreach(KeyValuePair<KeyCode, Vector2> k in keymap) {
+            if()inputDir = k.Value;
+        }
+    }
+    */
+
     Vector2 GetInput() {
 
         if(Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.X)){
              return Vector2.zero;
         }
 
+        /*
+
+        */
         float horizontal_input = Input.GetAxisRaw("Horizontal");
         float vertical_input = Input.GetAxisRaw("Vertical");
 
+        // prioritize horizontal movement over vertical movement
+        // we are nott allowing diagonal movement
         if (Mathf.Abs(horizontal_input) > 0.0f) {
             vertical_input = 0.0f;
         }
@@ -70,12 +92,12 @@ public class Movement : MonoBehaviour
             }
 
             //pretty much on grid, snap to right
-            else if (transform.position.x % 0.5 > 0.4){
+            else if (transform.position.x % 0.5f > 0.4f){
                 transform.position = transform.position + new Vector3(0.5f - (transform.position.x % 0.5f), 0.0f, 0.0f);
             }
             //not close enough to grid, override input direction
             else {
-                if (transform.position.x % 0.5 > 0.25){
+                if (transform.position.x % 0.5f > 0.25f){
                     new_direction = Vector2.right;
                 }
                 else {

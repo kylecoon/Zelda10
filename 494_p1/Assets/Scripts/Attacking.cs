@@ -20,13 +20,11 @@ public class Attacking : MonoBehaviour
 
     // private int curDirection = 0;
     // Start is called before the first frame update
-    void Awake(){
-        Screen.SetResolution(1020, 960, true);
-    }
 
     void Start()
     {
        // sprt = GetComponent<SpriteRenderer>();
+        Screen.SetResolution(1020, 960, true);
         rb = GetComponent<Rigidbody>();
         sprt = GetComponent<SpriteRenderer>();
         sprites = Resources.LoadAll<Sprite>("Zelda/Link_Sprites");
@@ -62,8 +60,12 @@ public class Attacking : MonoBehaviour
         }
     }
 
-    public GameObject swordHitbox;
+    
 
+    void createSword(){
+        Collider collider = GetComponentInChildren<Collider>();
+        
+    }
 
     
     IEnumerator SwordSwing(){
