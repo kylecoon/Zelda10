@@ -11,6 +11,7 @@ TagManager:
   - ->East
   - key
   - attack
+  - Enemy
   layers:
   - Default
   - TransparentFX

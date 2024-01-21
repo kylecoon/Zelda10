@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using Unity.Mathematics;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 public class Attacking : MonoBehaviour
 {
@@ -17,6 +19,8 @@ public class Attacking : MonoBehaviour
     private weapon curAlt;
 
     private bool usingWeapon = false;
+
+    public GameObject[] prefabs;
 
     // private int curDirection = 0;
     // Start is called before the first frame update
@@ -42,7 +46,7 @@ public class Attacking : MonoBehaviour
     void GetInput() {
 
 
-        Debug.Log("gotInput");
+        //Debug.Log("gotInput");
         if(Input.GetKey(KeyCode.Space)){
             curAltIndex = curAltIndex + 1 % altWeapons.Length;
             curAlt = altWeapons[curAltIndex];
@@ -57,6 +61,7 @@ public class Attacking : MonoBehaviour
             Debug.Log("swing");
             usingWeapon = true;
             StartCoroutine(SwordSwing());
+            usingWeapon = false;
 
         }
     }
@@ -64,12 +69,52 @@ public class Attacking : MonoBehaviour
     
 
     void createSword(){
-        Collider collider = GetComponentInChildren<Collider>();
+
+        int direction = 0;
+        BoxCollider2D col = GetComponentInChildren<BoxCollider2D>();
+        if(sprt.sprite == sprites[36]){
+            col.offset = new UnityEngine.Vector2(-0.1579781f, 3.20673e-05f);
+            col.size = new UnityEngine.Vector2(0.6840439f,0.1939981f);
+            direction = 1;
+
+        } else if(sprt.sprite == sprites[37]){
+            col.offset = new UnityEngine.Vector2(0.001522064f, -0.1694662f);
+            col.size = new UnityEngine.Vector2(0.1936332f,0.690215f);
+            direction = 2;
+
+        } else if(sprt.sprite == sprites[38]){
+            col.offset = new UnityEngine.Vector2(0.001522064f, 0.1593881f);
+            col.size = new UnityEngine.Vector2(0.1937332f,0.6894231f);
+            direction = 3;
+
+        } else {
+            col.offset = new UnityEngine.Vector2(0.1579781f,0.001184821f);
+            col.size = new UnityEngine.Vector2(0.6905212f,0.1955926f);
+            direction = 4;
+
+        }
+
+        
+
         
     }
 
+    void DeleteSwordHitbox(){
+        BoxCollider2D col = GetComponentInChildren<BoxCollider2D>();
+        col.offset = new UnityEngine.Vector2(0,0);
+        col.size = new UnityEngine.Vector2(0,0);
+    }
+
+    IEnumerator holdInPlace(float numTime){
+        
+        //gameObject.transform.
+
+        yield return new WaitForSeconds(numTime);
+    }
     
     IEnumerator SwordSwing(){
+
+        int direction = 0;
 
         Sprite hold = sprt.sprite;
         if(hold == sprites[0] || hold == sprites[12] ){
@@ -87,14 +132,29 @@ public class Attacking : MonoBehaviour
         } else {
              yield return null;
         }
+
+        Debug.Log("here");
+        createSword();
         //GameObject.Instantiate(swordHitbox);
         //sprt.sprite = this.mSword.SwapSprite(0);
-        mSword.useWeapon(3,3,0);
-        yield return new WaitForSeconds(1.0f);
+        //mSword.useWeapon(3,3,0);
+        StartCoroutine(holdInPlace(2f));
+       // yield return new WaitForSeconds(2.0f);
+
+        //rb = GetComponent<Rigidbody>();
+        //Vector3 or
+        //int curHp = GetComponent<Health>().health;
+
+        if(GetComponent<Health>().health == 6) Instantiate(prefabs[0], new UnityEngine.Vector3(0,0,0), rb.rotation, this.transform);
 
         sprt.sprite = hold;
 
+        DeleteSwordHitbox();
+        
+
         yield return null;
+
+
     }
 
     void altWeapon(){

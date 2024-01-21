@@ -1,0 +1,4342 @@
+fileFormatVersion: 2
+guid: 29ec26ad3dcdb4fcd9d1b7351898dc52
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Inverted Link_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996aef708677b4d04aa7dab5ba884d45
+      internalID: -601399134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 287
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87739c8e248b46768d70c8feb27ef5a
+      internalID: 2099957794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 287
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d639fe25cac3e4c1a935b3a39eb4283d
+      internalID: 898129238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 288
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba9f639f86c140d8a6ba9a9b69d2f24
+      internalID: 353738454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_4
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 287
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba31ecdac4c434bd0a86fbb7d4391b8f
+      internalID: 1956259382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 287
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620cca6d8dd654d35be56768ca4680b6
+      internalID: 1417008547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_6
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 287
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8befdcb59bf174cfc951e7e7c5dd75c6
+      internalID: 111654241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_7
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 288
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd055df8b1cd7423f8c1a10f4fec5c94
+      internalID: -1207329979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_8
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 287
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6203dd48061414576b53b7e76692fa1c
+      internalID: 2063533542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 287
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195f592ea22eb43a98c82f2f36a4bc48
+      internalID: 1345212921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_10
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 287
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eac8a1fbdde04e8089c674480e375e5
+      internalID: 1993298536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 288
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c655d53928ebd4fc8af0e37fbb16f98e
+      internalID: -2032053939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 257
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650f563fda226422aa14dd6a60241ca8
+      internalID: -2104264225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 258
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02847815f77a48d28299818454d27f6
+      internalID: 1166761377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_14
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 257
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e609d0638994294b60972d8aab20a6
+      internalID: -1515331126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_15
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 257
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf333cf7f6954c0c821b5546b8fe9e3
+      internalID: 287588875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 257
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e855c7a1ab54aaca3a8f9d4e2ab12e
+      internalID: -1629461674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 258
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff9c49674fb643919928972fb4e5c70
+      internalID: -212751886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_18
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 257
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874518c295398491e9cf328b726060bf
+      internalID: -979739760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee6fdf4da3b347fe8beb54021f676b0
+      internalID: -907745997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 257
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2873b48ca8db44dc388dc8d8f997f2f8
+      internalID: -566228952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 258
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448a70e15785d4f10bf6c7647dfe1cc0
+      internalID: 1788472398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_22
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 257
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4e6311dee29405a8e1a8460223703f
+      internalID: -176788799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_23
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9947f41b7ea451da99ede640cdafd1
+      internalID: 430906336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fadb8c3e66944d898ce86105839e49
+      internalID: 550783277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_25
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 228
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11bcea7647174f5b89777582171b6ed
+      internalID: -943064367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_26
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 227
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8070dcc7e88bb4ebd8005f15ee647a2b
+      internalID: 1044793257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_27
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 228
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246a8a65bff904279a05c5f99e401b67
+      internalID: 1334983389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_28
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 228
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2107d2572ab19423b97bf42a1aff814d
+      internalID: 2046363830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_29
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 228
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a439a22e7b4430fbc0af172fdee88f
+      internalID: 1096234971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_30
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 227
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f0fe444e14348d3ad3fd00ee579226
+      internalID: 854402588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_31
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 228
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b26a784cd20488c9e93403aa19c2b9
+      internalID: -1731277693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 228
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41eba01a39bc49ef90cfaf4fa5d3528
+      internalID: -1550209095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_33
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 228
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb532e8f4fe7460ab1809505809fe45
+      internalID: 728612221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_34
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 227
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8c8a43762fe454d91879ef9ad1fea8
+      internalID: -194196858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_35
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 228
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9932772ebe4d04b9fa8e104f2b79fc88
+      internalID: -1508480233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31164612784724b13a1f941320b488c7
+      internalID: 2060737013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_37
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 198
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861ba6bf3bce844e09f70c39430a72a2
+      internalID: 906583895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_38
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 191
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72750e6c3b4b14edba8d4a169ceb1633
+      internalID: 266732270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_39
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 198
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea39b3b52b09f487c9c1496c4359f331
+      internalID: 783150300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_40
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 192
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b8d4afefcc941fa8170f026d8d1ff7
+      internalID: 765186503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 198
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19a96b005f3f4f2d8a6a81572ff24be
+      internalID: -1092712495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_42
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 191
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439c06512bd1c491aa8e29a23412d27c
+      internalID: -411500441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_43
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 198
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71592760df8184181bf6af077ba28478
+      internalID: 441344532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_44
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31eeb18d91dfe45f7ab162cbc4734992
+      internalID: -248513103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_45
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 198
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd894b4400c847c8bf321da5c12a1d5
+      internalID: -535943675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_46
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 191
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b55bbcfb1f740ca9d3808263f8b570
+      internalID: -2046397702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_47
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 198
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2278437c64e864636b35e401d6868687
+      internalID: -942697121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e88ce910b1ef4527bfec5dfcc3b704a
+      internalID: -1608275651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_49
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 168
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcce58d646974777a394c756523f5dc
+      internalID: 1099345765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_50
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 161
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f59a8b4219644d13908dab35cc3ac6d
+      internalID: 2145806491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_51
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 168
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3765c5c2e505d4c7db601ca336a176c2
+      internalID: -1594317621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_52
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 162
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324272c05068f43528d33f16f3a2a871
+      internalID: 101559239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_53
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 168
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff5e69b764844d74bc191d7ce145afc
+      internalID: 1327826054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_54
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 161
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb82ce5b505145679cad65e83a38d5b
+      internalID: 704284775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_55
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 168
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebdfd6c29c4747b08d527b3af2f7934
+      internalID: 2129374893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_56
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 162
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10f0ea45757844d0801f9ef81f82fea
+      internalID: -526804697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_57
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 168
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d010b2435cb9249bba5462e77baa2a91
+      internalID: -152210852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_58
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 161
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e101d288a1b4002862123a8475cdc8
+      internalID: 1000743091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_59
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 168
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6aae830768144d3bffcd69dafe7589
+      internalID: 305071475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 137
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d02d6b03cc444a2cb9176a02685ba17
+      internalID: -751738136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_61
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 137
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781c10e42fe25497eb94749df7070a59
+      internalID: 1892863056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_62
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 146
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebeccdbb4941416ebbca35fb62efc37
+      internalID: -1190076963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_63
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 142
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c93d73c4ec54d178c000c4c62bfdeb
+      internalID: 11847692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_64
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 137
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ece1744ee884e0abe0c9d60a8d2d29
+      internalID: 1854650326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_65
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 137
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d23db9c9bb5441fe9e45b954af56ed6
+      internalID: 1045227982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_66
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 146
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b5c3ba000f44a32b19ab24366347c0
+      internalID: 1223275361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_67
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 142
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22edd601afe114a38940890100cfe0c5
+      internalID: -1418438152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_68
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 137
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9107f78f62db4494b5829f110aec8de
+      internalID: -712963220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_69
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 137
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03976784453364d23b7d84f7b7fd7bef
+      internalID: -1574953792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_70
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 146
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d069b87f6dc1e48088acfc9e7fbf8995
+      internalID: 160518088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_71
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 142
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841214e3a2d3642dfb51a45afb14e897
+      internalID: -503479842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_72
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 127
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94eacad227d23484a8781769c476fabc
+      internalID: 1197517969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_73
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 128
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053d5be9b387b4ca9b59181928ed4718
+      internalID: 217516188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_74
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 129
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f976c2b1b8d401b8841d81d9de7848
+      internalID: 1266793292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_75
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 130
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3496d71ebde5a4ea69b5d80d0060e69e
+      internalID: -1176728366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_76
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 139
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e78ed39ffb84db781b44c4fa6bb590
+      internalID: 485739803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_77
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 136
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c5690b84dfb4b688b7d0dc71437971
+      internalID: -843673264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_78
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 130
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9720bb73b04474015a0a5d34f9cdd643
+      internalID: 80980168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_79
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 129
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d55c1fd1f1d45e987d26628f56a870
+      internalID: 1258047594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7e645508d4e428582f4037658e858f
+      internalID: -1048919784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_81
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 127
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464065e6cdf8b4848921b713f71335c0
+      internalID: 1459295631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_82
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 127
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a851d0da11249018b9cd646c5f0cec
+      internalID: 139457713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_83
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 128
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990880aa3987d44499df15bbde27adca
+      internalID: 1378871798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_84
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 129
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45e633dda4454290a9c7a5d99a1c989
+      internalID: -794365526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_85
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 130
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2878c3cb2ea5344eebd86cc4a7606821
+      internalID: 835341332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_86
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 139
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fff1ea0f246844e190da54617c9c036
+      internalID: -872434205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_87
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 136
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804b7d0cacdec45b397d15b3c7423448
+      internalID: -1564104343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_88
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 130
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cfea17157a24d129de869b9582be27
+      internalID: 1626177823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_89
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 129
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d03fc91fadf44572abcd92e41fc5d1a
+      internalID: -162901604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_90
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 128
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c851209d98c484648b62cb3d26e2c76f
+      internalID: 1907618679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_91
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 127
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13e00ef638924b69a71b0edf2cc2cf6
+      internalID: 1801522829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_92
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 127
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecec2bdc2fbc64c05ac049f0281e8a2f
+      internalID: 1449959903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_93
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 128
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f106c97ad1f14668b65b589a9d1eaa1
+      internalID: 1506487111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_94
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 129
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7457d79daa4849619c34024f1d80b1b
+      internalID: 510491892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_95
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 130
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32393c33ef9f4fedb9ead0cdc800c73
+      internalID: 417497614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_96
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 139
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c296de54c8945409b79b283be47f44
+      internalID: -1722183730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_97
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 136
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fe8f9912bac41f197313f0c347b6c5
+      internalID: -1755180613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_98
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 130
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b2aa6bddcd2467886f88a82bde2c71
+      internalID: -1852136952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_99
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 129
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035ae786fc7c8401095daa0de756acaf
+      internalID: 995351737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_100
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 128
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475f4c02b4aa14a8f94bb1892574178e
+      internalID: 208241822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_101
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 127
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596590aa58f5341ec8a9b7e5f21b8ec1
+      internalID: 2094457927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_102
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 127
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed48113269cb84b8ea1052fa79fde1f1
+      internalID: 2093328561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_103
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 130
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfba793ed37d4b28bf51bb1f8cb89df
+      internalID: -531158921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_104
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 127
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ce6077dcedb473583f0700e9cbb4fa
+      internalID: -2002264320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_105
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 130
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45764bd8b28d0499f9b2190f5fdd245f
+      internalID: -311358343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_106
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 127
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039341ff9d81d467c89156c836011210
+      internalID: 1921123622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_107
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 130
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b72282b6f01040a7827b9d76c68d90a
+      internalID: 1885595017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_108
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 122
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8efeb8c80ad4e64b3b97a3d5884cac
+      internalID: 1325494466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_109
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 122
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541dd79dcd4b246afb67d42c918c9500
+      internalID: 1974650199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_110
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 122
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f4c0517735047e9aba58240c006e24
+      internalID: -56812248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_111
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 118
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13717329a6f84891b6cd1c50f98f211
+      internalID: -2091577894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_112
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 123
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aff3c2bb2d4c4b46896d19655010e82
+      internalID: 441933985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_113
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 118
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cec6ecf9bf74889b5fc61f289b1138
+      internalID: -1188084466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_114
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 123
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fe9bdb4dd5c44c4b2f43a16c213b79
+      internalID: -1615526559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_115
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 118
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e6da1842c1b4de1a1f1483ddb4e1e8
+      internalID: 946624753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_116
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 123
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b02f3319a544bf48c96603502ff0bc
+      internalID: 361547987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_117
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 92
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b77e29836c34a10a7d1f9668fde365
+      internalID: 956919416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_118
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 97
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbc1e9c54166406d8ed14baf010c995
+      internalID: 1021160413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_119
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 92
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587478e3e63a245e7ba621ffb27894c4
+      internalID: -30612113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_120
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 97
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0b646ad1c5a446685ff07c8686ef0d
+      internalID: -927637245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_121
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 92
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62352253fc090424084ab72189f0e945
+      internalID: 1744850897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_122
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 92
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60064e4c41e64d15829fec5126af94f
+      internalID: -695884022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_123
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 96
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6025947089bd64c189ab0a63e6da30d0
+      internalID: -914477856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_124
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 96
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b8d5f8d0cb54c048bfb81e13cbaf51
+      internalID: -840141219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_125
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 94
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e4d87ff973d434895d6f2b7198e2e8
+      internalID: -1935483914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_126
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 94
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d034dd4c9a82b478385cded62245b359
+      internalID: 2093910149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_127
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 92
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17cd6a3841ab47f0bb0e0844f1cd54a
+      internalID: -2131915014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_128
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 103
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d41af769d708457787c7f57e74b51f1
+      internalID: 1768511139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_129
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 103
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffc604d028a943069b92ac7bb66c5ff
+      internalID: -818941268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_130
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 98
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72037acd6bfdc41dfa802759472c0ab3
+      internalID: -73098502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_131
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 98
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c343bac806614454b08a126449ac210
+      internalID: 1866652323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_132
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 92
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3776d28184143189b64fb5255a56a8
+      internalID: 1453189307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_133
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 92
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e72e8573e6847dfa311659ef4c5e0d
+      internalID: -748076163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_134
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 62
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba192b7e039694782afe961ff2241ecd
+      internalID: -931972014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_135
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 67
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dee0e2084d34ec2a55fe57efa2e37a
+      internalID: -992887307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_136
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 62
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc0a3d9358e341e1a6cc5b11c436245
+      internalID: -1868185667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_137
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 67
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd4a297e2a2e4c3496926926b7bfa67
+      internalID: -407131348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_138
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 62
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190d440fe41f54711a4216adbac6a1a0
+      internalID: -122018315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_139
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 68
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076d539d19744466dba27905c754f146
+      internalID: -744389332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_140
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 62
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd386dc483e945fe82ac27d05968523
+      internalID: -1506958328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_141
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 68
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc4c545aef8843199fd8c0919662382
+      internalID: 1986818544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_142
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 62
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a4bb5d6b2264fd692b6a8e79e53a8e
+      internalID: -1325570691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_143
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 62
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f688af02d874d7195a435519afda3a
+      internalID: 277321628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_144
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 66
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d865c7387b1434e8c6ba12faa037a6
+      internalID: -798237722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_145
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 66
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9bc70dea5f9453fb40103e649f2b76
+      internalID: 956135668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_146
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 63
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2710f55065914481e944e82c32a3bfad
+      internalID: 341608425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_147
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 65
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf62f10eeb9f4738b0b0d3ca363cc93
+      internalID: -1342391546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_148
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 62
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8330a53183b406185187162889fd07
+      internalID: 1069945536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_149
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 32
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d54d5f52e2a4e4db256c76497b3675
+      internalID: -1286621137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_150
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 37
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae8d6e6f81bf445baaeafd38885e422
+      internalID: 436915245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_151
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21972f44e49549208873dc312a4efde
+      internalID: 1414023714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_152
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 37
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962a6a305b72a47679e7d851b96fdcdb
+      internalID: 1570576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_153
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 32
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08aa74851dc546eba6873e9ba50abb9
+      internalID: 1936870224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_154
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 38
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82587579acc548449d6e436ead8ccb8
+      internalID: -1112996783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_155
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 32
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63728ac4a399941518c260bfb09ade93
+      internalID: 574822458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_156
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 38
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779c570011aae448396ae6398414a8f2
+      internalID: 121964165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_157
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 32
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee8303a68c35400494df8a5f3293ce0
+      internalID: -48778368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_158
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 32
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fb01fdc59674908ada21f3a516bfea
+      internalID: 1401532813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_159
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 32
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82786eb6ab0694f20a5823d3bcb18e48
+      internalID: -862746519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_160
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 33
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc9fdf1e2f2c4d95b10604bb9280cf6
+      internalID: -1347181552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_161
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 32
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6139d2e518241b897dc191592ec387
+      internalID: 523065304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_162
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 34
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c216ee711d14833af2f14c9049a208
+      internalID: 87565449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_163
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 32
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031262b1ea94a4dd1ab2ae6a97573466
+      internalID: 1035223618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_164
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf56e0d8a4c294ad7b65671d20cf2668
+      internalID: 1592286220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_165
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 7
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb172479f49804d8ebc32e561d4d0164
+      internalID: -1213708505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_166
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba10cb140ed6940568351c3200220bf4
+      internalID: -2112346303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_167
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 7
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de446337c0ed94ca692665d8d31d1522
+      internalID: -1735729322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_168
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 11
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340cff12a7fc8480cae70fbb26eca09e
+      internalID: 544015667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_169
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 11
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dee99fcc7334c6e964815cfcb501cc
+      internalID: -848121091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_170
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 11
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b425bb9720f2b4d49a70609f28e7a535
+      internalID: 2065792578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_171
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 11
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91acea19cf2f24609ad41002bafee734
+      internalID: -2418441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_172
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 11
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8021b22f3a0444727b139b44f5f8da9a
+      internalID: -1181458361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_173
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 11
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1462786f46724d0e9b1c0fcada24a5a
+      internalID: -147687942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_174
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 11
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e142794b851d04e11b5a6f2c5d90cf5a
+      internalID: -1726240546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_175
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 11
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a9b75e0c0c846dbb27a5929b728c08
+      internalID: -233300851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_176
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 2
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef34d0bbacbdc4420b9e9ade1f9cbdfe
+      internalID: 1967547117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_177
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912abcb7fa1984b82b8b1610cdbee8f2
+      internalID: -1979700148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_178
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 2
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c601d874f81ea434a8ae8d8d469c6e57
+      internalID: -1276144291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_179
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 5
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b45f6c8ce07a40c69bb89c3259c7634
+      internalID: 1949971550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_180
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 5
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2f272dec041480ea9e00bea63abbcf
+      internalID: 746413379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_181
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 2
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3937cb62da4446a9bf081876cd171c
+      internalID: 1785487897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_182
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 2
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ab06ef8b6ba417c9db1f9bb211a506
+      internalID: -879563915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_183
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411a7fa8e2d3b488eb4e1c4ab3d60664
+      internalID: 468594391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_184
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b65a636d0654b68a4a276e5eb211d0
+      internalID: 795026037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_185
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ff7fd35f57640c491a20513da50a76
+      internalID: 798454752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_186
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c64d96af3104c4688c439324320605
+      internalID: -437800626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_187
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b15bbcbb8e0410e82a76b66598f4b1
+      internalID: -835542046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_188
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50dfe9551432c420eb032091c7d55a16
+      internalID: 1318487130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_189
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0510decd6dd7d421484d2df5eab8db8c
+      internalID: -298731860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inverted Link_190
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 0
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc873565c41a43dfa8c9ace2d36d23c
+      internalID: -941272807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Inverted Link_0: -601399134
+      Inverted Link_1: 2099957794
+      Inverted Link_10: 1993298536
+      Inverted Link_100: 208241822
+      Inverted Link_101: 2094457927
+      Inverted Link_102: 2093328561
+      Inverted Link_103: -531158921
+      Inverted Link_104: -2002264320
+      Inverted Link_105: -311358343
+      Inverted Link_106: 1921123622
+      Inverted Link_107: 1885595017
+      Inverted Link_108: 1325494466
+      Inverted Link_109: 1974650199
+      Inverted Link_11: -2032053939
+      Inverted Link_110: -56812248
+      Inverted Link_111: -2091577894
+      Inverted Link_112: 441933985
+      Inverted Link_113: -1188084466
+      Inverted Link_114: -1615526559
+      Inverted Link_115: 946624753
+      Inverted Link_116: 361547987
+      Inverted Link_117: 956919416
+      Inverted Link_118: 1021160413
+      Inverted Link_119: -30612113
+      Inverted Link_12: -2104264225
+      Inverted Link_120: -927637245
+      Inverted Link_121: 1744850897
+      Inverted Link_122: -695884022
+      Inverted Link_123: -914477856
+      Inverted Link_124: -840141219
+      Inverted Link_125: -1935483914
+      Inverted Link_126: 2093910149
+      Inverted Link_127: -2131915014
+      Inverted Link_128: 1768511139
+      Inverted Link_129: -818941268
+      Inverted Link_13: 1166761377
+      Inverted Link_130: -73098502
+      Inverted Link_131: 1866652323
+      Inverted Link_132: 1453189307
+      Inverted Link_133: -748076163
+      Inverted Link_134: -931972014
+      Inverted Link_135: -992887307
+      Inverted Link_136: -1868185667
+      Inverted Link_137: -407131348
+      Inverted Link_138: -122018315
+      Inverted Link_139: -744389332
+      Inverted Link_14: -1515331126
+      Inverted Link_140: -1506958328
+      Inverted Link_141: 1986818544
+      Inverted Link_142: -1325570691
+      Inverted Link_143: 277321628
+      Inverted Link_144: -798237722
+      Inverted Link_145: 956135668
+      Inverted Link_146: 341608425
+      Inverted Link_147: -1342391546
+      Inverted Link_148: 1069945536
+      Inverted Link_149: -1286621137
+      Inverted Link_15: 287588875
+      Inverted Link_150: 436915245
+      Inverted Link_151: 1414023714
+      Inverted Link_152: 1570576
+      Inverted Link_153: 1936870224
+      Inverted Link_154: -1112996783
+      Inverted Link_155: 574822458
+      Inverted Link_156: 121964165
+      Inverted Link_157: -48778368
+      Inverted Link_158: 1401532813
+      Inverted Link_159: -862746519
+      Inverted Link_16: -1629461674
+      Inverted Link_160: -1347181552
+      Inverted Link_161: 523065304
+      Inverted Link_162: 87565449
+      Inverted Link_163: 1035223618
+      Inverted Link_164: 1592286220
+      Inverted Link_165: -1213708505
+      Inverted Link_166: -2112346303
+      Inverted Link_167: -1735729322
+      Inverted Link_168: 544015667
+      Inverted Link_169: -848121091
+      Inverted Link_17: -212751886
+      Inverted Link_170: 2065792578
+      Inverted Link_171: -2418441
+      Inverted Link_172: -1181458361
+      Inverted Link_173: -147687942
+      Inverted Link_174: -1726240546
+      Inverted Link_175: -233300851
+      Inverted Link_176: 1967547117
+      Inverted Link_177: -1979700148
+      Inverted Link_178: -1276144291
+      Inverted Link_179: 1949971550
+      Inverted Link_18: -979739760
+      Inverted Link_180: 746413379
+      Inverted Link_181: 1785487897
+      Inverted Link_182: -879563915
+      Inverted Link_183: 468594391
+      Inverted Link_184: 795026037
+      Inverted Link_185: 798454752
+      Inverted Link_186: -437800626
+      Inverted Link_187: -835542046
+      Inverted Link_188: 1318487130
+      Inverted Link_189: -298731860
+      Inverted Link_19: -907745997
+      Inverted Link_190: -941272807
+      Inverted Link_2: 898129238
+      Inverted Link_20: -566228952
+      Inverted Link_21: 1788472398
+      Inverted Link_22: -176788799
+      Inverted Link_23: 430906336
+      Inverted Link_24: 550783277
+      Inverted Link_25: -943064367
+      Inverted Link_26: 1044793257
+      Inverted Link_27: 1334983389
+      Inverted Link_28: 2046363830
+      Inverted Link_29: 1096234971
+      Inverted Link_3: 353738454
+      Inverted Link_30: 854402588
+      Inverted Link_31: -1731277693
+      Inverted Link_32: -1550209095
+      Inverted Link_33: 728612221
+      Inverted Link_34: -194196858
+      Inverted Link_35: -1508480233
+      Inverted Link_36: 2060737013
+      Inverted Link_37: 906583895
+      Inverted Link_38: 266732270
+      Inverted Link_39: 783150300
+      Inverted Link_4: 1956259382
+      Inverted Link_40: 765186503
+      Inverted Link_41: -1092712495
+      Inverted Link_42: -411500441
+      Inverted Link_43: 441344532
+      Inverted Link_44: -248513103
+      Inverted Link_45: -535943675
+      Inverted Link_46: -2046397702
+      Inverted Link_47: -942697121
+      Inverted Link_48: -1608275651
+      Inverted Link_49: 1099345765
+      Inverted Link_5: 1417008547
+      Inverted Link_50: 2145806491
+      Inverted Link_51: -1594317621
+      Inverted Link_52: 101559239
+      Inverted Link_53: 1327826054
+      Inverted Link_54: 704284775
+      Inverted Link_55: 2129374893
+      Inverted Link_56: -526804697
+      Inverted Link_57: -152210852
+      Inverted Link_58: 1000743091
+      Inverted Link_59: 305071475
+      Inverted Link_6: 111654241
+      Inverted Link_60: -751738136
+      Inverted Link_61: 1892863056
+      Inverted Link_62: -1190076963
+      Inverted Link_63: 11847692
+      Inverted Link_64: 1854650326
+      Inverted Link_65: 1045227982
+      Inverted Link_66: 1223275361
+      Inverted Link_67: -1418438152
+      Inverted Link_68: -712963220
+      Inverted Link_69: -1574953792
+      Inverted Link_7: -1207329979
+      Inverted Link_70: 160518088
+      Inverted Link_71: -503479842
+      Inverted Link_72: 1197517969
+      Inverted Link_73: 217516188
+      Inverted Link_74: 1266793292
+      Inverted Link_75: -1176728366
+      Inverted Link_76: 485739803
+      Inverted Link_77: -843673264
+      Inverted Link_78: 80980168
+      Inverted Link_79: 1258047594
+      Inverted Link_8: 2063533542
+      Inverted Link_80: -1048919784
+      Inverted Link_81: 1459295631
+      Inverted Link_82: 139457713
+      Inverted Link_83: 1378871798
+      Inverted Link_84: -794365526
+      Inverted Link_85: 835341332
+      Inverted Link_86: -872434205
+      Inverted Link_87: -1564104343
+      Inverted Link_88: 1626177823
+      Inverted Link_89: -162901604
+      Inverted Link_9: 1345212921
+      Inverted Link_90: 1907618679
+      Inverted Link_91: 1801522829
+      Inverted Link_92: 1449959903
+      Inverted Link_93: 1506487111
+      Inverted Link_94: 510491892
+      Inverted Link_95: 417497614
+      Inverted Link_96: -1722183730
+      Inverted Link_97: -1755180613
+      Inverted Link_98: -1852136952
+      Inverted Link_99: 995351737
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

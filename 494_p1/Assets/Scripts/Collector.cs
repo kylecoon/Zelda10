@@ -24,7 +24,7 @@ public class Collector : MonoBehaviour
         GameObject object_collided_with = coll.gameObject;
 
         Debug.Log("trigger");
-        
+
         if (object_collided_with.CompareTag("rupee")) {
             if (inventory != null) {
                 inventory.AddRupees(1);
@@ -39,6 +39,12 @@ public class Collector : MonoBehaviour
             Debug.Log("worked");
             AudioSource.PlayClipAtPoint(keyCollect, Camera.main.transform.position);
 
+        }
+        if(object_collided_with.CompareTag("heart")){
+            Health curHP = GetComponent<Health>();
+            if(curHP.health < curHP.MaxHP) curHP.health++;
+            Destroy(object_collided_with);
+            curHP.UpdateHP();
         }
     }
 }

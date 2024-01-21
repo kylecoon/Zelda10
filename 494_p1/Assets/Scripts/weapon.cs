@@ -27,6 +27,8 @@ public class sword : weapon{
     
     public GameObject hitbox;
     private Collider2D collider;
+
+     
     
     void Start(){
         collider = GetComponent<Collider2D>();
@@ -64,7 +66,7 @@ public class sword : weapon{
     }
 
     public void shoot(){
-
+        //Instantiate();
     }
 }
 
