@@ -12,6 +12,7 @@ TagManager:
   - key
   - attack
   - Enemy
+  - heart
   layers:
   - Default
   - TransparentFX
