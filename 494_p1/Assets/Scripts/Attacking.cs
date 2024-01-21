@@ -24,7 +24,8 @@ public class Attacking : MonoBehaviour
     void Start()
     {
        // sprt = GetComponent<SpriteRenderer>();
-        Screen.SetResolution(1020, 960, true);
+        Screen.SetResolution(1020, 960, false);
+
         rb = GetComponent<Rigidbody>();
         sprt = GetComponent<SpriteRenderer>();
         sprites = Resources.LoadAll<Sprite>("Zelda/Link_Sprites");
