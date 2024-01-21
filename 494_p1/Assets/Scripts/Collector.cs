@@ -20,8 +20,11 @@ public class Collector : MonoBehaviour
     // Start is called before the first frame update
     void OnTriggerEnter(Collider coll)
     {
+        
         GameObject object_collided_with = coll.gameObject;
 
+        Debug.Log("trigger");
+        
         if (object_collided_with.CompareTag("rupee")) {
             if (inventory != null) {
                 inventory.AddRupees(1);
@@ -30,8 +33,10 @@ public class Collector : MonoBehaviour
 
             AudioSource.PlayClipAtPoint(RupCollect, Camera.main.transform.position);
             
-        } else if(object_collided_with.CompareTag("key")){
+        } 
+        if(object_collided_with.CompareTag("key")){
             coll.gameObject.SetActive(false);
+            Debug.Log("worked");
             AudioSource.PlayClipAtPoint(keyCollect, Camera.main.transform.position);
 
         }

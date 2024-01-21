@@ -34,8 +34,7 @@ public class Movement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update(){
         Vector2 current_input = GetInput();
         
         rb.velocity = current_input * movement_speed;
@@ -43,6 +42,11 @@ public class Movement : MonoBehaviour
     }
 
     Vector2 GetInput() {
+
+        if(Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.X)){
+             return Vector2.zero;
+        }
+
         float horizontal_input = Input.GetAxisRaw("Horizontal");
         float vertical_input = Input.GetAxisRaw("Vertical");
 
@@ -137,6 +141,7 @@ public class Movement : MonoBehaviour
     IEnumerator WaitForPlayerInputToTransition(Collider other)
     {
 
+                
                 Vector3 initial_position = cam.transform.position;
                 Vector3 final_position = cam.transform.position;
                 Debug.Log(rb.velocity.x);
@@ -147,9 +152,9 @@ public class Movement : MonoBehaviour
                     final_position.x += 16;
                     // final_position.y += 10;
                 } else if(other.tag == "->North" && rb.velocity.y > 0 ){
-                    final_position.y += 20;
+                    final_position.y += 11;
                 } else if (other.tag == "->South" && rb.velocity.y < 0){ 
-                    final_position.y -= 20;
+                    final_position.y -= 11;
                 } else{ 
                     yield return null;
                 }
