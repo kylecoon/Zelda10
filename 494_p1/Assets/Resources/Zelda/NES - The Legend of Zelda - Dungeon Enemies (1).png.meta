@@ -1159,8 +1159,8 @@ TextureImporter:
         y: 1222
         width: 125
         height: 132
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1410,7 +1410,7 @@ TextureImporter:
         x: 1845
         y: 1246
         width: 70
-        height: 85
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1431,7 +1431,7 @@ TextureImporter:
         x: 1918
         y: 1246
         width: 68
-        height: 85
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1452,7 +1452,7 @@ TextureImporter:
         x: 1990
         y: 1246
         width: 67
-        height: 85
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1473,7 +1473,7 @@ TextureImporter:
         x: 2061
         y: 1246
         width: 70
-        height: 85
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2899,9 +2899,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 413
-        y: 493
+        y: 494
         width: 45
-        height: 61
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3004,9 +3004,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1006
-        y: 493
+        y: 494
         width: 45
-        height: 61
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3046,9 +3046,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1190
-        y: 493
+        y: 494
         width: 44
-        height: 61
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3088,9 +3088,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1374
-        y: 493
+        y: 494
         width: 44
-        height: 61
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3109,9 +3109,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1422
-        y: 493
+        y: 494
         width: 52
-        height: 61
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3193,9 +3193,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1957
-        y: 493
+        y: 494
         width: 45
-        height: 61
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3235,9 +3235,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2141
-        y: 493
+        y: 494
         width: 45
-        height: 61
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3277,9 +3277,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2325
-        y: 493
+        y: 494
         width: 45
-        height: 61
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3382,9 +3382,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2918
-        y: 493
+        y: 494
         width: 44
-        height: 61
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3403,9 +3403,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2966
-        y: 493
+        y: 494
         width: 52
-        height: 61
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3734,6 +3734,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Enemies (1)_172
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 0
+        width: 1335
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2bb8fb511044a2ea400b03394db4b8
+      internalID: 688298752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -3827,6 +3848,7 @@ TextureImporter:
       NES - The Legend of Zelda - Dungeon Enemies (1)_17: -281605069
       NES - The Legend of Zelda - Dungeon Enemies (1)_170: -845168398
       NES - The Legend of Zelda - Dungeon Enemies (1)_171: -1283831228
+      NES - The Legend of Zelda - Dungeon Enemies (1)_172: 688298752
       NES - The Legend of Zelda - Dungeon Enemies (1)_18: -1168739734
       NES - The Legend of Zelda - Dungeon Enemies (1)_19: -149104898
       NES - The Legend of Zelda - Dungeon Enemies (1)_2: 1564364640

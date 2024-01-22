@@ -1,165 +1,119 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Numerics;
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 public class Attacking : MonoBehaviour
 {
     SpriteRenderer sprt;
     private Rigidbody rb;
-    private int spriteVersion = 0;
     private Sprite[] sprites;
 
-    private sword mSword;
+    private Dictionary<Vector2, Sprite> sprite_dictionary = new Dictionary<Vector2, Sprite>();
 
-    private weapon[] altWeapons;
-    private int curAltIndex;
-    private weapon curAlt;
-
-    private bool usingWeapon = false;
-
-    public GameObject[] prefabs;
+    private Dictionary<int, string> alt_dictionary = new Dictionary<int, string>();
+    private int alt_index;
+    private Dictionary<string, Sprite> alt_sprite_dictionary = new Dictionary<string, Sprite>();
+    public GameObject altRender;
 
     // private int curDirection = 0;
     // Start is called before the first frame update
 
     void Start()
     {
-       // sprt = GetComponent<SpriteRenderer>();
-        Screen.SetResolution(1020, 960, false);
-
         rb = GetComponent<Rigidbody>();
         sprt = GetComponent<SpriteRenderer>();
         sprites = Resources.LoadAll<Sprite>("Zelda/Link_Sprites");
+
+        sprite_dictionary.Add(Vector2.up, sprites[38]);
+        sprite_dictionary.Add(Vector2.down, sprites[36]);
+        sprite_dictionary.Add(Vector2.left, sprites[37]);
+        sprite_dictionary.Add(Vector2.right, sprites[39]);
+
+        alt_sprite_dictionary.Add("bow", sprites[163]);
+
+        sprites = Resources.LoadAll<Sprite>("Zelda/Black_pixel");
+        alt_sprite_dictionary.Add("empty", sprites[0]);
+
+        alt_dictionary.Add(0, "empty");
+        alt_index = 1;
     }
     // Update is called once per frame
     void Update()
     {
-
-        usingWeapon = false;
         GetInput();
-
     }
 
     void GetInput() {
 
+        if (GetComponent<Movement>().Check_CanMove()) {
+        
+            //use sword
+            if(Input.GetKeyDown(KeyCode.X)){
+                StartCoroutine(SwordAttack());
+            }
 
-        //Debug.Log("gotInput");
-        if(Input.GetKey(KeyCode.Space)){
-            curAltIndex = curAltIndex + 1 % altWeapons.Length;
-            curAlt = altWeapons[curAltIndex];
+            //use alt
+            else if(Input.GetKeyDown(KeyCode.Z)){
+                switch (alt_dictionary[alt_index]) {
+                    case "empty":
+                        break;
+                    case "bow":
+                        if (GetComponent<Inventory>().GetRupees() > 0 && !transform.GetChild(2).gameObject.activeSelf) {
+                            GetComponent<Inventory>().AddRupees(-1);
+                            StartCoroutine(BowAttack());
+                        }
+                        break;
+                }
+            }
 
-        } 
-
-        if(Input.GetKey(KeyCode.X)){ // use alt
-            usingWeapon = true;
-            altWeapon();
-
-        } else if(Input.GetKey(KeyCode.Z)){ // use main
-            Debug.Log("swing");
-            usingWeapon = true;
-            StartCoroutine(SwordSwing());
-            usingWeapon = false;
-
+            //swap alt
+            else if(Input.GetKeyDown(KeyCode.Space)){
+                alt_index += 1;
+                if (alt_index >= alt_dictionary.Count) {
+                    alt_index = 0;
+                }
+                UpdateAltUI();
+            } 
         }
     }
 
-    
+    IEnumerator SwordAttack() {
+        GetComponent<Movement>().Flip_CanMove();
+        transform.GetChild(0).GetComponent<Sword>().hitbox.enabled = true;
+        sprt.sprite = sprite_dictionary[GetComponent<Movement>().Get_CurrentDirection()];
 
-    void createSword(){
+        yield return new WaitForSeconds(0.3f);
 
-        int direction = 0;
-        BoxCollider2D col = GetComponentInChildren<BoxCollider2D>();
-        if(sprt.sprite == sprites[36]){
-            col.offset = new UnityEngine.Vector2(-0.1579781f, 3.20673e-05f);
-            col.size = new UnityEngine.Vector2(0.6840439f,0.1939981f);
-            direction = 1;
+        GetComponent<Movement>().Flip_CanMove();
+        transform.GetChild(0).GetComponent<Sword>().hitbox.enabled = false;
+        GetComponent<Movement>().UpdateSprite(GetComponent<Movement>().Get_CurrentDirection());
 
-        } else if(sprt.sprite == sprites[37]){
-            col.offset = new UnityEngine.Vector2(0.001522064f, -0.1694662f);
-            col.size = new UnityEngine.Vector2(0.1936332f,0.690215f);
-            direction = 2;
-
-        } else if(sprt.sprite == sprites[38]){
-            col.offset = new UnityEngine.Vector2(0.001522064f, 0.1593881f);
-            col.size = new UnityEngine.Vector2(0.1937332f,0.6894231f);
-            direction = 3;
-
-        } else {
-            col.offset = new UnityEngine.Vector2(0.1579781f,0.001184821f);
-            col.size = new UnityEngine.Vector2(0.6905212f,0.1955926f);
-            direction = 4;
-
+        //shoot beam if at full health and no other beams spawned
+        if (GetComponent<Health>().health == GetComponent<Health>().MaxHP && !transform.GetChild(1).gameObject.activeSelf) {
+            transform.GetChild(1).GetComponent<Beam>().Shoot(GetComponent<Movement>().Get_CurrentDirection());
         }
-
-        
-
-        
     }
 
-    void DeleteSwordHitbox(){
-        BoxCollider2D col = GetComponentInChildren<BoxCollider2D>();
-        col.offset = new UnityEngine.Vector2(0,0);
-        col.size = new UnityEngine.Vector2(0,0);
+    public void AddAlt(string new_alt) {
+        alt_dictionary.Add(alt_dictionary.Count, new_alt);
+        alt_index = alt_dictionary.Count - 1;
+        UpdateAltUI();
     }
 
-    IEnumerator holdInPlace(float numTime){
-        
-        //gameObject.transform.
-
-        yield return new WaitForSeconds(numTime);
-    }
-    
-    IEnumerator SwordSwing(){
-
-        int direction = 0;
-
-        Sprite hold = sprt.sprite;
-        if(hold == sprites[0] || hold == sprites[12] ){
-            Debug.Log("RSword");
-            sprt.sprite = sprites[36];
-
-        } else if(hold == sprites[1] || hold == sprites[13]){
-            sprt.sprite = sprites[37];
-
-        } else if(hold == sprites[2] || hold == sprites[14]){
-            sprt.sprite = sprites[38];
-
-        } else if(hold == sprites[3] || hold == sprites[15]){
-            sprt.sprite = sprites[39];
-        } else {
-             yield return null;
-        }
-
-        Debug.Log("here");
-        createSword();
-        //GameObject.Instantiate(swordHitbox);
-        //sprt.sprite = this.mSword.SwapSprite(0);
-        //mSword.useWeapon(3,3,0);
-        StartCoroutine(holdInPlace(2f));
-       // yield return new WaitForSeconds(2.0f);
-
-        //rb = GetComponent<Rigidbody>();
-        //Vector3 or
-        //int curHp = GetComponent<Health>().health;
-
-        if(GetComponent<Health>().health == 6) Instantiate(prefabs[0], new UnityEngine.Vector3(0,0,0), rb.rotation, this.transform);
-
-        sprt.sprite = hold;
-
-        DeleteSwordHitbox();
-        
-
-        yield return null;
-
-
+    void UpdateAltUI() {
+        altRender.GetComponent<Image>().sprite = alt_sprite_dictionary[alt_dictionary[alt_index]];
     }
 
-    void altWeapon(){
-        sprt.sprite = this.curAlt.SwapSprite(0);
-        // use weapon
+    IEnumerator BowAttack() {
         
+        GetComponent<Movement>().Flip_CanMove();
+        transform.GetChild(2).GetComponent<Beam>().Shoot(GetComponent<Movement>().Get_CurrentDirection());
+
+        yield return new WaitForSeconds(0.1f);
+
+        GetComponent<Movement>().Flip_CanMove();
     }
 }

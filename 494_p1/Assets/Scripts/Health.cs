@@ -46,7 +46,7 @@ public class Health : MonoBehaviour
     void Update()
     {
         // cheat mode toggle
-        if(gameObject.CompareTag("Player") && Input.GetKey(KeyCode.Alpha1)){
+        if(gameObject.CompareTag("Player") && Input.GetKeyDown(KeyCode.Alpha1)){
             if(!Invincible){
                 Invincible = true;
                 Inventory inven = GetComponent<Inventory>();
