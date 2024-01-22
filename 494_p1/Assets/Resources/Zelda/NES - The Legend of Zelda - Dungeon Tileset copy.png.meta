@@ -1,0 +1,6454 @@
+fileFormatVersion: 2
+guid: 941c9218ecd184430904f5f14a081ce1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2d979a31329435884ca555d0ea43ef
+      internalID: 1528495623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65961b76234a14c80ad7d40d2deb4004
+      internalID: 249773054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0ac2bd48bea4023b142ce0a56f1da1
+      internalID: -970774638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ec308c524f543d1927fa5934a1c15c
+      internalID: -1698466793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1238
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63704c3292d4c4cdabf0c4c8bed11152
+      internalID: 1133271862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1238
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17619167c571d4403b05197a4a936541
+      internalID: -176895518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1238
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b4467751eb44bc99bebd030c327098
+      internalID: -1706652699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1238
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865e64c4dbb634c7db63a45be689738c
+      internalID: -1390969934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_8
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b35b0955d0148ec82a60d2ff090b24
+      internalID: -1087739742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_9
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1238
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918d2334ff6cf4508b2e00f002b88339
+      internalID: 1571259106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_10
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1238
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6de98d02e7b7498b86913494b3f11ce
+      internalID: 539335319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_11
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1238
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3507111f95cbc4ba580fe8e7398b35f7
+      internalID: -1043200924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_12
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e376b2dfa711949f08631f51cb403b8c
+      internalID: -1976748416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_13
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1238
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa95559cc25f94c279429da4e6d02465
+      internalID: -1141830806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_14
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1238
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defd60af2ee7a44f4912d4367c78e1e1
+      internalID: 829131128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_15
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1238
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454f392bd79c3472ab0888108aa5124e
+      internalID: -1771896197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_16
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1238
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6145915217d164acdbde365f28a68558
+      internalID: -605312636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_17
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1238
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139bd6719847140caae2881dba4afd4f
+      internalID: 1208404317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_18
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9580f4bad5fb245d980086e4799b4152
+      internalID: 617319210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_19
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1238
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb7f3938c34c451bbbf607a0eae2fd8
+      internalID: 1620121748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_20
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1238
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe2d2ec626a449d3934d9dc6d21946c
+      internalID: 640549768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_21
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1238
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0470e3d660a64d60914312b2c89e767
+      internalID: 312831427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_22
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1238
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76972bb73c5064d3ab7288c16728f5fe
+      internalID: -2057463476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_23
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1238
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c506fa51a2a54844840a62a60a4729d
+      internalID: -1878666537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_24
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1238
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4eca0fe538243f7b5878acf2eed37a
+      internalID: 68211600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1107
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e9a8293e7c84df588bf33ab7e40846
+      internalID: -524678000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_26
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1107
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fe3b23bd4034efbb5f091f4688f777
+      internalID: -1914893803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_27
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1106
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015d939de9c7b4f06806f9865748625c
+      internalID: -1696397627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_28
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1106
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea778a51c30b64dd4a773dd49558f4d2
+      internalID: -806180649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_29
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1059
+        width: 257
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78733660ac96409faeb6ec786e1eb0d
+      internalID: 626314719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_30
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1137
+        width: 65
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46b13b59d3dc405c8d8182291c2fc75
+      internalID: 906394453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_31
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1227
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de53460aaea24273ae00e17fa3bb5b6
+      internalID: 602221672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_32
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1227
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ca7048454924d59a7f94a0942f4895
+      internalID: 2060231449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_33
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1227
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b58840a9cf3747d68987491545de3a4
+      internalID: 491672666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_34
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1227
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476dfadaa208842e9ab72d31777e49cb
+      internalID: 1888449444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_35
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1227
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c035cc4d61db84743a9aac027b479a92
+      internalID: -1916730342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_36
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6846ec7bd5f48c3b7bfb14ed9576c5
+      internalID: -1455495984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_37
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1218
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f42b5bef66844a50810a9b4997bfd33
+      internalID: 1228972897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_38
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7242afa200d654d1a8b64d2722f6b65b
+      internalID: 2083483923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_39
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1203
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572cae079a8284ec48be9d7ab44f383f
+      internalID: 696913415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_40
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1203
+        width: 98
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8067864f68bb4e5b91de42ff7323cae
+      internalID: 1536749678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_41
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1203
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6118b3a6c904330b9710d596e9a735
+      internalID: -845368715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_42
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1203
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f323cad463a214ea0a51bad6c97288df
+      internalID: -1786628751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_43
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1202
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22674b7bec6bc4ea5bc21f8ee0fe9253
+      internalID: 1363157907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_44
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1202
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e9b2fccbb5d4bba9628187a8dd6e86
+      internalID: 2122089789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_45
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1202
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de6bdb97c34246dda9282fe239c143c
+      internalID: 1325231974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_46
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1170
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9686adb0236794dbf913c66cbc238066
+      internalID: 1346877343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_47
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1170
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb508764f93d4a3198baf3b002df284
+      internalID: -150931782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_48
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1137
+        width: 8
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e80ad5f33ad4819a37ba038c01a885
+      internalID: -374352542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_49
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1137
+        width: 16
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d710bd719834097b6220e05f9c7eaf
+      internalID: 1202382044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_50
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1170
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bf116db3b4741a5b0f7a4a3b1163d6
+      internalID: 890155116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_51
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1170
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab016d4625d24aedbfad3b7aeea3807
+      internalID: 1767672136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_52
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1137
+        width: 16
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8a4857dd6634fb68dda4a0a90bda32
+      internalID: 93113271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_53
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1170
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24b9c008ea774042b79c9ef29d63157
+      internalID: -580650388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_54
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1170
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f052305942e47bb91dc63002523158
+      internalID: -1709314796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_55
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1137
+        width: 16
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe47478e68c441aba333ed856c619ff
+      internalID: 2019936147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_56
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1170
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd4d94896d1a4e19828702cf2487038
+      internalID: -328736621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_57
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1170
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f780a9896e1c14f23ab3e9f57cd7c7aa
+      internalID: -1154626995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_58
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1170
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04566eeb3214b4323a4672f05a8abd2e
+      internalID: -1329744527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_59
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1170
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51d5467734e140578f6178c19eeb6a7
+      internalID: -1092801345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_60
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1185
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb574d2541678439bb605f32c5258c76
+      internalID: -1450523496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_61
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1185
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b259f6a31ac4ce9b6e95532b9b2737
+      internalID: -2001334154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_62
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1137
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa92ee514100241f488631f19aaf0b86
+      internalID: -544256805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_63
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1120
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54289525510814af6991aed3b3bf8a12
+      internalID: -1501922223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_64
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1137
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07085f091619946f4abde5f1e20e005d
+      internalID: 1715850699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_65
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1120
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433fa3ed6e5ce4e7e8c3d48b4327c238
+      internalID: -1433663760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_66
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1116
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef4e28b70c0648729393e3da6440d1e
+      internalID: -2129909143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_67
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1137
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15217262284464cb5b9158a42aaa4db4
+      internalID: -1621279284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_68
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1137
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0299ade65150e471bb54bcbe68646dc1
+      internalID: -1839827196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_69
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1137
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2876b44e72fc54614bda2d46656584ce
+      internalID: -124074209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_70
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1137
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a9c57a48bd74f5880a7ab0e1f7d3ce
+      internalID: 1288265057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_71
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1104
+        width: 98
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f5f39088d994a3aa362236080edf25
+      internalID: 2093202381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_72
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1120
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b69189778cae48feac2699d17f8eb70
+      internalID: 799415581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_73
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1104
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b29937e20cbc48269b19fd5e8bd0d8d
+      internalID: 1824694108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_74
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1104
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c14c71b8851e4cc8823a8e0256f7703
+      internalID: -1793502222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_75
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1104
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d07f4f76ae5a4e889010cd380225775
+      internalID: 683571080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_76
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1104
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db993072e3c25450297e5c95e3caf286
+      internalID: 42180203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_77
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1104
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563efc69fecf249199b964a56fc0ba9b
+      internalID: 1407299797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_78
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1057
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069a4816c300d4c0fbf27779f6742923
+      internalID: -2137087080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_79
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1057
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b138eb6677a234075957cc4a1eac689f
+      internalID: 630905112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_80
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1057
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7c87203ea4d442d81b6dfbf6137134
+      internalID: 1775158061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_81
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1057
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17d78e6cfc434c38b635ab46965c614
+      internalID: -1714893239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_82
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1057
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe04d304cfc0a4ab899831a9b99d6c84
+      internalID: -147197100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_83
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1057
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fad803067c646e79b41915f6dad7ba
+      internalID: 1383983961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_84
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1057
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04bd543fda4d444091cba156cbd2099
+      internalID: 906211795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_85
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1057
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3351158f385b4f2c9aa0c330b42ceca
+      internalID: -1598548555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_86
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1057
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27e5a3ff7daf4292bafee1fae48ddbe
+      internalID: 2061678672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_87
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 942
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d697a588e617d4b35ab6d3c69a44d49c
+      internalID: 766629679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_88
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 942
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381eb409766574d8ea4a199bd90b6025
+      internalID: 1049860747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_89
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 942
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691ba5e085ff940009fd55444ac21756
+      internalID: 1497967522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_90
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 942
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08ec6dbff1284ba2b76af8cecd02067
+      internalID: -1091062444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_91
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 942
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa639ba3afd64c1887cb30050f88b6e
+      internalID: 1560041601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_92
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 942
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308ffd7706b2b4bdb80589122b68e746
+      internalID: 655752546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_93
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 827
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b662cc88107db4edba5f29e0fcb40155
+      internalID: -1369588010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_94
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 827
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c48289e0d36a4b15a8a6876c75d831a
+      internalID: -1749201762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_95
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 827
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4970568b4c4974e80bc8c3194f6c1d7e
+      internalID: 1727849924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_96
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 827
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612836698a9b44805b1172b1dccd1e53
+      internalID: -234306238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_97
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 827
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce816031e4ae4e1492642d419da926a
+      internalID: 819057031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_98
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 827
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99edbd7b5de44492833232442facb1a
+      internalID: -1697407974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_99
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 712
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfbf9c5d775f45d9adb35cef0c744ee
+      internalID: -544229177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_100
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 712
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce169d0a876fb4f88989be15f1ab47c7
+      internalID: 470429219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_101
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 712
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad7af579b7484fc9a6570157c87a9a3
+      internalID: -1601963975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_102
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 712
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d54d624b63c4c7cbd1c5a57dd46db9
+      internalID: -1256502892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_103
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 712
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733b44ea0c8a84282b8b49faf2b222c7
+      internalID: -1511907658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_104
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 597
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8de9f343bbd54f108a313aa31342246
+      internalID: 806966627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_105
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 597
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e614cad65c074c65974357c9bc3002a
+      internalID: 191704371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_106
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 597
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b7dd206b0a341499b733aa576758ac
+      internalID: -1551246866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_107
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 597
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d92b4405eb54025a3bea38b1e0ff46
+      internalID: -974729011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_108
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 597
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c35b89d9235403aa3ede0d0b320de6
+      internalID: 255173381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_109
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 597
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8da1abea568749a2a4c4bdfcb4d9ca9
+      internalID: 214170317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_110
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 482
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc3d9ab4be3e4e779c61820342889a5
+      internalID: 1290601271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_111
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 482
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3638529d7a4d941d3835c5a558fc3872
+      internalID: 487173058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_112
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 482
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddb2f0342c9f4773a8f019d3efefeab
+      internalID: -2064711892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_113
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 482
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553f02b97fc38487c99b398fc0cfc8a5
+      internalID: -415223354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_114
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 482
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d16cfd31d00b4f40a02d91e93d9dc9f
+      internalID: -1154202360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_115
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 482
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fa59774b8e14d35a287235d4a683bd
+      internalID: -1940880024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_116
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 367
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25464a00b466e486c92f11000a0153d1
+      internalID: -2118388195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_117
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 367
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3958c2bdccfe460baad16e893e6af75
+      internalID: -278698604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_118
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 367
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fbbbad30ace42ce9367b5cf26940d9
+      internalID: 1151359338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_119
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 367
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98c6f7108c1f45b5aaa5d888ad82c4b
+      internalID: 1450949718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_120
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 367
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e5e73103b3b46b99ff102bd2f02fc4
+      internalID: -553435347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_121
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 367
+        width: 193
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc69cd509d2b41c6899c76c9e81fef0
+      internalID: -238367534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_122
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 252
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11d8426cd0764871af5c16d0956c3d7
+      internalID: -1530772089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_123
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 252
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef86ec77e508c470eaac9d77170d8634
+      internalID: 2095512847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_124
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 252
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0971ec5e02506472fa4ee5a9394d5de9
+      internalID: 1828479104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_125
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 252
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7567526666c44b895197d50d5aa70c
+      internalID: -1300351589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_126
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 252
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62794ac383d245a29f4c2c5a8a2f4ba
+      internalID: -911151398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_127
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 252
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bcecf09ec57480384444d553814a27
+      internalID: 1455882885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_128
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 240
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67be2305427be475f93638f01ed984b6
+      internalID: 1071722568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_129
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 240
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05125373b53d44efab18cb22c6c5f58a
+      internalID: 343255709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_130
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 240
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb270de42d9e540f9b62392836b73cbb
+      internalID: 441057319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_131
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 240
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03d2627c0e274f9cba1ae2d9c48a3d0
+      internalID: -373902058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_132
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 240
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bbb964b5b964f7cab0a5591f78bbbf
+      internalID: -852631156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_133
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 240
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad101a0ae8de4b2988ae553a5338f12
+      internalID: -62289981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_134
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 240
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0eece9c780e4058b77bc6c9020deb2
+      internalID: 1648351267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_135
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 240
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668c9ba9dc4724868b75c2440076a2c8
+      internalID: -1791515085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_136
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 240
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b603df81dbd274d39ac7c68fc9128028
+      internalID: -1731896389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_137
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 240
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4261ad0bdb09d41de88ee6f2f8ea00ba
+      internalID: -1491012976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_138
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 240
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e2fcac8132d49e6b425c7cfabf0548
+      internalID: 2009283889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_139
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 240
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2552c398aa12b4e31bb877caf311c5e8
+      internalID: 60887746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_140
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 240
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9722135ab7f0545f385a04f5b5a010cc
+      internalID: -398582054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_141
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 239
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc37ec1911ba841dd9ded935dfa192a5
+      internalID: 1646833305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_142
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 240
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a708510a701445fbb0368996413eab
+      internalID: 1012451315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_143
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 240
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d7e305e66fb49f9a07b3945c74dd4b
+      internalID: 1909219697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_144
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 240
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a8c8cab90924561809c6632c6b1e6c
+      internalID: 1875696977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_145
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 240
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8714e6fc35b4296b6e41bd5367555e
+      internalID: 250859889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_146
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 240
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76890129b86a41b2899cc9122768c91
+      internalID: -436550283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_147
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 239
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b99540f584f4387a92de9472f1401b
+      internalID: -462742077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_148
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 240
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327cedb1faf48400db696fcd9ba4e6a8
+      internalID: -521290040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_149
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 125
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71977ab69492c4f9d97086b2c939b54c
+      internalID: 1607782823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_150
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 125
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3282b62844c1d4d2dbe7b7cc4e0712ba
+      internalID: 2087557302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_151
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 77
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3b7cdf475d644e79f2f806d861dab2
+      internalID: 1884745785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_152
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 77
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dae8e589752848e9bfadda1714d6edf
+      internalID: -162042010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_153
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 113
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343f8cd249b274d5cbca5acaf4f76801
+      internalID: -1303351264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_154
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 113
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172f60c5c09ea4984ad09e0da7830eba
+      internalID: 968069247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_155
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 113
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6f75695fb2743919118891a8836ade
+      internalID: -2073449540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_156
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 112
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f15f41290c646ea861474c1ce56763
+      internalID: -50049960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_157
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 113
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d94b9da35cf04f4787622ecebf85773
+      internalID: 2131485406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_158
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 113
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7369ea96b4264e9abeffcfaf7d5e769
+      internalID: -132961001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_159
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 113
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fbe97dda297409ca06c3a63387a7e3
+      internalID: -647893019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_160
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 113
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f500baa47e574919b7574dafc2d545f
+      internalID: 249086295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_161
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 113
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea6665db824d4855a385d30a20a8a91
+      internalID: -625213597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_162
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 113
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e41a89205e141908d5623fbb3c799f
+      internalID: 313118950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_163
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 113
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9913949695ce74341813edbdcace7a72
+      internalID: 1015151397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_164
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 113
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8646bb12ea4b04a039ebee3de8dfadf0
+      internalID: 200678423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_165
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 113
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192f37c38121b4681859c32fee61a047
+      internalID: 2137783022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_166
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 113
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e756cb73795454bdf94487aea3524efa
+      internalID: -882325632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_167
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 113
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9821c6a9f6b1f40aca377ee124bfb881
+      internalID: -632209244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_168
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 113
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09fbb1759fdf476db140c83578acc04
+      internalID: 873618397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_169
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 113
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9718be453d2794434b312cf3bc4feb1d
+      internalID: -1931344631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_170
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 113
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5ba06ceacd0481f8cfe32123cc0100
+      internalID: 655006992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_171
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 113
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733913cf3134e41f493acc982e4192d8
+      internalID: 784965918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_172
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 113
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfd6fb7aa3a74888bc17ead3db0d86e
+      internalID: -511306594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_173
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 101
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d432ed0330a3746ed93d078f13f0d057
+      internalID: 1793594690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_174
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 101
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85be485f789ec47f0949087363ed63bb
+      internalID: -432177359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_175
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 101
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07e165111c664f5d991522272058ed3
+      internalID: -1729722749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_176
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 101
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a26f795c68e948cda117271fbe4eeba
+      internalID: -189384489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_177
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 101
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e84cb58d2d44fd095009455585c7ce
+      internalID: 1908291838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_178
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 101
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c141f1e6960e94d2393e5f4894e66d7f
+      internalID: 1535949411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_179
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 101
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5378b5fc15f7c432583e2edeb59da698
+      internalID: 548244730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_180
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 101
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a048141b11bc47ac8f74365bfb0449e
+      internalID: 1901504265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_181
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 101
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708431d18af1d460682d50ca461ff54d
+      internalID: -1975965575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_182
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 101
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb96aba77121424b984eda7bf164c61
+      internalID: 2100123410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_183
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 101
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96964fdff725644e79e6265495bedd11
+      internalID: -42513560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_184
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 101
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745373834dfd54f1ca3adfe521a8a2e4
+      internalID: 449332081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_185
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 101
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88bd6c46b9bf4da785580f24bb0c7aa
+      internalID: 787194069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_186
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 101
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f1748462fad475d8fd7db066db6728
+      internalID: -66081811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_187
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 101
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa243ba17ddc46c68e4de5347b29ee1
+      internalID: 248467773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_188
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 101
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c74b96e2fa82477aad3acc912cd132d
+      internalID: -1420375167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_189
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 101
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fcfca37e92a4418be5670a054b31b1
+      internalID: -1104980615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_190
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 101
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16df5823f8ad2448eaceb4577fafdad5
+      internalID: 2046965043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_191
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 101
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297d2f096ff5a443b82fa9a43288141a
+      internalID: 212712600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_192
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 101
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53c44ec27efa4286ae70ab6907492a9
+      internalID: -1231758458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_193
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 101
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd6c87a5de374c2cb2a6bba46556162
+      internalID: -1724947102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_194
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 101
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10ae7695f5754b008bda73a8752f2f2
+      internalID: 989387719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_195
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 101
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e479a60b8a37d441db0e35e34c9af6a5
+      internalID: -1824742789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_196
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 101
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c864ff7c027245b1a205f27038f9fbe
+      internalID: -512107581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_197
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 101
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95b698d7afe442ceae30bf8aaa29810
+      internalID: 265177415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_198
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 101
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97259807cd280486abcf416a2a55150d
+      internalID: 607610801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_199
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 101
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ff6e48aa80d49c6afe2d7ffad94921
+      internalID: 1065249067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_200
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 101
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb82dd170c8a44826a1bf051aa14928e
+      internalID: -1645216361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_201
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 101
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a117caa6d5d4e9cb03c0b13927d151
+      internalID: -1380002580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_202
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 101
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f77c0bcf89d464d8c62c3611d90be2
+      internalID: 687554384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_203
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 101
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdb25f1dde404d0c950413dccaa8f16
+      internalID: 1107823913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_204
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 101
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d32e8de762c54887b950dc49cf7f4b1
+      internalID: -2020085710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_205
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 101
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6a02806c4dd47d6a27aa0116a42245
+      internalID: 1676234954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_206
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 101
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccb12a91611e41e09e8c9715382503d
+      internalID: 1477480709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_207
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 101
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9365d9b29d6a248308516e5e11bfae43
+      internalID: 228670349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_208
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 101
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583981666f1924b5dbb76e8f1b306a06
+      internalID: -1203926705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_209
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 101
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9e459e5f0a4471bac4093f9bbad025
+      internalID: -462157432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_210
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 101
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33addb56376c4b3b915be9b5dcf5143
+      internalID: -102656614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_211
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 101
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f2162e024044db2adca8734d874f7c
+      internalID: -728252449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_212
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aef54e9ea4794a02b9bf3d4d9c3737f
+      internalID: -665138857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_213
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb29a240ed6f4da0849afed43be9d82
+      internalID: 539027597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_214
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e8b725cfa55462392b111ad69a5e67
+      internalID: -768284612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_215
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7cdab070627440992b6a8c71eba76d
+      internalID: -934051829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_216
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5104824e8cb5547129b912f97b85e6c2
+      internalID: -474739556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_217
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0d53681e58b45a2b5b85c6632e825d
+      internalID: 1387565698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_218
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bc50f6b3d444706a2e48a4b3772191
+      internalID: 713022021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_219
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5dfc95c1c5040fcb65c3f160271eca
+      internalID: 636419997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_220
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d32e77f28ee444dac832f276a609a2
+      internalID: -746426003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_221
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec52a29fb3ee748648e6d20ce9b55f95
+      internalID: 209866007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_222
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 90
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ef88003f30c4544b4a373d88fcf101
+      internalID: -901434566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_223
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 90
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4fccc859fdc4576b48caf784c3f053
+      internalID: 239842885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_224
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 56
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06258859eec7d438eafdc2a0e7e9e4ed
+      internalID: 2097810246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_225
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 56
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02561403b80704e13b141166051aa47d
+      internalID: 1243702588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_226
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 56
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d721c21056384984bff9d68445f5a6a
+      internalID: 313268746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_227
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 56
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644c00bf694284f1a9140a5986bf970a
+      internalID: 1275398226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_228
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 56
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a379db1dc9a3b4d61ac55f967a755e60
+      internalID: -1142839572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_229
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 56
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc8b2d406e2147c78a87ac64bedab5f
+      internalID: 132345073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_230
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 56
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6868579af8464619a9ec861b07dd6df
+      internalID: -2023707302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_231
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 56
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692fb810f785149a8bdfcd65ca06d9ff
+      internalID: -1634334083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_232
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 56
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d437361c29a6b41cf890f45cc27fffb8
+      internalID: -387033124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_233
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 56
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89716f5f2d454d719b276096c560e90
+      internalID: 1211757186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_234
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 78
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736a6686d98044473bff81ada5e0ad1a
+      internalID: 1705034835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_235
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 78
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd3e56aa1f8c4132aa7c0f26ccc5e42
+      internalID: -1189067991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_236
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 78
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f619cbd0ca03643a7a9280948205f7f9
+      internalID: -1694213572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_237
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 68
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd9c398787c248fb907d5d3414e92fb
+      internalID: 1469558174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_238
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 68
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b576b8d85cb9c4c4784cb885a1a69ecb
+      internalID: -1274725877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_239
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0169c43ebe1944a45982cf720f950269
+      internalID: -1259665134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_240
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 46
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d084d5d5f9a8544afac43a576c19e973
+      internalID: -623708901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_241
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 46
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79251737f025c484488f33a206fbea1d
+      internalID: 1730128496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_242
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 46
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c0d1882c75b49229a73e3cc1d5b1e8
+      internalID: 1413432160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_243
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 46
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9491c68871a51412084188ea5145759d
+      internalID: -1085998617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_244
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fedde887e7d4e5aa82a89df9a1c31e
+      internalID: 769520575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_245
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 46
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab2d52cd3f1c4a52a9b4b433f589038
+      internalID: 1903349774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_246
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 46
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef8c59e13f7c4e0eaa3926a5da44a15
+      internalID: -1884075363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_247
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 46
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a424e04a2c844c27b7283628ec525ba
+      internalID: -1577019318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_248
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 46
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f29523d1fa846deaf485df3909774d
+      internalID: -399853930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_249
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8b0bc41bcdc40ebb379b2a85f0c063
+      internalID: 187044817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_250
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 46
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a8bd7e115344bad8e70d31074dfa9a
+      internalID: 1801830007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_251
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 46
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f72f46732dde45d596a80ce80effa28
+      internalID: -672330828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_252
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 46
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd32cec9588fb4355ba76a3605b0d1c2
+      internalID: 1420482997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_253
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 46
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332d2e4cb60354d52b9db45c8ffeb2c0
+      internalID: 1637001758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_254
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 46
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0757d3abc9924769a44016f2df07c31
+      internalID: -1998429979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_255
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 46
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1ea8097b40c41d0bae18ac57c06a86
+      internalID: -1969800264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_256
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f4cc093aca54d9db8eb56fe903c620
+      internalID: 1419687108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_257
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 46
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd860e74a90354f068042ce1ae4ea0f8
+      internalID: 1055712167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_258
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 46
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2972e84f31c416497a30bebf433b19
+      internalID: -1710682871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_259
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 46
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6e50c5c5bc04da7a0f5c2762914f3d
+      internalID: -286547640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_260
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 46
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fb33e7db7694d67b228a5dcb29b290
+      internalID: -2068368038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_261
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 46
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036271ba8564c46aca55a427993b17fe
+      internalID: 1059588301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_262
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 46
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156f0e959000449be9603be54b72e7b0
+      internalID: 422757862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_263
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 46
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7e4d6dcb82d4124a8bfd77ec53b6fe
+      internalID: -1168566667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_264
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 45
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9179f94234b4df5b9de6032dd8f006
+      internalID: 213444628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_265
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 46
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8139b419b0ba44f4fac2580a57009aeb
+      internalID: -1582834899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_266
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 25
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028fec618aa874594a59b7955a2c0b5f
+      internalID: -1165842183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_267
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 25
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622d5d4dc3cfa406f8344642e89f60d0
+      internalID: 219719407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_268
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2d10ebe21a3418eb172d2da150e4e4
+      internalID: -866149077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_269
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569dc8340fe5a4be1ac9c925fa20c21a
+      internalID: -558474333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_270
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db499329d84194466a2280e23ac17d82
+      internalID: 1534557209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_271
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed45a73331a248ec9874167559bd4ba
+      internalID: -1408307385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_272
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3085ab4200e47eca287d2a9623c71d
+      internalID: 1491358758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_273
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369274bad87aa4890812b1ed7af77c83
+      internalID: 1692834749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_274
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10add57132d54cf4a00965d0e015f60
+      internalID: -1438206874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_275
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc48d23be6aca4a2bb5721e3769e494f
+      internalID: 1100502279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_276
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d002d1219944909bf19e10a29b7614
+      internalID: -923224557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_277
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5d7222d462843c69951973e2c9a208
+      internalID: 167950131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_278
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334402575a521448081822f879df9d03
+      internalID: -527286123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_279
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0da60500e9e94e2d8de7caff55fe1d9
+      internalID: 1826382215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_280
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d78e9dea947f43fcbf8149443163985
+      internalID: -1336779078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_281
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ef49f65186f459b890a995bb95f957
+      internalID: 1649361668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_282
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52ceadd34bd148cea9e5f724acf90b5
+      internalID: 1854382343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_283
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002bc00e3104d4652907bd3cd04290ad
+      internalID: -504765908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_284
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107ee08b4d25f430990b2f7c3c1ad169
+      internalID: 1143857199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_285
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d525e43e4155491b9967da52b6fc3f6
+      internalID: -1930570997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tileset copy_286
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b566d084f199a4e429b8a9a96118ee5c
+      internalID: -779526532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NES - The Legend of Zelda - Dungeon Tileset copy_0: 1528495623
+      NES - The Legend of Zelda - Dungeon Tileset copy_1: 249773054
+      NES - The Legend of Zelda - Dungeon Tileset copy_10: 539335319
+      NES - The Legend of Zelda - Dungeon Tileset copy_100: 470429219
+      NES - The Legend of Zelda - Dungeon Tileset copy_101: -1601963975
+      NES - The Legend of Zelda - Dungeon Tileset copy_102: -1256502892
+      NES - The Legend of Zelda - Dungeon Tileset copy_103: -1511907658
+      NES - The Legend of Zelda - Dungeon Tileset copy_104: 806966627
+      NES - The Legend of Zelda - Dungeon Tileset copy_105: 191704371
+      NES - The Legend of Zelda - Dungeon Tileset copy_106: -1551246866
+      NES - The Legend of Zelda - Dungeon Tileset copy_107: -974729011
+      NES - The Legend of Zelda - Dungeon Tileset copy_108: 255173381
+      NES - The Legend of Zelda - Dungeon Tileset copy_109: 214170317
+      NES - The Legend of Zelda - Dungeon Tileset copy_11: -1043200924
+      NES - The Legend of Zelda - Dungeon Tileset copy_110: 1290601271
+      NES - The Legend of Zelda - Dungeon Tileset copy_111: 487173058
+      NES - The Legend of Zelda - Dungeon Tileset copy_112: -2064711892
+      NES - The Legend of Zelda - Dungeon Tileset copy_113: -415223354
+      NES - The Legend of Zelda - Dungeon Tileset copy_114: -1154202360
+      NES - The Legend of Zelda - Dungeon Tileset copy_115: -1940880024
+      NES - The Legend of Zelda - Dungeon Tileset copy_116: -2118388195
+      NES - The Legend of Zelda - Dungeon Tileset copy_117: -278698604
+      NES - The Legend of Zelda - Dungeon Tileset copy_118: 1151359338
+      NES - The Legend of Zelda - Dungeon Tileset copy_119: 1450949718
+      NES - The Legend of Zelda - Dungeon Tileset copy_12: -1976748416
+      NES - The Legend of Zelda - Dungeon Tileset copy_120: -553435347
+      NES - The Legend of Zelda - Dungeon Tileset copy_121: -238367534
+      NES - The Legend of Zelda - Dungeon Tileset copy_122: -1530772089
+      NES - The Legend of Zelda - Dungeon Tileset copy_123: 2095512847
+      NES - The Legend of Zelda - Dungeon Tileset copy_124: 1828479104
+      NES - The Legend of Zelda - Dungeon Tileset copy_125: -1300351589
+      NES - The Legend of Zelda - Dungeon Tileset copy_126: -911151398
+      NES - The Legend of Zelda - Dungeon Tileset copy_127: 1455882885
+      NES - The Legend of Zelda - Dungeon Tileset copy_128: 1071722568
+      NES - The Legend of Zelda - Dungeon Tileset copy_129: 343255709
+      NES - The Legend of Zelda - Dungeon Tileset copy_13: -1141830806
+      NES - The Legend of Zelda - Dungeon Tileset copy_130: 441057319
+      NES - The Legend of Zelda - Dungeon Tileset copy_131: -373902058
+      NES - The Legend of Zelda - Dungeon Tileset copy_132: -852631156
+      NES - The Legend of Zelda - Dungeon Tileset copy_133: -62289981
+      NES - The Legend of Zelda - Dungeon Tileset copy_134: 1648351267
+      NES - The Legend of Zelda - Dungeon Tileset copy_135: -1791515085
+      NES - The Legend of Zelda - Dungeon Tileset copy_136: -1731896389
+      NES - The Legend of Zelda - Dungeon Tileset copy_137: -1491012976
+      NES - The Legend of Zelda - Dungeon Tileset copy_138: 2009283889
+      NES - The Legend of Zelda - Dungeon Tileset copy_139: 60887746
+      NES - The Legend of Zelda - Dungeon Tileset copy_14: 829131128
+      NES - The Legend of Zelda - Dungeon Tileset copy_140: -398582054
+      NES - The Legend of Zelda - Dungeon Tileset copy_141: 1646833305
+      NES - The Legend of Zelda - Dungeon Tileset copy_142: 1012451315
+      NES - The Legend of Zelda - Dungeon Tileset copy_143: 1909219697
+      NES - The Legend of Zelda - Dungeon Tileset copy_144: 1875696977
+      NES - The Legend of Zelda - Dungeon Tileset copy_145: 250859889
+      NES - The Legend of Zelda - Dungeon Tileset copy_146: -436550283
+      NES - The Legend of Zelda - Dungeon Tileset copy_147: -462742077
+      NES - The Legend of Zelda - Dungeon Tileset copy_148: -521290040
+      NES - The Legend of Zelda - Dungeon Tileset copy_149: 1607782823
+      NES - The Legend of Zelda - Dungeon Tileset copy_15: -1771896197
+      NES - The Legend of Zelda - Dungeon Tileset copy_150: 2087557302
+      NES - The Legend of Zelda - Dungeon Tileset copy_151: 1884745785
+      NES - The Legend of Zelda - Dungeon Tileset copy_152: -162042010
+      NES - The Legend of Zelda - Dungeon Tileset copy_153: -1303351264
+      NES - The Legend of Zelda - Dungeon Tileset copy_154: 968069247
+      NES - The Legend of Zelda - Dungeon Tileset copy_155: -2073449540
+      NES - The Legend of Zelda - Dungeon Tileset copy_156: -50049960
+      NES - The Legend of Zelda - Dungeon Tileset copy_157: 2131485406
+      NES - The Legend of Zelda - Dungeon Tileset copy_158: -132961001
+      NES - The Legend of Zelda - Dungeon Tileset copy_159: -647893019
+      NES - The Legend of Zelda - Dungeon Tileset copy_16: -605312636
+      NES - The Legend of Zelda - Dungeon Tileset copy_160: 249086295
+      NES - The Legend of Zelda - Dungeon Tileset copy_161: -625213597
+      NES - The Legend of Zelda - Dungeon Tileset copy_162: 313118950
+      NES - The Legend of Zelda - Dungeon Tileset copy_163: 1015151397
+      NES - The Legend of Zelda - Dungeon Tileset copy_164: 200678423
+      NES - The Legend of Zelda - Dungeon Tileset copy_165: 2137783022
+      NES - The Legend of Zelda - Dungeon Tileset copy_166: -882325632
+      NES - The Legend of Zelda - Dungeon Tileset copy_167: -632209244
+      NES - The Legend of Zelda - Dungeon Tileset copy_168: 873618397
+      NES - The Legend of Zelda - Dungeon Tileset copy_169: -1931344631
+      NES - The Legend of Zelda - Dungeon Tileset copy_17: 1208404317
+      NES - The Legend of Zelda - Dungeon Tileset copy_170: 655006992
+      NES - The Legend of Zelda - Dungeon Tileset copy_171: 784965918
+      NES - The Legend of Zelda - Dungeon Tileset copy_172: -511306594
+      NES - The Legend of Zelda - Dungeon Tileset copy_173: 1793594690
+      NES - The Legend of Zelda - Dungeon Tileset copy_174: -432177359
+      NES - The Legend of Zelda - Dungeon Tileset copy_175: -1729722749
+      NES - The Legend of Zelda - Dungeon Tileset copy_176: -189384489
+      NES - The Legend of Zelda - Dungeon Tileset copy_177: 1908291838
+      NES - The Legend of Zelda - Dungeon Tileset copy_178: 1535949411
+      NES - The Legend of Zelda - Dungeon Tileset copy_179: 548244730
+      NES - The Legend of Zelda - Dungeon Tileset copy_18: 617319210
+      NES - The Legend of Zelda - Dungeon Tileset copy_180: 1901504265
+      NES - The Legend of Zelda - Dungeon Tileset copy_181: -1975965575
+      NES - The Legend of Zelda - Dungeon Tileset copy_182: 2100123410
+      NES - The Legend of Zelda - Dungeon Tileset copy_183: -42513560
+      NES - The Legend of Zelda - Dungeon Tileset copy_184: 449332081
+      NES - The Legend of Zelda - Dungeon Tileset copy_185: 787194069
+      NES - The Legend of Zelda - Dungeon Tileset copy_186: -66081811
+      NES - The Legend of Zelda - Dungeon Tileset copy_187: 248467773
+      NES - The Legend of Zelda - Dungeon Tileset copy_188: -1420375167
+      NES - The Legend of Zelda - Dungeon Tileset copy_189: -1104980615
+      NES - The Legend of Zelda - Dungeon Tileset copy_19: 1620121748
+      NES - The Legend of Zelda - Dungeon Tileset copy_190: 2046965043
+      NES - The Legend of Zelda - Dungeon Tileset copy_191: 212712600
+      NES - The Legend of Zelda - Dungeon Tileset copy_192: -1231758458
+      NES - The Legend of Zelda - Dungeon Tileset copy_193: -1724947102
+      NES - The Legend of Zelda - Dungeon Tileset copy_194: 989387719
+      NES - The Legend of Zelda - Dungeon Tileset copy_195: -1824742789
+      NES - The Legend of Zelda - Dungeon Tileset copy_196: -512107581
+      NES - The Legend of Zelda - Dungeon Tileset copy_197: 265177415
+      NES - The Legend of Zelda - Dungeon Tileset copy_198: 607610801
+      NES - The Legend of Zelda - Dungeon Tileset copy_199: 1065249067
+      NES - The Legend of Zelda - Dungeon Tileset copy_2: -970774638
+      NES - The Legend of Zelda - Dungeon Tileset copy_20: 640549768
+      NES - The Legend of Zelda - Dungeon Tileset copy_200: -1645216361
+      NES - The Legend of Zelda - Dungeon Tileset copy_201: -1380002580
+      NES - The Legend of Zelda - Dungeon Tileset copy_202: 687554384
+      NES - The Legend of Zelda - Dungeon Tileset copy_203: 1107823913
+      NES - The Legend of Zelda - Dungeon Tileset copy_204: -2020085710
+      NES - The Legend of Zelda - Dungeon Tileset copy_205: 1676234954
+      NES - The Legend of Zelda - Dungeon Tileset copy_206: 1477480709
+      NES - The Legend of Zelda - Dungeon Tileset copy_207: 228670349
+      NES - The Legend of Zelda - Dungeon Tileset copy_208: -1203926705
+      NES - The Legend of Zelda - Dungeon Tileset copy_209: -462157432
+      NES - The Legend of Zelda - Dungeon Tileset copy_21: 312831427
+      NES - The Legend of Zelda - Dungeon Tileset copy_210: -102656614
+      NES - The Legend of Zelda - Dungeon Tileset copy_211: -728252449
+      NES - The Legend of Zelda - Dungeon Tileset copy_212: -665138857
+      NES - The Legend of Zelda - Dungeon Tileset copy_213: 539027597
+      NES - The Legend of Zelda - Dungeon Tileset copy_214: -768284612
+      NES - The Legend of Zelda - Dungeon Tileset copy_215: -934051829
+      NES - The Legend of Zelda - Dungeon Tileset copy_216: -474739556
+      NES - The Legend of Zelda - Dungeon Tileset copy_217: 1387565698
+      NES - The Legend of Zelda - Dungeon Tileset copy_218: 713022021
+      NES - The Legend of Zelda - Dungeon Tileset copy_219: 636419997
+      NES - The Legend of Zelda - Dungeon Tileset copy_22: -2057463476
+      NES - The Legend of Zelda - Dungeon Tileset copy_220: -746426003
+      NES - The Legend of Zelda - Dungeon Tileset copy_221: 209866007
+      NES - The Legend of Zelda - Dungeon Tileset copy_222: -901434566
+      NES - The Legend of Zelda - Dungeon Tileset copy_223: 239842885
+      NES - The Legend of Zelda - Dungeon Tileset copy_224: 2097810246
+      NES - The Legend of Zelda - Dungeon Tileset copy_225: 1243702588
+      NES - The Legend of Zelda - Dungeon Tileset copy_226: 313268746
+      NES - The Legend of Zelda - Dungeon Tileset copy_227: 1275398226
+      NES - The Legend of Zelda - Dungeon Tileset copy_228: -1142839572
+      NES - The Legend of Zelda - Dungeon Tileset copy_229: 132345073
+      NES - The Legend of Zelda - Dungeon Tileset copy_23: -1878666537
+      NES - The Legend of Zelda - Dungeon Tileset copy_230: -2023707302
+      NES - The Legend of Zelda - Dungeon Tileset copy_231: -1634334083
+      NES - The Legend of Zelda - Dungeon Tileset copy_232: -387033124
+      NES - The Legend of Zelda - Dungeon Tileset copy_233: 1211757186
+      NES - The Legend of Zelda - Dungeon Tileset copy_234: 1705034835
+      NES - The Legend of Zelda - Dungeon Tileset copy_235: -1189067991
+      NES - The Legend of Zelda - Dungeon Tileset copy_236: -1694213572
+      NES - The Legend of Zelda - Dungeon Tileset copy_237: 1469558174
+      NES - The Legend of Zelda - Dungeon Tileset copy_238: -1274725877
+      NES - The Legend of Zelda - Dungeon Tileset copy_239: -1259665134
+      NES - The Legend of Zelda - Dungeon Tileset copy_24: 68211600
+      NES - The Legend of Zelda - Dungeon Tileset copy_240: -623708901
+      NES - The Legend of Zelda - Dungeon Tileset copy_241: 1730128496
+      NES - The Legend of Zelda - Dungeon Tileset copy_242: 1413432160
+      NES - The Legend of Zelda - Dungeon Tileset copy_243: -1085998617
+      NES - The Legend of Zelda - Dungeon Tileset copy_244: 769520575
+      NES - The Legend of Zelda - Dungeon Tileset copy_245: 1903349774
+      NES - The Legend of Zelda - Dungeon Tileset copy_246: -1884075363
+      NES - The Legend of Zelda - Dungeon Tileset copy_247: -1577019318
+      NES - The Legend of Zelda - Dungeon Tileset copy_248: -399853930
+      NES - The Legend of Zelda - Dungeon Tileset copy_249: 187044817
+      NES - The Legend of Zelda - Dungeon Tileset copy_25: -524678000
+      NES - The Legend of Zelda - Dungeon Tileset copy_250: 1801830007
+      NES - The Legend of Zelda - Dungeon Tileset copy_251: -672330828
+      NES - The Legend of Zelda - Dungeon Tileset copy_252: 1420482997
+      NES - The Legend of Zelda - Dungeon Tileset copy_253: 1637001758
+      NES - The Legend of Zelda - Dungeon Tileset copy_254: -1998429979
+      NES - The Legend of Zelda - Dungeon Tileset copy_255: -1969800264
+      NES - The Legend of Zelda - Dungeon Tileset copy_256: 1419687108
+      NES - The Legend of Zelda - Dungeon Tileset copy_257: 1055712167
+      NES - The Legend of Zelda - Dungeon Tileset copy_258: -1710682871
+      NES - The Legend of Zelda - Dungeon Tileset copy_259: -286547640
+      NES - The Legend of Zelda - Dungeon Tileset copy_26: -1914893803
+      NES - The Legend of Zelda - Dungeon Tileset copy_260: -2068368038
+      NES - The Legend of Zelda - Dungeon Tileset copy_261: 1059588301
+      NES - The Legend of Zelda - Dungeon Tileset copy_262: 422757862
+      NES - The Legend of Zelda - Dungeon Tileset copy_263: -1168566667
+      NES - The Legend of Zelda - Dungeon Tileset copy_264: 213444628
+      NES - The Legend of Zelda - Dungeon Tileset copy_265: -1582834899
+      NES - The Legend of Zelda - Dungeon Tileset copy_266: -1165842183
+      NES - The Legend of Zelda - Dungeon Tileset copy_267: 219719407
+      NES - The Legend of Zelda - Dungeon Tileset copy_268: -866149077
+      NES - The Legend of Zelda - Dungeon Tileset copy_269: -558474333
+      NES - The Legend of Zelda - Dungeon Tileset copy_27: -1696397627
+      NES - The Legend of Zelda - Dungeon Tileset copy_270: 1534557209
+      NES - The Legend of Zelda - Dungeon Tileset copy_271: -1408307385
+      NES - The Legend of Zelda - Dungeon Tileset copy_272: 1491358758
+      NES - The Legend of Zelda - Dungeon Tileset copy_273: 1692834749
+      NES - The Legend of Zelda - Dungeon Tileset copy_274: -1438206874
+      NES - The Legend of Zelda - Dungeon Tileset copy_275: 1100502279
+      NES - The Legend of Zelda - Dungeon Tileset copy_276: -923224557
+      NES - The Legend of Zelda - Dungeon Tileset copy_277: 167950131
+      NES - The Legend of Zelda - Dungeon Tileset copy_278: -527286123
+      NES - The Legend of Zelda - Dungeon Tileset copy_279: 1826382215
+      NES - The Legend of Zelda - Dungeon Tileset copy_28: -806180649
+      NES - The Legend of Zelda - Dungeon Tileset copy_280: -1336779078
+      NES - The Legend of Zelda - Dungeon Tileset copy_281: 1649361668
+      NES - The Legend of Zelda - Dungeon Tileset copy_282: 1854382343
+      NES - The Legend of Zelda - Dungeon Tileset copy_283: -504765908
+      NES - The Legend of Zelda - Dungeon Tileset copy_284: 1143857199
+      NES - The Legend of Zelda - Dungeon Tileset copy_285: -1930570997
+      NES - The Legend of Zelda - Dungeon Tileset copy_286: -779526532
+      NES - The Legend of Zelda - Dungeon Tileset copy_29: 626314719
+      NES - The Legend of Zelda - Dungeon Tileset copy_3: -1698466793
+      NES - The Legend of Zelda - Dungeon Tileset copy_30: 906394453
+      NES - The Legend of Zelda - Dungeon Tileset copy_31: 602221672
+      NES - The Legend of Zelda - Dungeon Tileset copy_32: 2060231449
+      NES - The Legend of Zelda - Dungeon Tileset copy_33: 491672666
+      NES - The Legend of Zelda - Dungeon Tileset copy_34: 1888449444
+      NES - The Legend of Zelda - Dungeon Tileset copy_35: -1916730342
+      NES - The Legend of Zelda - Dungeon Tileset copy_36: -1455495984
+      NES - The Legend of Zelda - Dungeon Tileset copy_37: 1228972897
+      NES - The Legend of Zelda - Dungeon Tileset copy_38: 2083483923
+      NES - The Legend of Zelda - Dungeon Tileset copy_39: 696913415
+      NES - The Legend of Zelda - Dungeon Tileset copy_4: 1133271862
+      NES - The Legend of Zelda - Dungeon Tileset copy_40: 1536749678
+      NES - The Legend of Zelda - Dungeon Tileset copy_41: -845368715
+      NES - The Legend of Zelda - Dungeon Tileset copy_42: -1786628751
+      NES - The Legend of Zelda - Dungeon Tileset copy_43: 1363157907
+      NES - The Legend of Zelda - Dungeon Tileset copy_44: 2122089789
+      NES - The Legend of Zelda - Dungeon Tileset copy_45: 1325231974
+      NES - The Legend of Zelda - Dungeon Tileset copy_46: 1346877343
+      NES - The Legend of Zelda - Dungeon Tileset copy_47: -150931782
+      NES - The Legend of Zelda - Dungeon Tileset copy_48: -374352542
+      NES - The Legend of Zelda - Dungeon Tileset copy_49: 1202382044
+      NES - The Legend of Zelda - Dungeon Tileset copy_5: -176895518
+      NES - The Legend of Zelda - Dungeon Tileset copy_50: 890155116
+      NES - The Legend of Zelda - Dungeon Tileset copy_51: 1767672136
+      NES - The Legend of Zelda - Dungeon Tileset copy_52: 93113271
+      NES - The Legend of Zelda - Dungeon Tileset copy_53: -580650388
+      NES - The Legend of Zelda - Dungeon Tileset copy_54: -1709314796
+      NES - The Legend of Zelda - Dungeon Tileset copy_55: 2019936147
+      NES - The Legend of Zelda - Dungeon Tileset copy_56: -328736621
+      NES - The Legend of Zelda - Dungeon Tileset copy_57: -1154626995
+      NES - The Legend of Zelda - Dungeon Tileset copy_58: -1329744527
+      NES - The Legend of Zelda - Dungeon Tileset copy_59: -1092801345
+      NES - The Legend of Zelda - Dungeon Tileset copy_6: -1706652699
+      NES - The Legend of Zelda - Dungeon Tileset copy_60: -1450523496
+      NES - The Legend of Zelda - Dungeon Tileset copy_61: -2001334154
+      NES - The Legend of Zelda - Dungeon Tileset copy_62: -544256805
+      NES - The Legend of Zelda - Dungeon Tileset copy_63: -1501922223
+      NES - The Legend of Zelda - Dungeon Tileset copy_64: 1715850699
+      NES - The Legend of Zelda - Dungeon Tileset copy_65: -1433663760
+      NES - The Legend of Zelda - Dungeon Tileset copy_66: -2129909143
+      NES - The Legend of Zelda - Dungeon Tileset copy_67: -1621279284
+      NES - The Legend of Zelda - Dungeon Tileset copy_68: -1839827196
+      NES - The Legend of Zelda - Dungeon Tileset copy_69: -124074209
+      NES - The Legend of Zelda - Dungeon Tileset copy_7: -1390969934
+      NES - The Legend of Zelda - Dungeon Tileset copy_70: 1288265057
+      NES - The Legend of Zelda - Dungeon Tileset copy_71: 2093202381
+      NES - The Legend of Zelda - Dungeon Tileset copy_72: 799415581
+      NES - The Legend of Zelda - Dungeon Tileset copy_73: 1824694108
+      NES - The Legend of Zelda - Dungeon Tileset copy_74: -1793502222
+      NES - The Legend of Zelda - Dungeon Tileset copy_75: 683571080
+      NES - The Legend of Zelda - Dungeon Tileset copy_76: 42180203
+      NES - The Legend of Zelda - Dungeon Tileset copy_77: 1407299797
+      NES - The Legend of Zelda - Dungeon Tileset copy_78: -2137087080
+      NES - The Legend of Zelda - Dungeon Tileset copy_79: 630905112
+      NES - The Legend of Zelda - Dungeon Tileset copy_8: -1087739742
+      NES - The Legend of Zelda - Dungeon Tileset copy_80: 1775158061
+      NES - The Legend of Zelda - Dungeon Tileset copy_81: -1714893239
+      NES - The Legend of Zelda - Dungeon Tileset copy_82: -147197100
+      NES - The Legend of Zelda - Dungeon Tileset copy_83: 1383983961
+      NES - The Legend of Zelda - Dungeon Tileset copy_84: 906211795
+      NES - The Legend of Zelda - Dungeon Tileset copy_85: -1598548555
+      NES - The Legend of Zelda - Dungeon Tileset copy_86: 2061678672
+      NES - The Legend of Zelda - Dungeon Tileset copy_87: 766629679
+      NES - The Legend of Zelda - Dungeon Tileset copy_88: 1049860747
+      NES - The Legend of Zelda - Dungeon Tileset copy_89: 1497967522
+      NES - The Legend of Zelda - Dungeon Tileset copy_9: 1571259106
+      NES - The Legend of Zelda - Dungeon Tileset copy_90: -1091062444
+      NES - The Legend of Zelda - Dungeon Tileset copy_91: 1560041601
+      NES - The Legend of Zelda - Dungeon Tileset copy_92: 655752546
+      NES - The Legend of Zelda - Dungeon Tileset copy_93: -1369588010
+      NES - The Legend of Zelda - Dungeon Tileset copy_94: -1749201762
+      NES - The Legend of Zelda - Dungeon Tileset copy_95: 1727849924
+      NES - The Legend of Zelda - Dungeon Tileset copy_96: -234306238
+      NES - The Legend of Zelda - Dungeon Tileset copy_97: 819057031
+      NES - The Legend of Zelda - Dungeon Tileset copy_98: -1697407974
+      NES - The Legend of Zelda - Dungeon Tileset copy_99: -544229177
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

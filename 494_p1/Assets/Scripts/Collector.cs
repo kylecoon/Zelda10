@@ -34,8 +34,10 @@ public class Collector : MonoBehaviour
             AudioSource.PlayClipAtPoint(RupCollect, Camera.main.transform.position);
             
         } else if(object_collided_with.CompareTag("key")){
-            coll.gameObject.SetActive(false);
-            Debug.Log("worked");
+            
+            inventory.AddKey();
+            Destroy(object_collided_with);
+            //Debug.Log("worked");
             //AudioSource.PlayClipAtPoint(keyCollect, Camera.main.transform.position);
 
         } else if(object_collided_with.CompareTag("heart")){
@@ -44,6 +46,11 @@ public class Collector : MonoBehaviour
             if(curHP.health < curHP.MaxHP) curHP.health++;
             Destroy(object_collided_with);
             curHP.UpdateHP();
+
+        } else if(object_collided_with.CompareTag("bomb")){
+            inventory.Addbombs();
+            Destroy(object_collided_with);
+            //Debug.Log("worked");
         }
     }
 }

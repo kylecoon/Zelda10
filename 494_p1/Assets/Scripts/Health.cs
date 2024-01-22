@@ -16,24 +16,29 @@ public class Health : MonoBehaviour
     public int MaxHP;
     public string DamageFromTag;
 
-    private Animation animations;
+    //private Animation animations;
 
     private Sprite[] sprites;
+
+    private SpriteRenderer SRenderer;
 
     public TextMeshProUGUI HPshown;
 
     public Sprite[] hurtSprites;
 
-    private int lastHurtFrame = -6;
+    private int lastHurtFrame = -13;
+
+    AnimationClip[] animations;
 
     //private GameObject parent; 
 
     void Start()
     {
+        SRenderer = GetComponent<SpriteRenderer>();
         //parent = GetComponentInParent<>();
         Screen.SetResolution(1020, 960, true);
-       animations = GetComponent<Animation>();
-       sprites = Resources.LoadAll<Sprite>("Zelda/Link_Sprites");
+       //animations = GetComponent<Animation>();
+        sprites = Resources.LoadAll<Sprite>("Zelda/Link_Sprites");
 
     }
 
@@ -48,7 +53,9 @@ public class Health : MonoBehaviour
                 inven.rupee_count = int.MaxValue;
                 inven.UpdateRupCount();
                 inven.numBombs = int.MaxValue;
+                inven.UpdateBombCount();
                 inven.numKeys = int.MaxValue;
+                inven.UpdateKeyCount();
                 
             }else{
                 Invincible = false;
@@ -77,14 +84,16 @@ public class Health : MonoBehaviour
     IEnumerator Death(){
 
         //Animation hurt = GetComponent<Animation>();
-        animations.Play();
+        //animations.Play();
         GetComponent<Movement>().movement_speed = 0;
-
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+       
+        
+        //yield  WaitForSecondsRealtime(0.1f);
+        
         GetComponent<Movement>().movement_speed = 4;  
         health = MaxHP;
         UpdateHP();
-        return null;
+        yield return null;
     }
 
     void OnCollisionEnter(Collision c){
@@ -96,7 +105,10 @@ public class Health : MonoBehaviour
         }
 
         if(health <= 0){
+            Movement mov = GetComponent<Movement>();
+            mov.cam.transform.position = new Vector2(39.4778f,70.975f);
             Death();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         
     }
@@ -104,7 +116,7 @@ public class Health : MonoBehaviour
     IEnumerator hit(Vector3 collider){
 
         Debug.Log("hit");
-        // if(!Invincible && Time.frameCount > lastHurtFrame + 5){
+         if(!Invincible && Time.frameCount > lastHurtFrame + 12){
             Vector2 finalPos = gameObject.transform.position;
 
             float xDif = collider.x - finalPos.x;
@@ -113,15 +125,15 @@ public class Health : MonoBehaviour
             //Vector2 finalPos = collider.transform.position;
             if(xDif == 0){ // so above or below
                 if(yDif > 0){
-                    finalPos.y -= 3;
+                    finalPos.y -= 2;
                 } else {
-                    finalPos.y += 3;
+                    finalPos.y += 2;
                 }
             } else { //ydif == 0
                 if(xDif > 0){
-                    finalPos.x -= 3;
+                    finalPos.x -= 2;
                 } else {
-                    finalPos.x += 3;
+                    finalPos.x += 2;
                 }
             }
 
@@ -132,12 +144,21 @@ public class Health : MonoBehaviour
             //animations.Play();
             Debug.Log("hit2");
             Rigidbody rb = GetComponent<Rigidbody>();
+            
+            //animations.Play("linkHurt");
             yield return StartCoroutine(CoroutineUtilities.MoveObjectOverTime(rb.transform, gameObject.transform.position, finalPos, 0.2f));
-
+            
+            gameObject.tag = "Untagged";
+            for(int i = 0; i < 30; ++i){
+                SRenderer.color = new Color(0,255,255,255);
+                yield return new WaitForSecondsRealtime(0.01f);
+                SRenderer.color = new Color(255,255,255,255);
+            }
+            gameObject.tag = "Player";
             GetComponent<Movement>().movement_speed = 4;
             lastHurtFrame = Time.frameCount;
             
-        //}
+        }
 
         yield return null;
     }

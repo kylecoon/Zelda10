@@ -13,6 +13,7 @@ TagManager:
   - attack
   - Enemy
   - heart
+  - bomb
   layers:
   - Default
   - TransparentFX

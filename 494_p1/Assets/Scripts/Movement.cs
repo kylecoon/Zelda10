@@ -164,7 +164,7 @@ public class Movement : MonoBehaviour
 
     IEnumerator WaitForPlayerInputToTransition(Collider other)
     {
-
+            
                 
                 Vector3 initial_position = cam.transform.position;
                 Vector3 final_position = cam.transform.position;
@@ -180,7 +180,7 @@ public class Movement : MonoBehaviour
                 } else if (other.tag == "->South" && rb.velocity.y < 0){ 
                     final_position.y -= 11;
                 } else{ 
-                    yield return null;
+                    yield break;
                 }
 
                 movement_speed = 0;
@@ -193,7 +193,7 @@ public class Movement : MonoBehaviour
                 );
 
                 /* Hang around a little bit */
-                yield return new WaitForSeconds(2.5f);
+                yield return new WaitForSecondsRealtime(0.5f);
                 movement_speed = 4;
 
             /* We must yield here to let time pass, or we will hardlock the game (due to infinite while loop) */
