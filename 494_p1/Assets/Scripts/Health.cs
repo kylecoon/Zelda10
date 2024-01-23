@@ -148,13 +148,13 @@ public class Health : MonoBehaviour
             //animations.Play("linkHurt");
             yield return StartCoroutine(CoroutineUtilities.MoveObjectOverTime(rb.transform, gameObject.transform.position, finalPos, 0.2f));
             
-            gameObject.tag = "Untagged";
+            DamageFromTag = "Respawn";
             for(int i = 0; i < 30; ++i){
                 SRenderer.color = new Color(0,255,255,255);
                 yield return new WaitForSecondsRealtime(0.01f);
                 SRenderer.color = new Color(255,255,255,255);
             }
-            gameObject.tag = "Player";
+            DamageFromTag = "Enemy";
             GetComponent<Movement>().movement_speed = 4;
             lastHurtFrame = Time.frameCount;
             
