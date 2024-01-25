@@ -7,11 +7,11 @@ public class AltPickup : MonoBehaviour
     public GameObject player;
     public string weaponName;
     // Start is called before the first frame update
-    void OnTriggerEnter(Collider other)
+    void OnCollisionEnter(Collision collision)
     {
-        if (other.gameObject.CompareTag("Player")) {
-            player.GetComponent<Attacking>().AddAlt("bow");
-            gameObject.SetActive(false);
+        if (collision.gameObject.CompareTag("Player")) {
+            player.GetComponent<Attacking>().AddAlt(gameObject.name);
+            Destroy(this.gameObject);
         }
     }
 }

@@ -16,19 +16,9 @@ public class StalfosAI : MonoBehaviour
     private Vector2 end_position;
     private float interpolator;
 
-    private bool isAlive;
+    public bool isAlive;
 
-    public int health;
-
-    public Sprite deathSprite;
-
-    public bool stunned;
     private Rigidbody rb;
-    public int knockback_force = 6;
-
-    public GameObject rupeeDrop;
-    public GameObject heartDrop;
-    public GameObject bombDrop;
 
     // Start is called before the first frame update
     void Start()
@@ -37,8 +27,7 @@ public class StalfosAI : MonoBehaviour
         frameCount = 0;
         interpolator = 0.0f;
         isAlive = true;
-        health = 3;
-        stunned = false;
+        //stunned = false;
         rb = GetComponent<Rigidbody>();
     }
 
@@ -46,7 +35,7 @@ public class StalfosAI : MonoBehaviour
     void Update()
     {
         //animate on 15 frame cycle
-        if (isAlive && !stunned) {
+        if (isAlive) {
             if (frameCount == 15) {
                 sprt.flipX = !sprt.flipX;
                 frameCount = 0;
@@ -119,79 +108,5 @@ public class StalfosAI : MonoBehaviour
         if (!Physics.Raycast(transform.position, transform.TransformDirection(Vector2.right), 1.0f)) {
             directions.Add(Vector2.right);
         }
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Weapon") {
-            TakeDamage(1);
-        }
-    }
-    void TakeDamage(int damage) {
-        Debug.Log("Ouch!");
-        health -= damage;
-        if (health <= 0) {
-            StartCoroutine(Die());
-        }
-        else {
-            Knockback();
-        }
-    }
-
-    void Knockback() {
-        Vector2 player_position = GameObject.FindWithTag("Player").transform.position;
-        stunned = true;
-        //push vertically
-        if (Mathf.Abs(transform.position.x - player_position.x) < Mathf.Abs(transform.position.y - player_position.y)) {
-            //push up
-            if (player_position.y < transform.position.y) {
-                rb.velocity = Vector3.up * knockback_force;
-            }
-            //push down
-            else {
-                rb.velocity = Vector3.down * knockback_force;
-            }
-        }
-        //push horizontally
-        else {
-            //push right
-            if (player_position.x < transform.position.x) {
-                rb.velocity = Vector3.right * knockback_force;
-            }
-            //push left
-            else {
-                rb.velocity = Vector3.left * knockback_force;
-            }
-        }
-        StartCoroutine(Stall());
-    }
-
-    IEnumerator Stall() {
-        Debug.Log("Starting stall");
-
-        yield return new WaitForSeconds(1.0f);
-
-        SnapToGrid();
-        start_position = transform.position;
-        interpolator = 0.0f;
-        stunned = false;
-        rb.velocity = Vector2.zero;
-        Debug.Log("Ending stall");
-    }
-
-    IEnumerator Die() {
-        isAlive = false;
-        sprt.sprite = deathSprite;
-
-        yield return new WaitForSeconds(0.5f);
-
-        int drop_chance = Random.Range(0, 10);
-        if (drop_chance < 5) {
-            Instantiate(rupeeDrop, transform.position, Quaternion.identity);
-        }
-        else if (drop_chance > 7) {
-            Instantiate(heartDrop, transform.position, Quaternion.identity);
-        }
-        gameObject.SetActive(false);
     }
 }

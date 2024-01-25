@@ -1,83 +1,49 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class Beam : MonoBehaviour
 {
-    public int projectile_speed = 4;
+    public int projectile_speed;
+    public int projectile_damage;
     public SpriteRenderer sprt;
-    private Dictionary<Vector2, Sprite> sprite_dictionary = new Dictionary<Vector2, Sprite>();
-    public Sprite[] sprites;
-    private Vector3 original_color;
-
-    private BoxCollider hitbox;
-
-    public bool isActive;
-    private Vector2 direction;
     private Rigidbody rb;
     public Sprite brokenProjectile;
     // Start is called before the first frame update
-    void Start()
-    {
-        sprt = GetComponent<SpriteRenderer>();
-        isActive = false;
+    void Start() {
         rb = GetComponent<Rigidbody>();
-        direction = Vector2.zero;
-        gameObject.SetActive(false);
-        hitbox = GetComponent<BoxCollider>();
-
-        sprite_dictionary.Add(Vector2.up, sprites[0]);
-        sprite_dictionary.Add(Vector2.down, sprites[1]);
-        sprite_dictionary.Add(Vector2.left, sprites[2]);
-        sprite_dictionary.Add(Vector2.right, sprites[3]);
+        sprt = GetComponent<SpriteRenderer>();
     }
-
-    // Update is called once per frame
-    void Update()
+    void OnCollisionEnter(Collision collision)
     {
-        if (isActive) {
-            rb.velocity = direction * projectile_speed;
-        }   
-    }
-
-    void OnTriggerEnter(Collider collision) {
-        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Wall" || rb.velocity == Vector3.zero) {
-            Debug.Log("collided");
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Wall") || rb.velocity == Vector3.zero) {
             StartCoroutine(DestoryProjectile());
+            if (collision.gameObject.CompareTag("Enemy")) {
+                Debug.Log("Beam hit");
+                collision.gameObject.GetComponent<EnemyHealth>().AlterHealth(projectile_damage);
+            }
         }
     }
 
     public void Shoot(Vector2 new_direction) {
 
-        hitbox.enabled = true;
-        isActive = true;
+        GetComponent<Rigidbody>().velocity = new_direction * projectile_speed;
 
-        if (new_direction == Vector2.left || new_direction == Vector2.right) {
-            hitbox.size = new Vector2(hitbox.size.y, hitbox.size.x);
-
-        }
-
-        transform.localPosition = new_direction;
-        sprt.sprite = sprite_dictionary[new_direction];
-        gameObject.SetActive(true);
-
-        direction = new_direction;
     }
 
     IEnumerator DestoryProjectile() {
-        isActive = false;
 
-        hitbox.enabled = false;
+        gameObject.GetComponent<BoxCollider>().enabled = false;
 
         rb.velocity = Vector2.zero;
 
-        sprt.color = new Color(255, 255, 255);
         sprt.sprite = brokenProjectile;
 
         yield return new WaitForSeconds(0.5f);
 
-        gameObject.SetActive(false);
+        Destroy(this.gameObject);
     }
 }

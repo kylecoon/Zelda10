@@ -18,27 +18,50 @@ public class Attacking : MonoBehaviour
     private Dictionary<string, Sprite> alt_sprite_dictionary = new Dictionary<string, Sprite>();
     public GameObject altRender;
 
+    private Dictionary<Vector2, Vector3> RotationDictionary = new Dictionary<Vector2, Vector3>();
+
+    public GameObject[] weapons;
+
+    private GameObject sword;
+    private GameObject swordBeam;
+    private GameObject arrow;
+    private GameObject boomerang;
+
     // private int curDirection = 0;
     // Start is called before the first frame update
 
     void Start()
-    {
+    {   
+        sword = null;
+        swordBeam = null;
+        arrow = null;
+        boomerang = null;
+
         rb = GetComponent<Rigidbody>();
         sprt = GetComponent<SpriteRenderer>();
         sprites = Resources.LoadAll<Sprite>("Zelda/Link_Sprites");
 
-        sprite_dictionary.Add(Vector2.up, sprites[38]);
-        sprite_dictionary.Add(Vector2.down, sprites[36]);
-        sprite_dictionary.Add(Vector2.left, sprites[37]);
-        sprite_dictionary.Add(Vector2.right, sprites[39]);
+        sprite_dictionary.Add(Vector2.up, sprites[26]);
+        sprite_dictionary.Add(Vector2.down, sprites[24]);
+        sprite_dictionary.Add(Vector2.left, sprites[25]);
+        sprite_dictionary.Add(Vector2.right, sprites[27]);
 
-        alt_sprite_dictionary.Add("bow", sprites[163]);
+        alt_sprite_dictionary.Add("BowAlt", sprites[163]);
+
+        sprites = Resources.LoadAll<Sprite>("Zelda/Enemies");
+
+        alt_sprite_dictionary.Add("BoomerangAlt", sprites[20]);
 
         sprites = Resources.LoadAll<Sprite>("Zelda/Black_pixel");
         alt_sprite_dictionary.Add("empty", sprites[0]);
 
         alt_dictionary.Add(0, "empty");
         alt_index = 1;
+
+        RotationDictionary.Add(Vector2.up, new Vector3(0, 0, 0));
+        RotationDictionary.Add(Vector2.left, new Vector3(0, 0, 90));
+        RotationDictionary.Add(Vector2.down, new Vector3(0, 0, 180));
+        RotationDictionary.Add(Vector2.right, new Vector3(0, 0, 270));
     }
     // Update is called once per frame
     void Update()
@@ -60,10 +83,15 @@ public class Attacking : MonoBehaviour
                 switch (alt_dictionary[alt_index]) {
                     case "empty":
                         break;
-                    case "bow":
-                        if (GetComponent<Inventory>().GetRupees() > 0 && !transform.GetChild(2).gameObject.activeSelf) {
+                    case "BowAlt":
+                        if (GetComponent<Inventory>().GetRupees() > 0 && arrow == null) {
                             GetComponent<Inventory>().AddRupees(-1);
                             StartCoroutine(BowAttack());
+                        }
+                        break;
+                    case "BoomerangAlt":
+                        if (boomerang == null) {
+                            StartCoroutine(BoomerangAttack());
                         }
                         break;
                 }
@@ -82,18 +110,19 @@ public class Attacking : MonoBehaviour
 
     IEnumerator SwordAttack() {
         GetComponent<Movement>().Flip_CanMove();
-        transform.GetChild(0).GetComponent<Sword>().hitbox.enabled = true;
+        sword = Instantiate(weapons[0], (Vector2)transform.position + (GetComponent<Movement>().Get_CurrentDirection() * 0.8f), Quaternion.Euler(RotationDictionary[GetComponent<Movement>().Get_CurrentDirection()]));
         sprt.sprite = sprite_dictionary[GetComponent<Movement>().Get_CurrentDirection()];
 
         yield return new WaitForSeconds(0.3f);
 
         GetComponent<Movement>().Flip_CanMove();
-        transform.GetChild(0).GetComponent<Sword>().hitbox.enabled = false;
+        Destroy(sword);
         GetComponent<Movement>().UpdateSprite(GetComponent<Movement>().Get_CurrentDirection());
 
         //shoot beam if at full health and no other beams spawned
-        if (GetComponent<Health>().health == GetComponent<Health>().MaxHP && !transform.GetChild(1).gameObject.activeSelf) {
-            transform.GetChild(1).GetComponent<Beam>().Shoot(GetComponent<Movement>().Get_CurrentDirection());
+        if (GetComponent<Health>().health == GetComponent<Health>().MaxHP && swordBeam == null) {
+            swordBeam = Instantiate(weapons[1], (Vector2)transform.position + (GetComponent<Movement>().Get_CurrentDirection() * 0.8f), Quaternion.Euler(RotationDictionary[GetComponent<Movement>().Get_CurrentDirection()]));
+            swordBeam.GetComponent<Beam>().Shoot(GetComponent<Movement>().Get_CurrentDirection());
         }
     }
 
@@ -108,12 +137,25 @@ public class Attacking : MonoBehaviour
     }
 
     IEnumerator BowAttack() {
-        
         GetComponent<Movement>().Flip_CanMove();
-        transform.GetChild(2).GetComponent<Beam>().Shoot(GetComponent<Movement>().Get_CurrentDirection());
+        arrow = Instantiate(weapons[2], (Vector2)transform.position + GetComponent<Movement>().Get_CurrentDirection(), Quaternion.Euler(RotationDictionary[GetComponent<Movement>().Get_CurrentDirection()]));
+        arrow.GetComponent<Beam>().Shoot(GetComponent<Movement>().Get_CurrentDirection());
 
         yield return new WaitForSeconds(0.1f);
 
+        GetComponent<Movement>().Flip_CanMove();
+    }
+
+    IEnumerator BoomerangAttack() {
+        GetComponent<Movement>().Flip_CanMove();
+        boomerang = Instantiate(weapons[3], (Vector2)transform.position + (GetComponent<Movement>().Get_CurrentDirection() * 1.5f), Quaternion.Euler(RotationDictionary[GetComponent<Movement>().Get_CurrentDirection()]));
+        boomerang.GetComponent<Boomerang>().ThrowBoomerang(GetComponent<Movement>().Get_CurrentDirection());
+
+        sprt.sprite = sprite_dictionary[GetComponent<Movement>().Get_CurrentDirection()];
+
+        yield return new WaitForSeconds(0.1f);
+
+        GetComponent<Movement>().UpdateSprite(GetComponent<Movement>().Get_CurrentDirection());
         GetComponent<Movement>().Flip_CanMove();
     }
 }

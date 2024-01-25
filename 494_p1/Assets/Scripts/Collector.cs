@@ -52,5 +52,9 @@ public class Collector : MonoBehaviour
             Destroy(object_collided_with);
             //Debug.Log("worked");
         }
+        else if (object_collided_with.CompareTag("AltItem")) {
+            GetComponent<Attacking>().AddAlt(object_collided_with.name);
+            Destroy(object_collided_with);
+        }
     }
 }

@@ -135,8 +135,6 @@ public class Movement : MonoBehaviour
                 }
             }
         }
-
-        transform.GetChild(0).GetComponent<Sword>().UpdateDirection(new_direction);
         
         UpdateSprite(new_direction);
 
