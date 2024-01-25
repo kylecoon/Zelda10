@@ -7,9 +7,18 @@ public class unlock : MonoBehaviour
 
     //public GameObject key;
     private Collider box;
-    public Sprite open;
+    public Sprite[] open;
 
     private SpriteRenderer renderer;
+
+    public GameObject lDoor;
+    public GameObject rDoor;
+
+    //private Collider box;
+    //public Sprite openL;
+    //public Sprite openR;
+
+    public bool doubleDoor;
 
     //public bool primed = false;
     // Start is called before the first frame update
@@ -32,12 +41,26 @@ public class unlock : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        
         if(collision.collider.CompareTag("Player")){
+
             Inventory inven = collision.collider.gameObject.GetComponent<Inventory>();
-            if(inven.numKeys > 0){
-                inven.numKeys--;
-                renderer.sprite = open;
-                box.enabled = false;
+            
+            if(doubleDoor){
+                //Inventory inven = collision.collider.gameObject.GetComponent<Inventory>();
+                if(inven.numKeys > 0){
+                    inven.numKeys--;
+                    lDoor.GetComponent<SpriteRenderer>().sprite = open[0];
+                    rDoor.GetComponent<SpriteRenderer>().sprite = open[1];
+                    box.enabled = false;
+                }
+            } else {
+            //Inventory inven = collision.collider.gameObject.GetComponent<Inventory>();
+                if(inven.numKeys > 0){
+                    inven.numKeys--;
+                    renderer.sprite = open[0];
+                    box.enabled = false;
+                }
             }
         }
     }
