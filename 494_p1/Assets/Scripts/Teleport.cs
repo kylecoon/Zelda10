@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Teleport : MonoBehaviour
 {
@@ -35,11 +37,14 @@ public class Teleport : MonoBehaviour
         //StartCoroutine(UIcontroller.fadeToBlack(3,true, BlackSquare));
 
         if(other.CompareTag("Player")){
-
-            StartCoroutine(UIcontroller.fadeToBlack(fadeSpeed,true, BlackSquare));
+            //other.transform.
+            Movement move = other.GetComponent<Movement>();
+            move.Flip_CanMove();
+            StartCoroutine(fadeToBlack(fadeSpeed,true, BlackSquare));
             other.transform.position = player2Position;//new Vector3(19.11f,76.18f,0);
             cam.transform.position = cam2Position; //new Vector3();
-            StartCoroutine(UIcontroller.fadeToBlack(fadeSpeed,false, BlackSquare));
+            StartCoroutine(fadeToBlack(fadeSpeed,false, BlackSquare));
+            move.Flip_CanMove();
 
         } /*else if(!IsEntrance && other.CompareTag("Player")){
 
@@ -52,4 +57,34 @@ public class Teleport : MonoBehaviour
     }
 
     
+        public static IEnumerator fadeToBlack(int fadeSpeed, bool fade2Black, GameObject BlackSquare){
+        
+        Color objectColor = BlackSquare.GetComponent<UnityEngine.UI.Image>().color;
+        float fadeAmount;
+
+        if(fade2Black){
+            Debug.Log("fade");
+            while(BlackSquare.GetComponent<UnityEngine.UI.Image>().color.a < 1){
+                Debug.Log("black");
+                fadeAmount = objectColor.a + (fadeSpeed * Time.deltaTime);
+                objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+                BlackSquare.GetComponent<UnityEngine.UI.Image>().color = objectColor;
+                yield return null;
+            }
+        } else {
+            Debug.Log("fadeBack");
+            while(BlackSquare.GetComponent<UnityEngine.UI.Image>().color.a > 0){
+                Debug.Log("white");
+                fadeAmount = objectColor.a - (fadeSpeed * Time.deltaTime);
+                objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+                BlackSquare.GetComponent<UnityEngine.UI.Image>().color = objectColor;
+                yield return null;
+
+            }
+        }
+        yield return new WaitForSeconds(1);
+    }
+    
 }
+
+

@@ -13,6 +13,8 @@ public class movingPlatform : MonoBehaviour
 
     public bool TwoWay;
 
+    public bool pressurePlate;
+
     public float waitTime;
     // Start is called before the first frame update
     void Start()
@@ -27,7 +29,8 @@ public class movingPlatform : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider collider){
-        if(collider.gameObject.CompareTag("attack")){
+        
+        if(collider.gameObject.CompareTag("attack") || pressurePlate){
             
             Vector3 initial_position = collider.transform.position;
             Vector3 final_position = new Vector3(initial_position.x + finalX, initial_position.y + finalY,0);
@@ -48,6 +51,17 @@ public class movingPlatform : MonoBehaviour
 
         yield return null;
     }
+
+    void OnTriggerExit(Collider collider){
+        if(pressurePlate){
+            Vector3 initial_position = collider.transform.position;
+            Vector3 final_position = new Vector3(initial_position.x + finalX, initial_position.y + finalY,0);
+            StartCoroutine(movePlat(initial_position,final_position));
+        }
+    }
+
+
+
 
 
 }

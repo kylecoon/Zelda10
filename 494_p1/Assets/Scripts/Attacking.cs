@@ -1,22 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.UI;
 public class Attacking : MonoBehaviour
 {
     SpriteRenderer sprt;
     private Rigidbody rb;
+    private int spriteVersion = 0;
     private Sprite[] sprites;
 
-    private Dictionary<Vector2, Sprite> sprite_dictionary = new Dictionary<Vector2, Sprite>();
+    private sword mSword;
 
-    private Dictionary<int, string> alt_dictionary = new Dictionary<int, string>();
-    private int alt_index;
-    private Dictionary<string, Sprite> alt_sprite_dictionary = new Dictionary<string, Sprite>();
-    public GameObject altRender;
+    private weapon[] altWeapons;
+    private int curAltIndex;
+    private weapon curAlt;
+
+    private bool usingWeapon = false;
+
+    public GameObject[] prefabs;
 
     private Dictionary<Vector2, Vector3> RotationDictionary = new Dictionary<Vector2, Vector3>();
 
@@ -32,15 +36,22 @@ public class Attacking : MonoBehaviour
     // Start is called before the first frame update
 
     void Start()
+<<<<<<< HEAD
     {   
         sword = null;
         swordBeam = null;
         arrow = null;
         boomerang = null;
+=======
+    {
+       // sprt = GetComponent<SpriteRenderer>();
+       
+>>>>>>> 4484b1c (arrow Room done)
 
         rb = GetComponent<Rigidbody>();
         sprt = GetComponent<SpriteRenderer>();
         sprites = Resources.LoadAll<Sprite>("Zelda/Link_Sprites");
+<<<<<<< HEAD
 
         sprite_dictionary.Add(Vector2.up, sprites[26]);
         sprite_dictionary.Add(Vector2.down, sprites[24]);
@@ -64,22 +75,22 @@ public class Attacking : MonoBehaviour
         RotationDictionary.Add(Vector2.left, new Vector3(0, 0, 90));
         RotationDictionary.Add(Vector2.down, new Vector3(0, 0, 180));
         RotationDictionary.Add(Vector2.right, new Vector3(0, 0, 270));
+=======
+>>>>>>> 4484b1c (arrow Room done)
     }
     // Update is called once per frame
     void Update()
     {
+
+        usingWeapon = false;
         GetInput();
+
     }
 
     void GetInput() {
 
-        if (GetComponent<Movement>().Check_CanMove()) {
-        
-            //use sword
-            if(Input.GetKeyDown(KeyCode.X)){
-                StartCoroutine(SwordAttack());
-            }
 
+<<<<<<< HEAD
             //use alt
             else if(Input.GetKeyDown(KeyCode.Z)){
                 switch (alt_dictionary[alt_index]) {
@@ -104,25 +115,40 @@ public class Attacking : MonoBehaviour
                         break;
                 }
             }
+=======
+        //Debug.Log("gotInput");
+        if(Input.GetKey(KeyCode.Space)){
+            curAltIndex = curAltIndex + 1 % altWeapons.Length;
+            curAlt = altWeapons[curAltIndex];
 
-            //swap alt
-            else if(Input.GetKeyDown(KeyCode.Space)){
-                alt_index += 1;
-                if (alt_index >= alt_dictionary.Count) {
-                    alt_index = 0;
-                }
-                UpdateAltUI();
-            } 
+        } 
+
+        if(Input.GetKey(KeyCode.X)){ // use alt
+            usingWeapon = true;
+            altWeapon();
+
+        } else if(Input.GetKey(KeyCode.Z)){ // use main
+            Debug.Log("swing");
+            usingWeapon = true;
+            StartCoroutine(SwordSwing());
+            usingWeapon = false;
+>>>>>>> 4484b1c (arrow Room done)
+
         }
     }
 
+<<<<<<< HEAD
     IEnumerator SwordAttack() {
         GetComponent<Movement>().Flip_CanMove();
         sword = Instantiate(weapons[0], (Vector2)transform.position + (GetComponent<Movement>().Get_CurrentDirection() * 0.8f), Quaternion.Euler(RotationDictionary[GetComponent<Movement>().Get_CurrentDirection()]));
         sprt.sprite = sprite_dictionary[GetComponent<Movement>().Get_CurrentDirection()];
+=======
+    
+>>>>>>> 4484b1c (arrow Room done)
 
-        yield return new WaitForSeconds(0.3f);
+    void createSword(){
 
+<<<<<<< HEAD
         GetComponent<Movement>().Flip_CanMove();
         Destroy(sword);
         GetComponent<Movement>().UpdateSprite(GetComponent<Movement>().Get_CurrentDirection());
@@ -131,9 +157,33 @@ public class Attacking : MonoBehaviour
         if (GetComponent<Health>().health == GetComponent<Health>().MaxHP && swordBeam == null) {
             swordBeam = Instantiate(weapons[1], (Vector2)transform.position + (GetComponent<Movement>().Get_CurrentDirection() * 0.8f), Quaternion.Euler(RotationDictionary[GetComponent<Movement>().Get_CurrentDirection()]));
             swordBeam.GetComponent<Beam>().Shoot(GetComponent<Movement>().Get_CurrentDirection());
-        }
-    }
+=======
+        int direction = 0;
+        BoxCollider2D col = GetComponentInChildren<BoxCollider2D>();
+        if(sprt.sprite == sprites[36]){
+            col.offset = new UnityEngine.Vector2(-0.1579781f, 3.20673e-05f);
+            col.size = new UnityEngine.Vector2(0.6840439f,0.1939981f);
+            direction = 1;
 
+        } else if(sprt.sprite == sprites[37]){
+            col.offset = new UnityEngine.Vector2(0.001522064f, -0.1694662f);
+            col.size = new UnityEngine.Vector2(0.1936332f,0.690215f);
+            direction = 2;
+
+        } else if(sprt.sprite == sprites[38]){
+            col.offset = new UnityEngine.Vector2(0.001522064f, 0.1593881f);
+            col.size = new UnityEngine.Vector2(0.1937332f,0.6894231f);
+            direction = 3;
+
+        } else {
+            col.offset = new UnityEngine.Vector2(0.1579781f,0.001184821f);
+            col.size = new UnityEngine.Vector2(0.6905212f,0.1955926f);
+            direction = 4;
+
+>>>>>>> 4484b1c (arrow Room done)
+        }
+
+<<<<<<< HEAD
     public void AddAlt(string new_alt) {
         if (new_alt == "BombAlt" && alt_dictionary.Count > 1) {
             GetComponent<Inventory>().Addbombs();
@@ -157,10 +207,75 @@ public class Attacking : MonoBehaviour
         GetComponent<Movement>().Flip_CanMove();
         arrow = Instantiate(weapons[2], (Vector2)transform.position + GetComponent<Movement>().Get_CurrentDirection(), Quaternion.Euler(RotationDictionary[GetComponent<Movement>().Get_CurrentDirection()]));
         arrow.GetComponent<Beam>().Shoot(GetComponent<Movement>().Get_CurrentDirection());
+=======
+        
+>>>>>>> 4484b1c (arrow Room done)
 
-        yield return new WaitForSeconds(0.1f);
+        
+    }
 
-        GetComponent<Movement>().Flip_CanMove();
+    void DeleteSwordHitbox(){
+        BoxCollider2D col = GetComponentInChildren<BoxCollider2D>();
+        col.offset = new UnityEngine.Vector2(0,0);
+        col.size = new UnityEngine.Vector2(0,0);
+    }
+
+    IEnumerator holdInPlace(float numTime){
+        
+        //gameObject.transform.
+
+        yield return new WaitForSeconds(numTime);
+    }
+    
+    IEnumerator SwordSwing(){
+
+        int direction = 0;
+
+        Sprite hold = sprt.sprite;
+        if(hold == sprites[0] || hold == sprites[12] ){
+            Debug.Log("RSword");
+            sprt.sprite = sprites[36];
+
+        } else if(hold == sprites[1] || hold == sprites[13]){
+            sprt.sprite = sprites[37];
+
+        } else if(hold == sprites[2] || hold == sprites[14]){
+            sprt.sprite = sprites[38];
+
+        } else if(hold == sprites[3] || hold == sprites[15]){
+            sprt.sprite = sprites[39];
+        } else {
+             yield return null;
+        }
+
+        Debug.Log("here");
+        createSword();
+        //GameObject.Instantiate(swordHitbox);
+        //sprt.sprite = this.mSword.SwapSprite(0);
+        //mSword.useWeapon(3,3,0);
+        StartCoroutine(holdInPlace(2f));
+       // yield return new WaitForSeconds(2.0f);
+
+        //rb = GetComponent<Rigidbody>();
+        //Vector3 or
+        //int curHp = GetComponent<Health>().health;
+
+        if(GetComponent<Health>().health == GetComponent<Health>().MaxHP) Instantiate(prefabs[0], new UnityEngine.Vector3(0,0,0), rb.rotation, this.transform);
+
+        sprt.sprite = hold;
+
+        DeleteSwordHitbox();
+        
+
+        yield return null;
+
+
+    }
+
+    void altWeapon(){
+        sprt.sprite = this.curAlt.SwapSprite(0);
+        // use weapon
+        
     }
 
     IEnumerator BoomerangAttack() {
