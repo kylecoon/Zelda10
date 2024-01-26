@@ -26,6 +26,7 @@ public class Attacking : MonoBehaviour
     private GameObject swordBeam;
     private GameObject arrow;
     private GameObject boomerang;
+    private GameObject bomb;
 
     // private int curDirection = 0;
     // Start is called before the first frame update
@@ -47,6 +48,7 @@ public class Attacking : MonoBehaviour
         sprite_dictionary.Add(Vector2.right, sprites[27]);
 
         alt_sprite_dictionary.Add("BowAlt", sprites[163]);
+        alt_sprite_dictionary.Add("BombAlt", sprites[146]);
 
         sprites = Resources.LoadAll<Sprite>("Zelda/Enemies");
 
@@ -94,6 +96,12 @@ public class Attacking : MonoBehaviour
                             StartCoroutine(BoomerangAttack());
                         }
                         break;
+                    case "BombAlt":
+                        RaycastHit hit;
+                        if (bomb == null && GetComponent<Inventory>().numBombs > 0 && !(Physics.Raycast (transform.position, GetComponent<Movement>().Get_CurrentDirection(), out hit, 1) && hit.transform.CompareTag("Wall"))) {
+                            StartCoroutine(BombAttack());
+                        }
+                        break;
                 }
             }
 
@@ -127,9 +135,18 @@ public class Attacking : MonoBehaviour
     }
 
     public void AddAlt(string new_alt) {
-        alt_dictionary.Add(alt_dictionary.Count, new_alt);
-        alt_index = alt_dictionary.Count - 1;
-        UpdateAltUI();
+        if (new_alt == "BombAlt" && alt_dictionary.Count > 1) {
+            GetComponent<Inventory>().Addbombs();
+            alt_dictionary.Add(alt_dictionary.Count, new_alt);
+        }
+        else {
+            if (new_alt == "BombAlt") {
+                GetComponent<Inventory>().Addbombs();
+            }
+            alt_dictionary.Add(alt_dictionary.Count, new_alt);
+            alt_index = alt_dictionary.Count - 1;
+            UpdateAltUI();
+        }
     }
 
     void UpdateAltUI() {
@@ -157,5 +174,27 @@ public class Attacking : MonoBehaviour
 
         GetComponent<Movement>().UpdateSprite(GetComponent<Movement>().Get_CurrentDirection());
         GetComponent<Movement>().Flip_CanMove();
+    }
+
+    IEnumerator BombAttack() {
+        GetComponent<Inventory>().numBombs--;
+        GetComponent<Movement>().Flip_CanMove();
+        bomb = Instantiate(weapons[4], (Vector2)transform.position + GetComponent<Movement>().Get_CurrentDirection(), Quaternion.identity);
+
+        sprt.sprite = sprite_dictionary[GetComponent<Movement>().Get_CurrentDirection()];
+
+        yield return new WaitForSeconds(0.1f);
+
+        GetComponent<Movement>().UpdateSprite(GetComponent<Movement>().Get_CurrentDirection());
+        GetComponent<Movement>().Flip_CanMove();
+
+        yield return new WaitForSeconds(1.9f);
+
+        if (bomb != null) {
+            yield return StartCoroutine(bomb.GetComponent<Bomb>().Explode());
+        }
+        else {
+            yield return null;
+        }
     }
 }

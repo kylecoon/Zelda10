@@ -69,6 +69,9 @@ public class EnemyHealth : MonoBehaviour
     }*/
 
     IEnumerator Die() {
+        if (gameObject == null) {
+            yield return null;
+        }
         GetComponent<SpriteRenderer>().sprite = death_sprite;
         GetComponent<BoxCollider>().enabled = false;
         GetComponent<StalfosAI>().isAlive = false;
@@ -84,7 +87,5 @@ public class EnemyHealth : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         gameObject.SetActive(false);
-
-        Destroy(gameObject);
     }
 }
