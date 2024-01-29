@@ -25,7 +25,7 @@ public class specialDoor : MonoBehaviour
         if(collider.gameObject.CompareTag("->East")){
             Rigidbody Box = collider.GetComponent<Rigidbody>();
             Box.velocity = Vector2.zero;
-            Box.detectCollisions = false;
+            Box.isKinematic = true;
 
             SpriteRenderer Renderer = door.GetComponent<SpriteRenderer>();
             Renderer.sprite = replace;

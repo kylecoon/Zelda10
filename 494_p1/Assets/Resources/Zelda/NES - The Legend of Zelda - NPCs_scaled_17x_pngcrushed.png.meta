@@ -1,0 +1,3154 @@
+fileFormatVersion: 2
+guid: 36908e9bd48384b118c811c3eee35a20
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3364
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47b3726fe8194e9f98bc721c1fe992d
+      internalID: -595336126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 3364
+        width: 38
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3437722df9d1f42bba00b1be730abf07
+      internalID: 2017362592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3364
+        width: 107
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed38d426975e46f092543ba8171706d
+      internalID: 1784926727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 3364
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3be0bda3a224f4388c9072ddd4fbb7
+      internalID: 1743486671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_4
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 3364
+        width: 124
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d6cf53d8c464169b06c29bf11913e6
+      internalID: -1863600829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_5
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 3364
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8252f5496f124791b841f549b822a34
+      internalID: -1033115265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_6
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 3364
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61442d149737849b494f7158086541a2
+      internalID: -1300907421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_7
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 3364
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e0ef0e3aed248dd94e3cf7eb1c9431
+      internalID: 1461764204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_8
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 3364
+        width: 106
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb1661d90cfa4725abda7225d3ebf82
+      internalID: -941909991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_9
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 3364
+        width: 122
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6607c78106a3c42e08d9cc65392b1921
+      internalID: 1103343981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_10
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 3364
+        width: 123
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa3f36a0c57e49738b579d08e6eb7cb
+      internalID: 1197958793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_11
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 3364
+        width: 106
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f399dc69f91481380a25a79547ee14
+      internalID: -258186977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_12
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 3364
+        width: 123
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a11ecbef7a9142e7ba64f29bf7ff829
+      internalID: 1902565999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_13
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 3364
+        width: 105
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810a34fb8daac4598978208b64ad0d9c
+      internalID: 550895582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_14
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 3364
+        width: 208
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa0473f3d9f448ecb6ad4d2836f10c8
+      internalID: 1309721502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_15
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 3364
+        width: 107
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eab2eb04fbaf44a1add46a01c9f48b8
+      internalID: -1835116896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_16
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 3364
+        width: 124
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc33fa397d8749d8b7dc1bddb84aeef
+      internalID: -1668874597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_17
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 3364
+        width: 208
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6629fa00ee3418180d2fe863b29596
+      internalID: 1717250887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_18
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 3364
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8a7bf629b014714a22e2f072ae838c
+      internalID: -42188361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_19
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 3364
+        width: 124
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc362f0ee06c0476e8490950c56b3b61
+      internalID: -1172933624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_20
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 3449
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd22ee4a0fa6445a8f3072cc2245078
+      internalID: -984611840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_21
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 3364
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34501f144073f489689e6263dc7b68b6
+      internalID: 201731520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_22
+      rect:
+        serializedVersion: 2
+        x: 3601
+        y: 3347
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a834ece538b664fceb2c014d4dd7fef6
+      internalID: 827282499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_23
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 3364
+        width: 38
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934464e443b204c0688a72c1daf1bff3
+      internalID: -1160911246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3042
+        width: 278
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246f9f56766c44270821502feb5c4a64
+      internalID: -1843827333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_25
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 3042
+        width: 278
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f39bd06179f462094090cdb0ccda26
+      internalID: -1794031496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_26
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 3042
+        width: 244
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c4b98a2bda44d0492ad367f7af23f6
+      internalID: -1351299196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_27
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 3042
+        width: 277
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2de786ac57d449959d7d7cc871b3fcf
+      internalID: 1416691667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_28
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 3042
+        width: 276
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc728b99564445fb987f2600a2d001d
+      internalID: 232277583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_29
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 3042
+        width: 141
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed8124f718ee47188eff2c9182613cf
+      internalID: 1389234897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_30
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 3042
+        width: 141
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d57b166de11434d9a27e6455696694
+      internalID: -290147667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_31
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 3042
+        width: 141
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c84bd30dfcf4f70accd9c1ea2980d8
+      internalID: -814934376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_32
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 3042
+        width: 141
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21a152d824294d54baf816b54d2b211
+      internalID: -1691785408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_33
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 3042
+        width: 277
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76a06b4ddb354e94b560c5afe5811ba
+      internalID: 162491503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_34
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 3042
+        width: 278
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485b2d35b5c494bca9e53b5b908b8c66
+      internalID: -758059668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_35
+      rect:
+        serializedVersion: 2
+        x: 2717
+        y: 3042
+        width: 278
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1995f9a293f04c4dbd4029364fbe48b
+      internalID: 571242403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_36
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 3042
+        width: 141
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f15b627537b492d93242dfb215c662
+      internalID: 285483767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_37
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 3042
+        width: 141
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beaf75b424e374fd3abfa3a612120673
+      internalID: -522384573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_38
+      rect:
+        serializedVersion: 2
+        x: 3466
+        y: 3042
+        width: 141
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959c11488e4d640d889e734e1d7255b2
+      internalID: 1008298844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_39
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2837
+        width: 227
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c75d649529f401e9e08372ab53a3a0
+      internalID: 999385642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_40
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2837
+        width: 40
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9fa9d3e4e364125931e92bc82bff66
+      internalID: -1330313198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_41
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 2837
+        width: 107
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dece60f198e41c6915cb902db74976
+      internalID: -1572649361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_42
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 2837
+        width: 124
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbf4667167bf4ecf844c4235b1acc1a
+      internalID: 1617287520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_43
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2514
+        width: 244
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a182ff76c5e42a296bdd090366b831
+      internalID: 1144054591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_44
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2514
+        width: 244
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b30c022c28144ee29fdfc3b272a12ce
+      internalID: -1672867990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_45
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 2514
+        width: 244
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4d3d8057add4363bc11e968c3419d0
+      internalID: 964704549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_46
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2514
+        width: 242
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbcbdcc5c1744586af64527ed6637c0
+      internalID: 971125870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_47
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2514
+        width: 242
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198e7df7670434e5f9b50488b6cb4e73
+      internalID: 2005642907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_48
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 2514
+        width: 242
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878def3259b1441b3bd549c0534e3582
+      internalID: -450046361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_49
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2310
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55abc50c7c3d842bcaf1074763641dfc
+      internalID: 1551503676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_50
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2310
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b746690fca540a6a5842f5468ebc0d
+      internalID: -476409410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_51
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2310
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ef780da8b1d42d4a04c0eb3b517efd
+      internalID: 1093840524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_52
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 2293
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5125b1f1b06f84182ae3941018405c2c
+      internalID: 633087281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_53
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 2310
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fbfaffeedfc4394a3fe9cea2237006
+      internalID: -277722849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_54
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 2310
+        width: 105
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0835bec18d874e6eaf71bf9be8461b6
+      internalID: -303982050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_55
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 2310
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49d4db8049ea4f119cc71f913834dba
+      internalID: -589856430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_56
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 2310
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d77c799831c466f8ba34a66298d4b7
+      internalID: 1716532381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_57
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 2310
+        width: 40
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3c1c2fdd5014fd4a871a88bb3080b2
+      internalID: -1472489114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_58
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 2310
+        width: 107
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f166535672c744f55a67a736b823ee63
+      internalID: 1636335366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_59
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 2310
+        width: 123
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a3bf962a9f8474d9376b8294fc934f
+      internalID: 1129614645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_60
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 2310
+        width: 122
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841cb4c56b1604727806f17c790f2b0f
+      internalID: -317805542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_61
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 2310
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e885fbc6d043c4894a0d94da44e03d5f
+      internalID: 1448791259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_62
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 2310
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ca8118596434cf79df363c3ab2112b
+      internalID: -1200610116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_63
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 2310
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5884338c01a74301adf2f33770bc97f
+      internalID: 1162916135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_64
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 2310
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d293bbcb55ba428bbba496be2071572
+      internalID: -1788311966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_65
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 2310
+        width: 106
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f856a0243eeae41d98fde953f2d08749
+      internalID: -1736193862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_66
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 2310
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058c1a7e896494a728b79b1666aad9ad
+      internalID: 2083538180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_67
+      rect:
+        serializedVersion: 2
+        x: 2462
+        y: 2310
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b354b7e57281475aa7db7d054f8fb13
+      internalID: 948881311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_68
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 2310
+        width: 38
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc297a6b79bee4161a1809b8287327ce
+      internalID: 100633881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_69
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 2310
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9bc67631b0e404c9086cf26fede5ae
+      internalID: -2141401419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_70
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 2310
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047191b3e9f5840e7b0b3673fc9b5631
+      internalID: -546189454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_71
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 2310
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb8c5407517f407481b65acd51e6a17
+      internalID: 1141214183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_72
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 2139
+        width: 107
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a08d957718094d5097c3916e42c45a6
+      internalID: -1932484737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_73
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2139
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e87813ed643b4854a84ce15a29877fb
+      internalID: -91827676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_74
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1850
+        width: 278
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fb2addb547c4a8591b210aa0d2d93b
+      internalID: -2074181047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_75
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1850
+        width: 278
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03649bc6997a840d6b4918e80f0d67d3
+      internalID: -1781573385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_76
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1850
+        width: 277
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd2ea971d2344d3d8536d7ca20e1867
+      internalID: -970923052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_77
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1850
+        width: 276
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f30424f13344036bfe1917aad5bc90
+      internalID: 138031198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_78
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 1850
+        width: 276
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d028b2c351f94541bda3bfdc668c10a
+      internalID: 964791998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_79
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1850
+        width: 276
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92adb053645554a7080d9f722a0249eb
+      internalID: -1974441367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_80
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1850
+        width: 277
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfb9c81452f8485aadf832b7f5bead0
+      internalID: -1253915874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_81
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 1987
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5814130ed42041fda7b539a1466bf68
+      internalID: -1200398369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_82
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1987
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc0ae9b522fb4432942539bf98a121a
+      internalID: -765777121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_83
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1562
+        width: 278
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f64dae4893346cb9d59acc986aa317
+      internalID: -1756320825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_84
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1562
+        width: 278
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ff8f471e8d64e8bb58e94a86ad94ea
+      internalID: -877269675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_85
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1562
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854fe0908f3b84356bf70c6b31b562e7
+      internalID: -650323283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_86
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1783
+        width: 90
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe8fd881ef8e4e56ab0cf60de17d2bb
+      internalID: -1340041615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_87
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1562
+        width: 276
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c37d23c3cb2b406da3a7e1c85f43a72
+      internalID: -972500692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_88
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 1562
+        width: 276
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dbef5291b8f416c98d2387fff2c93c
+      internalID: -1150127919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_89
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1562
+        width: 276
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c081a3056352048c0a5e5808e12ee901
+      internalID: -341515260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_90
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1562
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d165690a733c4c759275a5eaba0cb66
+      internalID: 429322516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_91
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1783
+        width: 90
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f011724dcb7d41bd857f87a13be9eb5
+      internalID: -162776849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_92
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 1698
+        width: 277
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd3901378624486591078612c92c8ef
+      internalID: 1294307585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_93
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 1783
+        width: 90
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a9ae9b1d17945bda00ff793b44ac13
+      internalID: -92216210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_94
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 1698
+        width: 276
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb4f99b20c98404f9718bdc403f71fd
+      internalID: -1790040392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_95
+      rect:
+        serializedVersion: 2
+        x: 2922
+        y: 1783
+        width: 90
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624d17de3b409446fb26a5b272f67b19
+      internalID: -938278679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_96
+      rect:
+        serializedVersion: 2
+        x: 3023
+        y: 1783
+        width: 107
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777f22d2c05af48d6868acda91a9a55c
+      internalID: -599760480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_97
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1357
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132deac5adb674d048803daa85bd2ec3
+      internalID: 1356633643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_98
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1443
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1b1157823be4d1090e2374cb1beaa9
+      internalID: 186136272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_99
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1357
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416aec21714f0489781f051ba333788a
+      internalID: 170506250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_100
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1357
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082bd6b2c73ef41a4bb00a178e772e8b
+      internalID: 941174768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_101
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1357
+        width: 107
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296860225adc4469cb6e8e4bd5108f36
+      internalID: 593032558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_102
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1357
+        width: 124
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd73648e61dc747adad08adfb0bdd3c6
+      internalID: 1329956919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_103
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1357
+        width: 38
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59a2f437bc964e87936cc6046e1ebde
+      internalID: -879481661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_104
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1357
+        width: 39
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22eec8df562ab4fc5a660ce97ce3e209
+      internalID: -1307054279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_105
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1357
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d75b2daddc44819865a4b9686ce53e
+      internalID: 1041324417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_106
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1357
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f801928eef69a4c6d83f5a18b1a221d3
+      internalID: -1390715105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_107
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1357
+        width: 39
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a50b063b84dd4ab196f4243e588dd9e
+      internalID: -428231031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_108
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1357
+        width: 106
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbce5afa7a31744cc83040aa254befd2
+      internalID: 871274298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_109
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1357
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb916769e487452eae6c5a5a757c079
+      internalID: -1104053456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_110
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1357
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6810d59e8a24080b1bd32329c8f362
+      internalID: 1352804340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_111
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1357
+        width: 38
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318acff8d438a4261b968e7c6f7f9421
+      internalID: -1054782959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_112
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1188
+        width: 107
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71921c50e321342929a70ba744040d4a
+      internalID: 1772675683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_113
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1188
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ceaf9cc568c64971ae00818c5015725
+      internalID: 1689079625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_114
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 899
+        width: 141
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e55c29140f344f42b1af242625cdbe1
+      internalID: -754837534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_115
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 899
+        width: 141
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3cd2667958b4d0ba95c219211c2aae
+      internalID: -1254310262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_116
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 899
+        width: 141
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f42e154cf3d48cb8fc1c1435ac3aa1
+      internalID: 1703730032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_117
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 899
+        width: 141
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a60be9b183e6473b8bb1a31e2c563d1
+      internalID: -728916533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_118
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 899
+        width: 140
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a877b2b0885b34799b80716eafccbb05
+      internalID: 2101167877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_119
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 899
+        width: 140
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f5099db5fd34fd88cf6668df8b7259
+      internalID: -327508048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_120
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 899
+        width: 140
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f2a385ee821428a9cf6d929faa1c3b
+      internalID: 277901784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_121
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1034
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce88170af7f2494690a91995e10963a
+      internalID: -826532492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_122
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 1034
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075800e346bc04ea2b10388456ed7fcc
+      internalID: 1496047771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_123
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 610
+        width: 141
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e003eb0f4a4fb4e14b5ca0c75f1fb694
+      internalID: 1948515123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_124
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 610
+        width: 141
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9a6164a5d414c70b713ebdee91a666
+      internalID: -1068144921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_125
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 610
+        width: 141
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cde1861322b4c2b90f47d9734b2e26
+      internalID: -153183843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_126
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 830
+        width: 90
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638c9d84167ea49a48dc6e37996e0833
+      internalID: 1152485490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_127
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 610
+        width: 141
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88490b1df9f9b4882b6037ab91cb40ca
+      internalID: -1987773572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_128
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 610
+        width: 140
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e8b5dea8e0f4a8c8a1f072dd77652c
+      internalID: -946997748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_129
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 610
+        width: 140
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673c1ccf089114cccb05c00ccd77b59a
+      internalID: 396376782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_130
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 610
+        width: 140
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bebe88966f714c18a5b07a61de25a9f
+      internalID: -964992448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_131
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 830
+        width: 89
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058b88dfceba74b548755207cf82fcac
+      internalID: 1405611348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_132
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 746
+        width: 140
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd60914cb2404d488852c167f6f9d20
+      internalID: -848518565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_133
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 830
+        width: 89
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebc5a6b4e88d425b9ad4e27aa871d93
+      internalID: -1763854856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_134
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 746
+        width: 141
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95034067f220540c48d8595754a07568
+      internalID: -2085466325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_135
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 830
+        width: 90
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88d2150ca9144d91beee39987af7abf
+      internalID: -1501069368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_136
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 830
+        width: 107
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70c2f126be6f4e0495f9e1f2c27a096
+      internalID: 452205922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_0: -595336126
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_1: 2017362592
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_10: 1197958793
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_100: 941174768
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_101: 593032558
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_102: 1329956919
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_103: -879481661
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_104: -1307054279
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_105: 1041324417
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_106: -1390715105
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_107: -428231031
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_108: 871274298
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_109: -1104053456
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_11: -258186977
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_110: 1352804340
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_111: -1054782959
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_112: 1772675683
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_113: 1689079625
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_114: -754837534
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_115: -1254310262
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_116: 1703730032
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_117: -728916533
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_118: 2101167877
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_119: -327508048
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_12: 1902565999
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_120: 277901784
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_121: -826532492
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_122: 1496047771
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_123: 1948515123
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_124: -1068144921
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_125: -153183843
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_126: 1152485490
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_127: -1987773572
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_128: -946997748
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_129: 396376782
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_13: 550895582
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_130: -964992448
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_131: 1405611348
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_132: -848518565
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_133: -1763854856
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_134: -2085466325
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_135: -1501069368
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_136: 452205922
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_14: 1309721502
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_15: -1835116896
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_16: -1668874597
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_17: 1717250887
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_18: -42188361
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_19: -1172933624
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_2: 1784926727
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_20: -984611840
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_21: 201731520
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_22: 827282499
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_23: -1160911246
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_24: -1843827333
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_25: -1794031496
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_26: -1351299196
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_27: 1416691667
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_28: 232277583
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_29: 1389234897
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_3: 1743486671
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_30: -290147667
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_31: -814934376
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_32: -1691785408
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_33: 162491503
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_34: -758059668
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_35: 571242403
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_36: 285483767
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_37: -522384573
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_38: 1008298844
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_39: 999385642
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_4: -1863600829
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_40: -1330313198
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_41: -1572649361
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_42: 1617287520
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_43: 1144054591
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_44: -1672867990
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_45: 964704549
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_46: 971125870
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_47: 2005642907
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_48: -450046361
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_49: 1551503676
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_5: -1033115265
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_50: -476409410
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_51: 1093840524
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_52: 633087281
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_53: -277722849
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_54: -303982050
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_55: -589856430
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_56: 1716532381
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_57: -1472489114
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_58: 1636335366
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_59: 1129614645
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_6: -1300907421
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_60: -317805542
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_61: 1448791259
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_62: -1200610116
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_63: 1162916135
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_64: -1788311966
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_65: -1736193862
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_66: 2083538180
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_67: 948881311
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_68: 100633881
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_69: -2141401419
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_7: 1461764204
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_70: -546189454
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_71: 1141214183
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_72: -1932484737
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_73: -91827676
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_74: -2074181047
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_75: -1781573385
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_76: -970923052
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_77: 138031198
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_78: 964791998
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_79: -1974441367
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_8: -941909991
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_80: -1253915874
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_81: -1200398369
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_82: -765777121
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_83: -1756320825
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_84: -877269675
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_85: -650323283
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_86: -1340041615
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_87: -972500692
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_88: -1150127919
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_89: -341515260
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_9: 1103343981
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_90: 429322516
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_91: -162776849
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_92: 1294307585
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_93: -92216210
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_94: -1790040392
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_95: -938278679
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_96: -599760480
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_97: 1356633643
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_98: 186136272
+      NES - The Legend of Zelda - NPCs_scaled_17x_pngcrushed_99: 170506250
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
