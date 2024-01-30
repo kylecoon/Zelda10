@@ -84,9 +84,9 @@ public class SwordShot : MonoBehaviour
         
     }
 
-    void OnTriggerEnter(Collider collider){
+    void OnCollisionEnter(Collision collider){
 
-        if(collider.CompareTag("Enemy")){
+        if(collider.gameObject.CompareTag("Enemy")){
             Destroy(this);
         }
         //collider

@@ -34,6 +34,9 @@ public class Boomerang : MonoBehaviour
 
     void Update()
     {
+        if (thrower == null) {
+            Destroy(gameObject);
+        }
         //animation
         if (Time.time % 0.33f < 0.11f) {
             sprt.sprite = sprites[0];
@@ -45,7 +48,7 @@ public class Boomerang : MonoBehaviour
             sprt.sprite = sprites[2];
         }
 
-        if (returning) {
+        if (returning && thrower != null && gameObject != null) {
             rb.velocity = (thrower.transform.position - transform.position).normalized * speed;
         }
         else {
@@ -62,16 +65,25 @@ public class Boomerang : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Enemy")) {
-            other.gameObject.GetComponent<EnemyHealth>().AlterHealth(damage);
-            returning = true;
+        if (ThrowerTag == "Player") {
+            if (other.gameObject.CompareTag("Enemy")) {
+                other.gameObject.GetComponent<EnemyHealth>().AlterHealth(damage);
+                returning = true;
+            }
+            else if (other.gameObject.CompareTag("Player")) {
+                Destroy(gameObject);
+            }
+            else if (other.gameObject.CompareTag("Wall")) {
+                returning = true;
+            }
         }
-        else if (other.gameObject.CompareTag("Player")) {
-            Destroy(this.gameObject);
-        }
-        else if (other.gameObject.CompareTag("Wall")) {
-            returning = true;
+        else if (ThrowerTag == "Enemy") {
+            if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Wall")) {
+                returning = true;
+            }
+            if (other.gameObject == thrower) {
+                Destroy(gameObject);
+            }
         }
     }
-
 }

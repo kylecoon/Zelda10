@@ -13,12 +13,14 @@ public class Movement : MonoBehaviour
     public GameObject cam;
     private Dictionary<Vector2, Sprite[]> sprite_dictionary = new Dictionary<Vector2, Sprite[]>();
     private bool can_move;
+    public bool in_knockback;
 
     private Vector2 current_direction;
 
     // Start is called before the first frame update
     void Start()
     {
+        in_knockback = false;
         Screen.SetResolution(1020, 960, false);
 
         sprt = GetComponent<SpriteRenderer>();
@@ -48,7 +50,9 @@ public class Movement : MonoBehaviour
             current_input = GetInput();
         }
 
-        rb.velocity = current_input * movement_speed;
+        if (!in_knockback) {
+            rb.velocity = current_input * movement_speed;
+        }
 
     }
 

@@ -10,13 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 14703959211372918}
   - component: {fileID: 1008404570628404263}
-  - component: {fileID: 4017901728191404426}
   - component: {fileID: 5147548789586369113}
   - component: {fileID: 8223976410293122210}
   - component: {fileID: 3422373776105806011}
   - component: {fileID: 7931975517006423219}
+  - component: {fileID: 4936657224793781288}
   m_Layer: 0
-  m_Name: Gel
+  m_Name: Goriya
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: -94206800, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}
+  m_Sprite: {fileID: -2099894017, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -89,22 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4017901728191404426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4219593031525209668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2173d2f961ff7472db358eba7299fbac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: -94206800, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}
-  - {fileID: 677231151, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}
-  death_sprite: {fileID: -363641510, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}
 --- !u!114 &5147548789586369113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,12 +101,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c878f28eb40184780a6ddae551295f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1
+  maxHealth: 3
   rupeeDrop: {fileID: 4846494190856542011, guid: 205318423edbd497189d05441ca708ca, type: 3}
   heartDrop: {fileID: 8456612851568165429, guid: d9b003534dfa1469e9e50f44d247924d, type: 3}
   bombDrop: {fileID: 8673529283201933767, guid: 2c5de06a799624cbc8fd9de0576b3ad3, type: 3}
   invincible: 0
   is_alive: 0
+  death_sprite: {fileID: 0}
 --- !u!114 &8223976410293122210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,3 +170,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8, y: 0.8, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4936657224793781288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4219593031525209668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48270db02fed54a4e897765f152fb6a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rang: {fileID: 4320480936826873930, guid: 2499b22e7f7014abea91c2173afda041, type: 3}
+  has_boomerang: 0
+  sprites:
+  - {fileID: -1168739734, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}
+  - {fileID: -149104898, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}
+  - {fileID: -281605069, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}
+  - {fileID: -2099894017, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}

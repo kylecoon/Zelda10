@@ -5,6 +5,7 @@ using UnityEditor;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Runtime.CompilerServices;
 
 public class Health : MonoBehaviour
 {
@@ -69,12 +70,14 @@ public class Health : MonoBehaviour
 
     void OnTriggerEnter(Collider coll){
         if(coll.CompareTag(DamageFromTag)){
-            health--;
-            if(health <= 0){
+            if(health <= 1){
+                health--;
                 StartCoroutine(Death());
             }
+            else {
+                StartCoroutine(hit(coll.transform.position));
+            }
         }
-        
     }
 
     public void UpdateHP(){
@@ -122,47 +125,54 @@ public class Health : MonoBehaviour
             float xDif = collider.x - finalPos.x;
             float yDif = collider.y - finalPos.y;
 
+            Vector2 direction;
+
             //Vector2 finalPos = collider.transform.position;
             if(Mathf.Abs(xDif) < Mathf.Abs(yDif)){ // so above or below
                 if(yDif > 0){
-                    finalPos.y -= 2;
+                    direction = Vector2.down;
                 } else {
-                    finalPos.y += 2;
+                    direction = Vector2.up;
                 }
             } else { //ydif == 0
                 if(xDif > 0){
-                    finalPos.x -= 2;
+                    direction = Vector2.left;
                 } else {
-                    finalPos.x += 2;
+                    direction = Vector2.right;
                 }
             }
 
             health--; 
             UpdateHP();
-            GetComponent<Movement>().movement_speed = 0;
+            GetComponent<Movement>().Flip_CanMove();
+            GetComponent<Movement>().in_knockback = true;
+
+            Rigidbody rb = GetComponent<Rigidbody>();
+            rb.velocity = direction * 6.0f;
+
+            SRenderer.color = new Color(255,0,0,255);
+            Invincible = true;
+
             
             //animations.Play();
             Debug.Log("hit2");
-            Rigidbody rb = GetComponent<Rigidbody>();
             
             //animations.Play("linkHurt");
-            yield return StartCoroutine(CoroutineUtilities.MoveObjectOverTime(rb.transform, gameObject.transform.position, finalPos, 0.2f));
+            yield return new WaitForSeconds(0.3f);
             
-            DamageFromTag = "Respawn";
-            for(int i = 0; i < 30; ++i){
-                SRenderer.color = new Color(0,255,255,255);
-                yield return new WaitForSecondsRealtime(0.01f);
-                SRenderer.color = new Color(255,255,255,255);
-            }
-            DamageFromTag = "Enemy";
-            GetComponent<Movement>().movement_speed = 4;
-            lastHurtFrame = Time.frameCount;
+            GetComponent<Movement>().in_knockback = false;
+            Invincible = false;
+            SRenderer.color = new Color(255,255,255,255);
+            GetComponent<Movement>().Flip_CanMove();
             
         }
 
         yield return null;
     }
 
+    public void AlterHealth(int health_change) {
+
+    } 
 
     
 

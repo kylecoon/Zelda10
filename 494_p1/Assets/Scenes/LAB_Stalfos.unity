@@ -13940,6 +13940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movement_speed: 4
   cam: {fileID: 0}
+  in_knockback: 0
 --- !u!111 &1527276992
 Animation:
   m_ObjectHideFlags: 0
@@ -13971,7 +13972,7 @@ MonoBehaviour:
   health: 6
   MaxHP: 6
   DamageFromTag: Enemy
-  HPshown: {fileID: 0}
+  HPshown: {fileID: 1982388461}
   hurtSprites: []
 --- !u!114 &1527276994
 MonoBehaviour:
@@ -19806,6 +19807,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 128335302837673186, guid: e8c97eaca00fa46d2a8c05a2c9372c16, type: 3}
+      propertyPath: m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2496662267698374217, guid: e8c97eaca00fa46d2a8c05a2c9372c16, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20
@@ -19860,7 +19865,7 @@ PrefabInstance:
       objectReference: {fileID: 8456612851568165429, guid: 31439f754237e40e894b55da670c743a, type: 3}
     - target: {fileID: 7520518882417209073, guid: e8c97eaca00fa46d2a8c05a2c9372c16, type: 3}
       propertyPath: maxHealth
-      value: 10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7520518882417209073, guid: e8c97eaca00fa46d2a8c05a2c9372c16, type: 3}
       propertyPath: rupeeDrop

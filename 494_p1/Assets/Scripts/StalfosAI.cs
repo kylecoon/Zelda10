@@ -13,6 +13,7 @@ public class StalfosAI : MonoBehaviour
     private int frameCount;
     private Rigidbody rb;
     private EnemyMovement mov;
+    public float speed;
 
     // Start is called before the first frame update
     void Start()
@@ -34,8 +35,10 @@ public class StalfosAI : MonoBehaviour
                 frameCount = 0;
             }
             ++frameCount;
-
-            GetComponent<EnemyMovement>().MoveEnemy();
+            if (!mov.moving && mov.can_move) {
+                mov.moving = true;
+                StartCoroutine(mov.MoveEnemy(mov.PickDirection(), speed));
+            }
         }
     }
 }

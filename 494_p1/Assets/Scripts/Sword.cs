@@ -6,12 +6,11 @@ using UnityEngine.UIElements;
 
 public class Sword : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Enemy")) {
+
+    void OnCollisionEnter(Collision collision){
+        if (collision.gameObject.CompareTag("Enemy")) {
             Debug.Log("Sword hit");
-            other.gameObject.GetComponent<EnemyHealth>().AlterHealth(-1);
+            collision.gameObject.GetComponent<EnemyHealth>().AlterHealth(-1);
         }
     }
 }
