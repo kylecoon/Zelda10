@@ -48,13 +48,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile_speed: 6
+  projectile_damage: 0
   sprt: {fileID: 0}
-  sprites:
-  - {fileID: 21300238, guid: 45afd34443b96473598b76e2b1778b4e, type: 3}
-  - {fileID: 21300234, guid: 45afd34443b96473598b76e2b1778b4e, type: 3}
-  - {fileID: 21300236, guid: 45afd34443b96473598b76e2b1778b4e, type: 3}
-  - {fileID: 21300240, guid: 45afd34443b96473598b76e2b1778b4e, type: 3}
-  isActive: 0
   brokenProjectile: {fileID: 21300340, guid: 45afd34443b96473598b76e2b1778b4e, type: 3}
 --- !u!65 &7942918897962271782
 BoxCollider:

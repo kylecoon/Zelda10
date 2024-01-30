@@ -188,7 +188,7 @@ public class Attacking : MonoBehaviour
         GetComponent<Movement>().UpdateSprite(GetComponent<Movement>().Get_CurrentDirection());
         GetComponent<Movement>().Flip_CanMove();
 
-        yield return new WaitForSeconds(1.9f);
+        yield return new WaitForSeconds(1.4f);
 
         if (bomb != null) {
             yield return StartCoroutine(bomb.GetComponent<Bomb>().Explode());

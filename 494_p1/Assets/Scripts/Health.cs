@@ -123,7 +123,7 @@ public class Health : MonoBehaviour
             float yDif = collider.y - finalPos.y;
 
             //Vector2 finalPos = collider.transform.position;
-            if(xDif == 0){ // so above or below
+            if(Mathf.Abs(xDif) < Mathf.Abs(yDif)){ // so above or below
                 if(yDif > 0){
                     finalPos.y -= 2;
                 } else {

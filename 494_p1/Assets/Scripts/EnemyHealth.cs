@@ -10,82 +10,53 @@ public class EnemyHealth : MonoBehaviour
     public Sprite death_sprite;
     public GameObject rupeeDrop;
     public GameObject heartDrop;
+    public GameObject bombDrop;
+    public bool invincible;
     // Start is called before the first frame update
     void Start()
     {
+        invincible = false;
         health = maxHealth;
     }
 
     // Update is called once per frame
     public void AlterHealth(int health_change) {
+        if (invincible) {
+            return;
+        }
         health += health_change;
-        if (health <= 0) {
-            StartCoroutine(Die());
-        }
-        else {
-            //GetComponent<EnemyMovement>().Knockback();
+        if (health <= 0 && gameObject != null) {
+            StartCoroutine(Die(transform.position));
         }
     }
 
-    /*    void Knockback() {
-        Vector2 player_position = GameObject.FindWithTag("Player").transform.position;
-        stunned = true;
-        //push vertically
-        if (Mathf.Abs(transform.position.x - player_position.x) < Mathf.Abs(transform.position.y - player_position.y)) {
-            //push up
-            if (player_position.y < transform.position.y) {
-                rb.velocity = Vector3.up * knockback_force;
-            }
-            //push down
-            else {
-                rb.velocity = Vector3.down * knockback_force;
-            }
-        }
-        //push horizontally
-        else {
-            //push right
-            if (player_position.x < transform.position.x) {
-                rb.velocity = Vector3.right * knockback_force;
-            }
-            //push left
-            else {
-                rb.velocity = Vector3.left * knockback_force;
-            }
-        }
-        StartCoroutine(Stall());
-    }
-
-    IEnumerator Stall() {
-        Debug.Log("Starting stall");
-
-        yield return new WaitForSeconds(1.0f);
-
-        SnapToGrid();
-        start_position = transform.position;
-        interpolator = 0.0f;
-        stunned = false;
-        rb.velocity = Vector2.zero;
-        Debug.Log("Ending stall");
-    }*/
-
-    IEnumerator Die() {
+    IEnumerator Die(Vector2 drop_position) {
         if (gameObject == null) {
             yield return null;
         }
+        GetComponent<Rigidbody>().velocity = Vector2.zero;
         GetComponent<SpriteRenderer>().sprite = death_sprite;
         GetComponent<BoxCollider>().enabled = false;
-        GetComponent<StalfosAI>().isAlive = false;
+        GetComponent<EnemyMovement>().can_move = false;
 
         int drop_chance = Random.Range(0, 10);
         if (drop_chance < 5) {
-            Instantiate(rupeeDrop, transform.position, Quaternion.identity);
+            Instantiate(rupeeDrop, drop_position, Quaternion.identity);
         }
         else if (drop_chance > 7) {
-            Instantiate(heartDrop, transform.position, Quaternion.identity);
+            Instantiate(heartDrop, drop_position, Quaternion.identity);
+        }
+        else if (drop_chance == 6) {
+            Instantiate(bombDrop, drop_position, Quaternion.identity);
         }
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.8f);
+        if (gameObject != null) {
+            Destroy(gameObject);
+        }
+    }
 
-        gameObject.SetActive(false);
+    public int GetHealth() {
+        return health;
     }
 }

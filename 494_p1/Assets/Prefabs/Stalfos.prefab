@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 128335302837673186}
   - component: {fileID: 814974744555538271}
   - component: {fileID: 7520518882417209073}
+  - component: {fileID: 6031213863713916610}
   m_Layer: 0
   m_Name: Stalfos
   m_TagString: Enemy
@@ -148,7 +149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2311302b3efd64d40baaa3c24fef2367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isAlive: 0
 --- !u!114 &7520518882417209073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,6 +162,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 2
-  death_sprite: {fileID: -28047889, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}
+  death_sprite: {fileID: -1761167645, guid: cba299d4618f94efb9eab538e8ec5c0d, type: 3}
   rupeeDrop: {fileID: 0}
   heartDrop: {fileID: 0}
+  bombDrop: {fileID: 0}
+  invincible: 0
+--- !u!114 &6031213863713916610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6553414134084832229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06e48c7ee7e5244c2955dbe734431397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  can_move: 0
