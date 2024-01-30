@@ -41,14 +41,13 @@ public class EnemyHealth : MonoBehaviour
         }
         GetComponent<Rigidbody>().velocity = Vector2.zero;
         GetComponent<BoxCollider>().enabled = false;
-        if (gameObject.name == "Keese") {
-            GetComponent<OmniMovement>().can_move = false;
-        }
-        else if (gameObject.name == "Aquamentus") {
-
+        if (TryGetComponent<OmniMovement>(out OmniMovement mov)) {
+            mov.can_move = false;
         }
         else {
-            GetComponent<EnemyMovement>().can_move = false;
+            if (TryGetComponent<EnemyMovement>(out EnemyMovement mov_)) {
+                mov_.can_move = false;
+            }
         }
         GetComponent<SpriteRenderer>().sprite = death_sprite;
         GetComponent<SpriteRenderer>().color = GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 255);

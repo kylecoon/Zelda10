@@ -69,6 +69,9 @@ public class Health : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider coll){
+        if (coll.gameObject.TryGetComponent<WallmasterAI>(out WallmasterAI dummy)) {
+            return;
+        }
         if(coll.CompareTag(DamageFromTag)){
             if(health <= 1){
                 health--;
@@ -101,6 +104,10 @@ public class Health : MonoBehaviour
 
     void OnCollisionEnter(Collision c){
         Debug.Log("collide");
+
+        if (c.gameObject.TryGetComponent<WallmasterAI>(out WallmasterAI dummy)) {
+            return;
+        }
         
         if(c.gameObject.tag == DamageFromTag){
             Debug.Log("hit");
