@@ -562,6 +562,7 @@ PlayerSettings:
   webGLPowerPreference: 2
   scriptingDefineSymbols:
     Standalone: EECS494HELPER
+    WebGL: EECS494HELPER
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

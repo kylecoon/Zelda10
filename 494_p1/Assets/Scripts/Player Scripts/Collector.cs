@@ -8,7 +8,10 @@ public class Collector : MonoBehaviour
 
 
     public AudioClip RupCollect;
-    //public AudioClip keyCollect;
+    public AudioClip keyCollect;
+
+    public AudioClip BombCollect;
+    public AudioClip HeartCollect;
     void Start()
     {
         
@@ -38,9 +41,12 @@ public class Collector : MonoBehaviour
             inventory.AddKey();
             Destroy(object_collided_with);
             //Debug.Log("worked");
-            //AudioSource.PlayClipAtPoint(keyCollect, Camera.main.transform.position);
+            AudioSource.PlayClipAtPoint(keyCollect, Camera.main.transform.position);
 
         } else if(object_collided_with.CompareTag("heart")){
+
+            AudioSource.PlayClipAtPoint(HeartCollect, Camera.main.transform.position);
+
             Debug.Log("pickup heart");
             Health curHP = GetComponent<Health>();
             if(curHP.health < curHP.MaxHP) curHP.health++;
@@ -48,11 +54,17 @@ public class Collector : MonoBehaviour
             curHP.UpdateHP();
 
         } else if(object_collided_with.CompareTag("bomb")){
+
+        AudioSource.PlayClipAtPoint(keyCollect, Camera.main.transform.position);
+
             inventory.Addbombs();
             Destroy(object_collided_with);
             //Debug.Log("worked");
         }
         else if (object_collided_with.CompareTag("AltItem")) {
+
+            AudioSource.PlayClipAtPoint(BombCollect, Camera.main.transform.position);
+
             GetComponent<Attacking>().AddAlt(object_collided_with.name);
             Destroy(object_collided_with);
         }

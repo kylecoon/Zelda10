@@ -13,12 +13,15 @@ public class EnemyHealth : MonoBehaviour
     public bool invincible;
     public bool is_alive;
     public Sprite death_sprite;
+
+    private AudioClip damageSound; //= Resources.Load("Zelda/Sound-Effects/DamageEnemy") as AudioClip;
     // Start is called before the first frame update
     void Start()
     {
         invincible = false;
         health = maxHealth;
         is_alive = true;
+        damageSound = Resources.Load<AudioClip>("Zelda/Sound-Effects/DamageEnemy");
     }
 
     // Update is called once per frame
@@ -26,6 +29,8 @@ public class EnemyHealth : MonoBehaviour
         if (invincible) {
             return;
         }
+
+        AudioSource.PlayClipAtPoint(damageSound, Camera.main.transform.position);
         health += health_change;
         
         StartCoroutine(DamageColor());

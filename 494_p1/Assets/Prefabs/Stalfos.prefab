@@ -135,8 +135,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.96, y: 0.96, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.0852833, y: 1.3490403, z: 1}
+  m_Center: {x: -0.089016914, y: 0.31321037, z: 0}
 --- !u!114 &814974744555538271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,6 +169,7 @@ MonoBehaviour:
   invincible: 0
   is_alive: 0
   death_sprite: {fileID: -363641510, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}
+  damageSound: {fileID: 0}
 --- !u!114 &6031213863713916610
 MonoBehaviour:
   m_ObjectHideFlags: 0
