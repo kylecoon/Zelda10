@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -32,7 +31,7 @@ public class Teleport : MonoBehaviour
         
     }
 
-    void OnTriggerEnter(UnityEngine.Collider other) {
+    void OnTriggerEnter(Collider other) {
         // bool fade = true;
         //StartCoroutine(UIcontroller.fadeToBlack(3,true, BlackSquare));
 

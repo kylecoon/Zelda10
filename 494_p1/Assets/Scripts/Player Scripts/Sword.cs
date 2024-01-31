@@ -13,4 +13,10 @@ public class Sword : MonoBehaviour
             collision.gameObject.GetComponent<EnemyHealth>().AlterHealth(-1);
         }
     }
+     void OnTriggerEnter(Collider other) {    
+        if (other.gameObject.CompareTag("Enemy")) {
+            Debug.Log("Sword hit");
+            other.gameObject.GetComponent<EnemyHealth>().AlterHealth(-1);
+        }
+    }
 }

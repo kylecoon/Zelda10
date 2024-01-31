@@ -28,6 +28,16 @@ public class Beam : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter(Collider collision) {
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Wall") || rb.velocity == Vector3.zero) {
+            StartCoroutine(DestoryProjectile());
+            if (collision.gameObject.CompareTag("Enemy")) {
+                Debug.Log("Beam hit");
+                collision.gameObject.GetComponent<EnemyHealth>().AlterHealth(projectile_damage);
+            }
+        }
+    }
+
     public void Shoot(Vector2 new_direction) {
 
         GetComponent<Rigidbody>().velocity = new_direction * projectile_speed;

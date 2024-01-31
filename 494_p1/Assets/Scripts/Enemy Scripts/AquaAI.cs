@@ -10,12 +10,28 @@ public class AquaAI : MonoBehaviour
     public GameObject fireball;
     public Sprite[] sprites;
     private SpriteRenderer sprt;
+    bool spawned;
+    bool moving;
     void Start()
     {
         start_position = transform.position;
         end_position = start_position - new Vector2(2.0f, 0);
         sprt = GetComponent<SpriteRenderer>();
         StartCoroutine(Movement());
+        spawned = false;
+        moving = false;
+    }
+
+    void Update()
+    {
+        if (!spawned) {
+            spawned = true;
+            StartCoroutine(Spawn());
+        }
+        else if (!moving) {
+            moving = true;
+            StartCoroutine(Movement());
+        }
     }
 
     IEnumerator Movement() {
@@ -70,9 +86,9 @@ public class AquaAI : MonoBehaviour
         GameObject fireball2 = Instantiate(fireball, (Vector2)transform.position + new Vector2(-1.5f, 0.0f), Quaternion.identity);
         GameObject fireball3 = Instantiate(fireball, (Vector2)transform.position + new Vector2(-1.5f, -0.5f), Quaternion.identity);
 
-        fireball1.GetComponent<Rigidbody>().velocity = new Vector2(-1.0f, 0.5f) * 2;
-        fireball2.GetComponent<Rigidbody>().velocity = new Vector2(-1.0f, 0.0f) * 2;
-        fireball3.GetComponent<Rigidbody>().velocity = new Vector2(-1.0f, -0.5f) * 2;
+        fireball1.GetComponent<Rigidbody>().velocity = new Vector2(-1.0f, 0.5f) * 4;
+        fireball2.GetComponent<Rigidbody>().velocity = new Vector2(-1.0f, 0.0f) * 4;
+        fireball3.GetComponent<Rigidbody>().velocity = new Vector2(-1.0f, -0.5f) * 4;
 
         while (fireball1 != null || fireball2 != null || fireball3 != null) {
             yield return new WaitForSeconds(0.1f);
@@ -94,5 +110,10 @@ public class AquaAI : MonoBehaviour
         GetComponent<EnemyHealth>().invincible = true;
         yield return new WaitForSeconds(0.4f);
         GetComponent<EnemyHealth>().invincible = false;
+    }
+
+    IEnumerator Spawn() {
+        yield return new WaitForSeconds(3.0f);
+        moving = true;
     }
 }

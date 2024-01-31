@@ -10,6 +10,7 @@ public class EnemyHealth : MonoBehaviour
     public GameObject rupeeDrop;
     public GameObject heartDrop;
     public GameObject bombDrop;
+    public GameObject keyDrop;
     public bool invincible;
     public bool is_alive;
     public Sprite death_sprite;
@@ -64,6 +65,14 @@ public class EnemyHealth : MonoBehaviour
                 Destroy(gameObject);
                 yield break;
             }
+        }
+
+        if (gameObject.name == "StalfosKey") {
+            Instantiate(keyDrop, drop_position, Quaternion.identity);
+            if (gameObject != null) {
+                Destroy(gameObject);
+            }
+            yield break;
         }
 
         int drop_chance = Random.Range(0, 10);

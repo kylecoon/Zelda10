@@ -75,19 +75,19 @@ public class EnemyMovement : MonoBehaviour
     public Vector2 PickDirection() {
         directions.Clear();
 
-        Physics.Raycast(transform.position, transform.TransformDirection(Vector2.up), out hit, 1.0f);
+        Physics.Raycast(transform.position, transform.TransformDirection(Vector2.up), out hit, 1.5f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
             directions.Add(Vector2.up);
         }
-        Physics.Raycast(transform.position, transform.TransformDirection(Vector2.down), out hit, 1.0f);
+        Physics.Raycast(transform.position, transform.TransformDirection(Vector2.down), out hit, 1.5f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
             directions.Add(Vector2.down);
         }
-        Physics.Raycast(transform.position, transform.TransformDirection(Vector2.left), out hit, 1.0f);
+        Physics.Raycast(transform.position, transform.TransformDirection(Vector2.left), out hit, 1.5f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
             directions.Add(Vector2.left);
         }
-        Physics.Raycast(transform.position, transform.TransformDirection(Vector2.right), out hit, 1.0f);
+        Physics.Raycast(transform.position, transform.TransformDirection(Vector2.right), out hit, 1.5f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
             directions.Add(Vector2.right);
         }
@@ -102,6 +102,7 @@ public class EnemyMovement : MonoBehaviour
             directions.Add(previous_direction);
         }
         previous_direction = directions[UnityEngine.Random.Range(0, directions.Count)];
+        Debug.Log(previous_direction);
         return previous_direction;
     }
 

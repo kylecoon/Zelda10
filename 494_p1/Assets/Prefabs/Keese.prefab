@@ -105,8 +105,10 @@ MonoBehaviour:
   rupeeDrop: {fileID: 4846494190856542011, guid: 205318423edbd497189d05441ca708ca, type: 3}
   heartDrop: {fileID: 8456612851568165429, guid: d9b003534dfa1469e9e50f44d247924d, type: 3}
   bombDrop: {fileID: 8673529283201933767, guid: 2c5de06a799624cbc8fd9de0576b3ad3, type: 3}
+  keyDrop: {fileID: 0}
   invincible: 0
   is_alive: 0
+  death_sprite: {fileID: 0}
 --- !u!54 &3422373776105806011
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -172,6 +174,7 @@ MonoBehaviour:
   - {fileID: 1577734438, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}
   - {fileID: -1897988228, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}
   death_sprite: {fileID: -363641510, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}
+  spawn_sprite: {fileID: 0}
 --- !u!114 &7908963230677014494
 MonoBehaviour:
   m_ObjectHideFlags: 0

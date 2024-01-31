@@ -168,7 +168,7 @@ public class Movement : MonoBehaviour
         }
     }
 
-    void OnTriggerExit(Collider collider){
+    void OnTriggerEnter(Collider collider){
         if (collider.gameObject.CompareTag("->North") && rb.velocity.y > 0) {
             StartCoroutine(WaitForPlayerInputToTransition(new Vector3(0, 11, 0) ));
         }

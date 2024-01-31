@@ -72,13 +72,13 @@ public class Health : MonoBehaviour
         if (coll.gameObject.TryGetComponent<WallmasterAI>(out WallmasterAI dummy)) {
             return;
         }
-        if(coll.CompareTag(DamageFromTag)){
+        if(coll.CompareTag("Enemy")){
             if(health <= 1){
                 health--;
                 StartCoroutine(Death());
             }
             else {
-                StartCoroutine(hit(coll.transform.position));
+                StartCoroutine(Hit(coll.transform.position));
             }
         }
     }
@@ -111,7 +111,7 @@ public class Health : MonoBehaviour
         
         if(c.gameObject.tag == DamageFromTag){
             Debug.Log("hit");
-            StartCoroutine(hit(c.transform.position));
+            StartCoroutine(Hit(c.transform.position));
         }
 
         if(health <= 0){
@@ -123,7 +123,7 @@ public class Health : MonoBehaviour
         
     }
 
-    IEnumerator hit(Vector3 collider){
+    IEnumerator Hit(Vector3 collider){
 
         Debug.Log("hit");
          if(!Invincible && Time.frameCount > lastHurtFrame + 12){

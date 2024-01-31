@@ -48,11 +48,11 @@ public class Attacking : MonoBehaviour
         sprite_dictionary.Add(Vector2.right, sprites[27]);
 
         alt_sprite_dictionary.Add("BowAlt", sprites[163]);
-        alt_sprite_dictionary.Add("BombAlt", sprites[146]);
+        alt_sprite_dictionary.Add("BombAlt(Clone)", sprites[146]);
 
         sprites = Resources.LoadAll<Sprite>("Zelda/Enemies");
 
-        alt_sprite_dictionary.Add("BoomerangAlt", sprites[20]);
+        alt_sprite_dictionary.Add("BoomerangAlt(Clone)", sprites[20]);
 
         sprites = Resources.LoadAll<Sprite>("Zelda/Black_pixel");
         alt_sprite_dictionary.Add("empty", sprites[0]);
@@ -91,12 +91,12 @@ public class Attacking : MonoBehaviour
                             StartCoroutine(BowAttack());
                         }
                         break;
-                    case "BoomerangAlt":
+                    case "BoomerangAlt(Clone)":
                         if (boomerang == null) {
                             StartCoroutine(BoomerangAttack());
                         }
                         break;
-                    case "BombAlt":
+                    case "BombAlt(Clone)":
                         RaycastHit hit;
                         if (bomb == null && GetComponent<Inventory>().numBombs > 0 && !(Physics.Raycast (transform.position, GetComponent<Movement>().Get_CurrentDirection(), out hit, 1) && hit.transform.CompareTag("Wall"))) {
                             StartCoroutine(BombAttack());
@@ -135,12 +135,12 @@ public class Attacking : MonoBehaviour
     }
 
     public void AddAlt(string new_alt) {
-        if (new_alt == "BombAlt" && alt_dictionary.Count > 1) {
+        if (new_alt == "BombAlt(Clone)" && alt_dictionary.Count > 1) {
             GetComponent<Inventory>().Addbombs();
             alt_dictionary.Add(alt_dictionary.Count, new_alt);
         }
         else {
-            if (new_alt == "BombAlt") {
+            if (new_alt == "BombAlt(Clone)") {
                 GetComponent<Inventory>().Addbombs();
             }
             alt_dictionary.Add(alt_dictionary.Count, new_alt);
@@ -178,6 +178,7 @@ public class Attacking : MonoBehaviour
 
     IEnumerator BombAttack() {
         GetComponent<Inventory>().numBombs--;
+        GetComponent<Inventory>().UpdateBombCount();
         GetComponent<Movement>().Flip_CanMove();
         bomb = Instantiate(weapons[4], (Vector2)transform.position + GetComponent<Movement>().Get_CurrentDirection(), Quaternion.identity);
 

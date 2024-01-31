@@ -112,7 +112,7 @@ public class BladeTrapMove : MonoBehaviour
         // //transform.position = Vector3.MoveTowards(SpikeTile.transform.position, targetPosition, moveSpeed * Time.deltaTime)
         
         // transform.Translate(direction * moveSpeed * Time.deltaTime);
-        StartCoroutine(CoroutineUtilities.MoveObjectOverTime(gameObject.transform, transform.position, stopPositions[direction], baseMoveSpeed));
+        StartCoroutine(CoroutineUtilities.MoveObjectOverTime(gameObject.transform, transform.position, transform.position + stopPositions[direction], baseMoveSpeed));
         //return to start posistion
         Vector3.MoveTowards(transform.position, startPos, 1 * Time.deltaTime);
 

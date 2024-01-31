@@ -48,8 +48,17 @@ public class Boomerang : MonoBehaviour
             sprt.sprite = sprites[2];
         }
 
-        if (returning && thrower != null && gameObject != null) {
-            rb.velocity = (thrower.transform.position - transform.position).normalized * speed;
+        if (returning && gameObject != null) {
+            if (ThrowerTag == "Player" && thrower != null) {
+                rb.velocity = (thrower.transform.position - transform.position).normalized * speed;
+            }
+            else if (ThrowerTag == "Enemy") {
+                if (Mathf.Abs(transform.position.x - initial_position.x) < 0.1f && Mathf.Abs(transform.position.y - initial_position.y) < 0.1f) {
+                    Destroy(gameObject);
+                }
+                rb.velocity = (initial_position - (Vector2)transform.position).normalized * speed;
+            }
+
         }
         else {
             if ( Mathf.Abs(transform.position.x - initial_position.x) > range || Mathf.Abs(transform.position.y - initial_position.y) > range) {
@@ -81,7 +90,7 @@ public class Boomerang : MonoBehaviour
             if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Wall")) {
                 returning = true;
             }
-            if (other.gameObject == thrower) {
+            if (other.gameObject.CompareTag("Enemy") && Mathf.Abs(transform.position.x - initial_position.x) < 1.0f && Mathf.Abs(transform.position.y - initial_position.y) < 1.0f) {
                 Destroy(gameObject);
             }
         }

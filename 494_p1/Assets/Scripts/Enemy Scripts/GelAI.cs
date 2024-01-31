@@ -11,7 +11,9 @@ public class GelAI : MonoBehaviour
     private EnemyMovement mov;
     private bool isDead;
     private EnemyHealth healthComp;
-     public Sprite death_sprite;
+    public Sprite death_sprite;
+    public Sprite spawn_sprite;
+    bool spawned;
 
     // Start is called before the first frame update
     void Start()
@@ -20,15 +22,19 @@ public class GelAI : MonoBehaviour
         frameCount = 0;
         mov = GetComponent<EnemyMovement>();
         isDead = false;
-        StartCoroutine(Move());
         healthComp = GetComponent<EnemyHealth>();
+        spawned = false;
     }
 
     // Update is called once per frame
     void Update()
     {   
+        if (!spawned) {
+            spawned = true;
+            StartCoroutine(Spawn());
+        }
         //animation
-        if (healthComp.is_alive) {
+        if (healthComp.is_alive && mov.can_move) {
             if (frameCount == 15) {
                 sprt.sprite = sprites[0];
             }
@@ -55,5 +61,17 @@ public class GelAI : MonoBehaviour
     // Handle enemy destruction
     void OnDestroy() {
         isDead = true;
+    }
+
+    IEnumerator Spawn() {
+        mov.can_move = false;
+        Sprite temp = sprt.sprite;
+        sprt.sprite = spawn_sprite;
+        yield return new WaitForSeconds(3.0f);
+        sprt.sprite = temp;
+        mov.can_move = true;
+        spawned = true;
+        StartCoroutine(Move());
+        yield return null;
     }
 }

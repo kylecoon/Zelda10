@@ -60,18 +60,18 @@ public class WallmasterAI : MonoBehaviour
         }
 
         //closer to top wall
-        if (player_position.y % 10.0f > 5.0f) {
-            yDif = 10.0f - (player_position.y % 10.0f);
+        if (player_position.y % 11.0f > 5.5f) {
+            yDif = 10.0f - (player_position.y % 11.0f);
         }
         //closer to bottom wall
         else {
-            yDif = -(player_position.y % 10.0f);
+            yDif = -(player_position.y % 11.0f);
         }
 
         //closer to left/right wall than to top/bottom wall
         if (Mathf.Abs(xDif) < Mathf.Abs(yDif)) {
-            roomBottom = player_position.y - (player_position.y % 10.0f) + 2.0f;
-            roomTop = player_position.y + (10.0f - (player_position.y % 10.0f)) - 2.0f;
+            roomBottom = player_position.y - (player_position.y % 11.0f) + 2.0f;
+            roomTop = player_position.y + (11.0f - (player_position.y % 11.0f)) - 2.0f;
             //closer to left wall
             if (xDif < 0) {
                 start_direction = Vector2.right;
@@ -91,12 +91,12 @@ public class WallmasterAI : MonoBehaviour
             //closer to bottom wall
             if (yDif < 0) {
                 start_direction = Vector2.up;
-                return new Vector2(Random.Range(roomLeft, roomRight), player_position.y - (player_position.y % 10.0f) + 1.0f);
+                return new Vector2(Random.Range(roomLeft, roomRight), player_position.y - (player_position.y % 11.0f) + 1.0f);
             }
             //closer to top wall;
             else {
                 start_direction = Vector2.down;
-                return new Vector2(Random.Range(roomLeft, roomRight), player_position.y + (10.0f - (player_position.y % 10.0f)) - 1.0f);
+                return new Vector2(Random.Range(roomLeft, roomRight), player_position.y + (11.0f - (player_position.y % 11.0f)) - 2.0f);
             }
         }
     }

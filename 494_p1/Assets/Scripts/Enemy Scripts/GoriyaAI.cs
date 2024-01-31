@@ -15,21 +15,28 @@ public class GoriyaAI : MonoBehaviour
     public Sprite[] sprites;
     private SpriteRenderer sprt;
     private EnemyHealth healthComp;
+    public Sprite spawn_sprite;
+    bool spawned;
     // Start is called before the first frame update
     void Start()
     {
         mov = GetComponent<EnemyMovement>();
         isDead = false;
-        StartCoroutine(Move());
         has_boomerang = true;
         sprt = GetComponent<SpriteRenderer>();
         healthComp = GetComponent<EnemyHealth>();
+        spawned = false;
+        mov.can_move = false;
     }
 
     // Update is called once per frame
     void Update()
     {   
         //animation
+        if (!spawned) {
+            spawned = true;
+            StartCoroutine(Spawn());
+        }
         if (healthComp.is_alive && mov.can_move) {
             if (direction == Vector2.right) {
                 sprt.flipX = false;
@@ -100,5 +107,17 @@ public class GoriyaAI : MonoBehaviour
 
     void OnDestroy() {
         isDead = true;
+    }
+
+    IEnumerator Spawn() {
+        mov.can_move = false;
+        Sprite temp = sprt.sprite;
+        sprt.sprite = spawn_sprite;
+        yield return new WaitForSeconds(3.0f);
+        sprt.sprite = temp;
+        mov.can_move = true;
+        spawned = true;
+        StartCoroutine(Move());
+        yield return null;
     }
 }

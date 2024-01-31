@@ -50,6 +50,7 @@ public class unlock : MonoBehaviour
                 //Inventory inven = collision.collider.gameObject.GetComponent<Inventory>();
                 if(inven.numKeys > 0){
                     inven.numKeys--;
+                    inven.UpdateKeyCount();
                     lDoor.GetComponent<SpriteRenderer>().sprite = open[0];
                     rDoor.GetComponent<SpriteRenderer>().sprite = open[1];
                     box.enabled = false;
@@ -58,6 +59,7 @@ public class unlock : MonoBehaviour
             //Inventory inven = collision.collider.gameObject.GetComponent<Inventory>();
                 if(inven.numKeys > 0){
                     inven.numKeys--;
+                    inven.UpdateKeyCount();
                     renderer.sprite = open[0];
                     box.enabled = false;
                 }
