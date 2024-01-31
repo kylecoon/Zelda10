@@ -163,13 +163,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 2
-  rupeeDrop: {fileID: 0}
-  heartDrop: {fileID: 0}
-  bombDrop: {fileID: 0}
+  rupeeDrop: {fileID: 4846494190856542011, guid: 205318423edbd497189d05441ca708ca, type: 3}
+  heartDrop: {fileID: 8456612851568165429, guid: d9b003534dfa1469e9e50f44d247924d, type: 3}
+  bombDrop: {fileID: 7573047373774358777, guid: 15548e08a2f404f049b064ca63c01625, type: 3}
   invincible: 0
   is_alive: 0
   death_sprite: {fileID: -363641510, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}
-  damageSound: {fileID: 0}
 --- !u!114 &6031213863713916610
 MonoBehaviour:
   m_ObjectHideFlags: 0
