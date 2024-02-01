@@ -41,9 +41,11 @@ public class SpawnEnemies : MonoBehaviour
         if (spawned_children && transform.childCount == 0) {
             spawned_children = false;
             if (keese_key_room && !picked_up_key) {
+                picked_up_key = true;
                 Instantiate(key, transform.position + new Vector3(8.5f, 5.5f), Quaternion.identity);
             }
             if (boomerang_room && !picked_up_boomerang) {
+                picked_up_boomerang = true;
                 Instantiate(boomerang, transform.position + new Vector3(8.5f, 5.5f), Quaternion.identity);
             }
         }
