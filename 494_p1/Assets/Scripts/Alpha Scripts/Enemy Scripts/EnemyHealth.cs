@@ -15,6 +15,10 @@ public class EnemyHealth : MonoBehaviour
     public bool is_alive;
     public Sprite death_sprite;
 
+    public bool eggDrop;
+
+    public GameObject Egg;
+
     private AudioClip damageSound; //= Resources.Load("Zelda/Sound-Effects/DamageEnemy") as AudioClip;
     // Start is called before the first frame update
     void Start()
@@ -74,20 +78,25 @@ public class EnemyHealth : MonoBehaviour
             }
             yield break;
         }
+        
+        if(eggDrop){
+            Instantiate(Egg, drop_position, Quaternion.identity);
 
-        int drop_chance = Random.Range(0, 10);
-        if (drop_chance < 5) {
-            Instantiate(rupeeDrop, drop_position, Quaternion.identity);
-        }
-        else if (drop_chance > 7) {
-            Instantiate(heartDrop, drop_position, Quaternion.identity);
-        }
-        else if (drop_chance == 6) {
-            Instantiate(bombDrop, drop_position, Quaternion.identity);
-        }
-        yield return new WaitForSeconds(0.8f);
-        if (gameObject != null) {
-            Destroy(gameObject);
+        } else {
+            int drop_chance = Random.Range(0, 10);
+            if (drop_chance < 5) {
+                Instantiate(rupeeDrop, drop_position, Quaternion.identity);
+            }
+            else if (drop_chance > 7) {
+                Instantiate(heartDrop, drop_position, Quaternion.identity);
+            }
+            else if (drop_chance == 6) {
+                Instantiate(bombDrop, drop_position, Quaternion.identity);
+            }
+            yield return new WaitForSeconds(0.8f);
+            if (gameObject != null) {
+                Destroy(gameObject);
+            }
         }
     }
 
