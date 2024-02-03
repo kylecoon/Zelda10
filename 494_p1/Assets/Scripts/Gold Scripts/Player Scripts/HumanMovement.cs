@@ -66,7 +66,7 @@ public class HumanMovement : MonoBehaviour
             current_input = GetInput();
         }
 
-        if (!in_knockback) {
+        if (!GetComponent<FormController>().in_knockback) {
             rb.velocity = current_input * movement_speed;
         }
 

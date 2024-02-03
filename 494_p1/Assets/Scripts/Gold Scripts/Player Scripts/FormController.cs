@@ -10,6 +10,8 @@ public class FormController : MonoBehaviour
     public Vector2 direction_controller;
     public bool can_move;
     private BoxCollider box;
+
+    public bool in_knockback;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,8 @@ public class FormController : MonoBehaviour
         gameObject.GetComponent<HumanAttack>().enabled = true;
 
         direction_controller = Vector2.down;
+
+        in_knockback = false;
     }
 
     void Update()
@@ -40,7 +44,7 @@ public class FormController : MonoBehaviour
 
             gameObject.GetComponent<HumanMovement>().enabled = true;
             gameObject.GetComponent<HumanAttack>().enabled = true;
-            
+
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2) && numForms >= 2) {

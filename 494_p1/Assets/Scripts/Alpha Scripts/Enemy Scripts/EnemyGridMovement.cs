@@ -102,7 +102,6 @@ public class EnemyMovement : MonoBehaviour
             directions.Add(previous_direction);
         }
         previous_direction = directions[UnityEngine.Random.Range(0, directions.Count)];
-        Debug.Log(previous_direction);
         return previous_direction;
     }
 

@@ -113,20 +113,24 @@ public class Health : MonoBehaviour
             Debug.Log("hit");
             StartCoroutine(Hit(c.transform.position));
         }
-
-        if(health <= 0){
-            Movement mov = GetComponent<Movement>();
-            mov.cam.transform.position = new Vector2(39.4778f,70.975f);
-            Death();
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
-        
     }
 
-    IEnumerator Hit(Vector3 collider){
+    public IEnumerator Hit(Vector3 collider){
 
         Debug.Log("hit");
          if(!Invincible && Time.frameCount > lastHurtFrame + 12){
+
+            health--; 
+
+            if(health <= 0){
+                Movement mov = GetComponent<Movement>();
+                mov.cam.transform.position = new Vector2(39.4778f,70.975f);
+                StartCoroutine(Death());
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                yield break;
+            }
+
+
             Vector2 finalPos = gameObject.transform.position;
 
             float xDif = collider.x - finalPos.x;
@@ -149,10 +153,14 @@ public class Health : MonoBehaviour
                 }
             }
 
-            health--; 
-            UpdateHP();
-            GetComponent<Movement>().Flip_CanMove();
-            GetComponent<Movement>().in_knockback = true;
+            Debug.Log("Direction = ");
+            Debug.Log(direction);
+
+            //UpdateHP();
+            //GetComponent<Movement>().Flip_CanMove(); FIX FOR ALPHA LEVEL
+            GetComponent<FormController>().can_move = false;
+            GetComponent<FormController>().in_knockback = true;
+            //GetComponent<Movement>().in_knockback = true;
 
             Rigidbody rb = GetComponent<Rigidbody>();
             rb.velocity = direction * 6.0f;
@@ -167,19 +175,22 @@ public class Health : MonoBehaviour
             //animations.Play("linkHurt");
             yield return new WaitForSeconds(0.3f);
             
-            GetComponent<Movement>().in_knockback = false;
+            //GetComponent<Movement>().in_knockback = false;
+
             Invincible = false;
             SRenderer.color = new Color(255,255,255,255);
-            GetComponent<Movement>().Flip_CanMove();
+            //GetComponent<Movement>().Flip_CanMove();
+            GetComponent<FormController>().can_move = true;
+            GetComponent<FormController>().in_knockback = false;
             
         }
 
         yield return null;
     }
 
-    public void AlterHealth(int health_change) {
-
-    } 
+    /*public void AlterHealth(int health_change) {
+        health += health_change;
+    } */
 
     
 

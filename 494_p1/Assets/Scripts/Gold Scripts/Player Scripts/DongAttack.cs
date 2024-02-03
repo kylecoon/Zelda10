@@ -69,8 +69,8 @@ public class DongAttack : MonoBehaviour
     }
 
     IEnumerator Attack() {
-        Debug.Log(launch_amount);
         attacking = true;
+
         GetComponent<Health>().Invincible = true;
         for (int i = 0; i <= launch_amount; ++i) {
             rb.velocity = attack_speed * GetComponent<DongMovement>().GetCurrentDirection();
@@ -81,6 +81,16 @@ public class DongAttack : MonoBehaviour
         GetComponent<Health>().Invincible = true;
         GetComponent<FormController>().can_move = true;
         launch_amount = 0;
+
         yield return null;
+    }
+
+    void OnCollisionEnter(Collision other)
+    {
+        if (attacking) {
+            if (other.gameObject.CompareTag("Enemy")) {
+                other.gameObject.GetComponent<EnemyHealth>().AlterHealth(-5);
+            }
+        }
     }
 }
