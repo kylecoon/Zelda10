@@ -30,6 +30,7 @@ public class DongAttack : MonoBehaviour
             GetComponent<FormController>().can_move = false;
             rb.velocity = Vector2.zero;
             SnapToGrid();
+            transform.position = (Vector2)transform.position + GetComponent<DongMovement>().GetCurrentDirection() * (-0.2f); //prevent weird clipping glitch
             StartCoroutine(ChargeUp());
         }
     }

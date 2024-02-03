@@ -12,7 +12,7 @@ public class BreakableWall : MonoBehaviour
         sprt = GetComponent<SpriteRenderer>();
     }
     // Start is called before the first frame update
-    void OnCollisionEnter(Collision other)
+    void OnCollisionStay(Collision other)
     {
         if (other.gameObject.name == "Player") {
             if (other.gameObject.GetComponent<DongAttack>().attacking) {
