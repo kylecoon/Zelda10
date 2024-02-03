@@ -10,16 +10,34 @@ public class HumanMovement : MonoBehaviour
     SpriteRenderer sprt;
     private Rigidbody rb;
     public float movement_speed = 4;
-    public GameObject cam;
     private Dictionary<Vector2, Sprite[]> sprite_dictionary = new Dictionary<Vector2, Sprite[]>();
-    public bool can_move;
     public bool in_knockback;
+    private BoxCollider box;
 
     private Vector2 current_direction;
 
-    // Start is called before the first frame update
+    private FormController form;
+
+    void OnEnable()
+    {
+        current_direction = GetComponent<FormController>().direction_controller;
+        StartCoroutine(UpdateSprite(current_direction));
+
+        box.size = new Vector2(0.9f, 0.9f);
+        box.center = new Vector2(0.0f, 0.0f);
+    }
+
+    
+    void OnDisable()
+    {
+        GetComponent<FormController>().direction_controller = current_direction;
+    }
     void Start()
     {
+        box = GetComponent<BoxCollider>();
+
+        form = GetComponent<FormController>();
+
         in_knockback = false;
         Screen.SetResolution(1020, 960, false);
 
@@ -37,8 +55,6 @@ public class HumanMovement : MonoBehaviour
         //match down direction to down facing sprites
         sprite_dictionary.Add(Vector2.down, new Sprite[] {sprites[0], sprites[12]});
 
-        can_move = true;
-
         current_direction = Vector2.down;
     }
 
@@ -46,7 +62,7 @@ public class HumanMovement : MonoBehaviour
     void Update(){
         Vector2 current_input = Vector2.zero;
 
-        if (can_move) {
+        if (form.can_move) {
             current_input = GetInput();
         }
 
@@ -123,14 +139,15 @@ public class HumanMovement : MonoBehaviour
             }
         }
         
-        UpdateSprite(new_direction);
+        StartCoroutine(UpdateSprite(new_direction));
 
         current_direction = new_direction;
 
         return new_direction;
     }
 
-    public void UpdateSprite(Vector2 new_direction) {
+    public IEnumerator UpdateSprite(Vector2 new_direction) {
+        yield return new WaitForEndOfFrame();
         //walking vertically
         if (new_direction.x == 0.0f) {
             if (transform.position.y % 1.0f < 0.5) {
@@ -151,49 +168,7 @@ public class HumanMovement : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider collider){
-        if (collider.gameObject.CompareTag("->North") && rb.velocity.y > 0) {
-            StartCoroutine(WaitForPlayerInputToTransition(new Vector3(0, 11, 0) ));
-        }
-        else if (collider.gameObject.CompareTag("->South") && rb.velocity.y < 0) {
-            StartCoroutine(WaitForPlayerInputToTransition(new Vector3(0, -11, 0) ));
-        }
-        else if (collider.gameObject.CompareTag("->East") && rb.velocity.x > 0) {
-            StartCoroutine(WaitForPlayerInputToTransition(new Vector3(16, 0, 0) ));
-        }
-        else if (collider.gameObject.CompareTag("->West") && rb.velocity.x < 0) {
-            StartCoroutine(WaitForPlayerInputToTransition(new Vector3(-16, 0, 0) ));
-        }
-        
-    }
-
-    IEnumerator WaitForPlayerInputToTransition(Vector3 delta)
-    {
-
-                
-            Vector3 initial_position = cam.transform.position;
-            Vector3 final_position = initial_position + delta;
-            Debug.Log(rb.velocity.x);
-
-            movement_speed = 0;
-            rb.velocity = Vector2.zero;                //final_position.z = -10;
-                //Vector3 final_position = new Vector3(transform.position.x + 20, 0, transform.position.z -10);
-
-                /* Transition to new "room" */
-            yield return StartCoroutine(
-                CoroutineUtilities.MoveObjectOverTime(cam.transform, initial_position, final_position, 2.5f)
-            );
-
-                /* Hang around a little bit */
-                //yield return new WaitForSeconds(2.5f);
-            movement_speed = 4;
-
-            /* We must yield here to let time pass, or we will hardlock the game (due to infinite while loop) */
-            //yield return null;
-        
-    }
-
-    public Vector2 Get_CurrentDirection() {
+    public Vector2 GetCurrentDirection() {
         return current_direction;
     }
 }

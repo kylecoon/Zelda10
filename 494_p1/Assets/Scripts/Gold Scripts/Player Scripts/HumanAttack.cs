@@ -19,11 +19,15 @@ public class HumanAttack : MonoBehaviour
     private GameObject sword;
     private GameObject swordBeam;
 
+    private FormController form;
+
     // private int curDirection = 0;
     // Start is called before the first frame update
 
     void Start()
     {   
+        form = GetComponent<FormController>();
+
         sword = null;
         swordBeam = null;
 
@@ -49,29 +53,29 @@ public class HumanAttack : MonoBehaviour
 
     void GetInput() {
 
-        if (GetComponent<HumanMovement>().can_move) {
+        if (form.can_move) {
             //use sword
-            if(GetComponent<HumanMovement>().can_move && Input.GetKeyDown(KeyCode.X)){
+            if(form.can_move && Input.GetKeyDown(KeyCode.X)){
                 StartCoroutine(SwordAttack());
             }
         }
     }
 
     IEnumerator SwordAttack() {
-        GetComponent<HumanMovement>().can_move = false;
-        sword = Instantiate(weapons[0], (Vector2)transform.position + (GetComponent<HumanMovement>().Get_CurrentDirection() * 0.8f), Quaternion.Euler(RotationDictionary[GetComponent<HumanMovement>().Get_CurrentDirection()]));
-        sprt.sprite = sprite_dictionary[GetComponent<HumanMovement>().Get_CurrentDirection()];
+        form.can_move = false;
+        sword = Instantiate(weapons[0], (Vector2)transform.position + (GetComponent<HumanMovement>().GetCurrentDirection() * 0.8f), Quaternion.Euler(RotationDictionary[GetComponent<HumanMovement>().GetCurrentDirection()]));
+        sprt.sprite = sprite_dictionary[GetComponent<HumanMovement>().GetCurrentDirection()];
 
         yield return new WaitForSeconds(0.3f);
 
-        GetComponent<HumanMovement>().can_move = true;
+        form.can_move = true;
         Destroy(sword);
-        GetComponent<HumanMovement>().UpdateSprite(GetComponent<HumanMovement>().Get_CurrentDirection());
+        GetComponent<HumanMovement>().UpdateSprite(GetComponent<HumanMovement>().GetCurrentDirection());
 
         //shoot beam if at full health and no other beams spawned
         if (GetComponent<Health>().health == GetComponent<Health>().MaxHP && swordBeam == null) {
-            swordBeam = Instantiate(weapons[1], (Vector2)transform.position + (GetComponent<HumanMovement>().Get_CurrentDirection() * 0.8f), Quaternion.Euler(RotationDictionary[GetComponent<HumanMovement>().Get_CurrentDirection()]));
-            swordBeam.GetComponent<Beam>().Shoot(GetComponent<HumanMovement>().Get_CurrentDirection());
+            swordBeam = Instantiate(weapons[1], (Vector2)transform.position + (GetComponent<HumanMovement>().GetCurrentDirection() * 0.8f), Quaternion.Euler(RotationDictionary[GetComponent<HumanMovement>().GetCurrentDirection()]));
+            swordBeam.GetComponent<Beam>().Shoot(GetComponent<HumanMovement>().GetCurrentDirection());
         }
     }
 }

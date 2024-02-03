@@ -1,14 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FormController : MonoBehaviour
 {
     private int formID; // 1 = human, 2 = dong, 3 = ball, 4 = aqua, 5 = oldMan
     private int numForms;
+    public Vector2 direction_controller;
+    public bool can_move;
+    private BoxCollider box;
     // Start is called before the first frame update
     void Start()
     {
+        box = GetComponent<BoxCollider>();
+        
+        can_move = true;
         formID = 1;
 
         numForms = 5;
@@ -16,6 +23,8 @@ public class FormController : MonoBehaviour
         DeactivateComponents();
         gameObject.GetComponent<HumanMovement>().enabled = true;
         gameObject.GetComponent<HumanAttack>().enabled = true;
+
+        direction_controller = Vector2.down;
     }
 
     void Update()
@@ -31,6 +40,7 @@ public class FormController : MonoBehaviour
 
             gameObject.GetComponent<HumanMovement>().enabled = true;
             gameObject.GetComponent<HumanAttack>().enabled = true;
+            
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2) && numForms >= 2) {
@@ -40,6 +50,7 @@ public class FormController : MonoBehaviour
 
             gameObject.GetComponent<DongMovement>().enabled = true;
             gameObject.GetComponent<DongAttack>().enabled = true;
+
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3) && numForms >= 3) {
