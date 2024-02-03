@@ -11,14 +11,20 @@ public class DongAttack : MonoBehaviour
     private Rigidbody rb;
     public int attack_speed = 8;
 
+    private bool can_attack;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         attacking = false;
         launch_amount = 0;
+        can_attack = true;
     }
     void Update()
     {
+        if (!can_attack) {
+            return;
+        }
         if (Input.GetKeyDown(KeyCode.X)) {
             GetComponent<FormController>().can_move = false;
             rb.velocity = Vector2.zero;
@@ -92,5 +98,18 @@ public class DongAttack : MonoBehaviour
                 other.gameObject.GetComponent<EnemyHealth>().AlterHealth(-5);
             }
         }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("->North") || other.CompareTag("->South") || other.CompareTag("->East") || other.CompareTag("->West")) {
+            can_attack = false;
+        } 
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("->North") || other.CompareTag("->South") || other.CompareTag("->East") || other.CompareTag("->West")) {
+            can_attack = true;
+        } 
     }
 }

@@ -6,9 +6,12 @@ public class CamControl : MonoBehaviour
 {
     private Rigidbody rb;
     public GameObject cam;
+
+    private bool cam_moving;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        cam_moving = false;
     }
     // Start is called before the first frame update
     void OnTriggerEnter(Collider collider){
@@ -41,17 +44,25 @@ public class CamControl : MonoBehaviour
                 //Vector3 final_position = new Vector3(transform.position.x + 20, 0, transform.position.z -10);
 
                 /* Transition to new "room" */
+
+            cam_moving = true;
             yield return StartCoroutine(
                 CoroutineUtilities.MoveObjectOverTime(cam.transform, initial_position, final_position, 2.5f)
             );
 
             GetComponent<FormController>().can_move = true;
 
+            cam_moving = false;
+
                 /* Hang around a little bit */
                 //yield return new WaitForSeconds(2.5f);
 
             /* We must yield here to let time pass, or we will hardlock the game (due to infinite while loop) */
             //yield return null;
-        
+
+    }
+
+    public bool Is_Cam_Moving() {
+        return cam_moving;
     }
 }

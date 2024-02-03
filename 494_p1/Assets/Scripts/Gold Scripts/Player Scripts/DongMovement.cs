@@ -50,7 +50,7 @@ public class DongMovement : MonoBehaviour
         else {
             box.size = new Vector3(1.3f, 1.3f, 1.0f);
         }
-        
+
         box.center = new Vector2(0.0f, 0.26f);
 
         //transform.localScale = new Vector3 (0.8f, 0.8f, 1.0f);
@@ -66,7 +66,10 @@ public class DongMovement : MonoBehaviour
 
     void Update()
     {
-        if (form.can_move) {
+        if (GetComponent<CamControl>().Is_Cam_Moving()) {
+            rb.velocity = Vector2.zero;
+        }
+        else if (form.can_move) {
             rb.velocity = movement_speed * GetInput();
         }
     }
