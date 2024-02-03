@@ -15,7 +15,6 @@ public class HumanMovement : MonoBehaviour
     private BoxCollider box;
 
     private Vector2 current_direction;
-
     private FormController form;
 
     void OnEnable()
@@ -32,7 +31,7 @@ public class HumanMovement : MonoBehaviour
     {
         GetComponent<FormController>().direction_controller = current_direction;
     }
-    void Start()
+    void Awake()
     {
         box = GetComponent<BoxCollider>();
 
@@ -149,7 +148,7 @@ public class HumanMovement : MonoBehaviour
     public IEnumerator UpdateSprite(Vector2 new_direction) {
         yield return new WaitForEndOfFrame();
         //walking vertically
-        if (new_direction.x == 0.0f) {
+        if (new_direction.x == 0.0f && new_direction.y != 0) {
             if (transform.position.y % 1.0f < 0.5) {
                 sprt.sprite = sprite_dictionary[new_direction][0];
             }
@@ -158,13 +157,16 @@ public class HumanMovement : MonoBehaviour
             }
         }
         //walking horizontally
-        else {
+        else if (new_direction.x != 0){
             if (transform.position.x % 1.0f < 0.5) {
                 sprt.sprite = sprite_dictionary[new_direction][0];
             }
             else {
                 sprt.sprite = sprite_dictionary[new_direction][1];
             }
+        }
+        else {
+            yield return null;
         }
     }
 

@@ -37,7 +37,10 @@ public class FormController : MonoBehaviour
     }
 
     void GetInput() {
-        if (Input.GetKeyDown(KeyCode.Alpha1) && numForms >= 1) {
+        if (!can_move) {
+            return;
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha1) && numForms >= 1 && formID != 1) {
             formID = 1;
 
             DeactivateComponents();
@@ -45,9 +48,11 @@ public class FormController : MonoBehaviour
             gameObject.GetComponent<HumanMovement>().enabled = true;
             gameObject.GetComponent<HumanAttack>().enabled = true;
 
+            StartCoroutine(GreenFlash());
+
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha2) && numForms >= 2) {
+        if (Input.GetKeyDown(KeyCode.Alpha2) && numForms >= 2 && formID != 2) {
             formID = 2;
 
             DeactivateComponents();
@@ -55,33 +60,40 @@ public class FormController : MonoBehaviour
             gameObject.GetComponent<DongMovement>().enabled = true;
             gameObject.GetComponent<DongAttack>().enabled = true;
 
+            StartCoroutine(GreenFlash());
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha3) && numForms >= 3) {
+        if (Input.GetKeyDown(KeyCode.Alpha3) && numForms >= 3 && formID != 3) {
             formID = 3;
 
             DeactivateComponents();
 
             gameObject.GetComponent<BallMovement>().enabled = true;
             gameObject.GetComponent<BallAttack>().enabled = true;
+
+            StartCoroutine(GreenFlash());
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha4) && numForms >= 4) {
+        if (Input.GetKeyDown(KeyCode.Alpha4) && numForms >= 4 && formID != 4) {
             formID = 4;
 
             DeactivateComponents();
 
             gameObject.GetComponent<AquaMovement>().enabled = true;
             gameObject.GetComponent<AquaAttack>().enabled = true;
+
+            StartCoroutine(GreenFlash());
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha5) && numForms >= 5) {
+        if (Input.GetKeyDown(KeyCode.Alpha5) && numForms >= 5 && formID != 5) {
             formID = 5;
 
             DeactivateComponents();
 
             gameObject.GetComponent<OldManMovement>().enabled = true;
             gameObject.GetComponent<OldManAttack>().enabled = true;
+
+            StartCoroutine(GreenFlash());
         }
     }
 
@@ -112,5 +124,19 @@ public class FormController : MonoBehaviour
 
     public void AddForm() {
         numForms += 1;
+    }
+
+    IEnumerator GreenFlash() {
+        GetComponent<SpriteRenderer>().color = new Color (0, 255, 0, 255);
+        yield return new WaitForSeconds(0.1f);
+        GetComponent<SpriteRenderer>().color = new Color (255, 255, 255, 255);
+        yield return new WaitForSeconds(0.1f);
+        GetComponent<SpriteRenderer>().color = new Color (0, 255, 0, 255);
+        yield return new WaitForSeconds(0.1f);
+        GetComponent<SpriteRenderer>().color = new Color (255, 255, 255, 255);
+        yield return new WaitForSeconds(0.1f);
+        GetComponent<SpriteRenderer>().color = new Color (0, 255, 0, 255);
+        yield return new WaitForSeconds(0.1f);
+        GetComponent<SpriteRenderer>().color = new Color (255, 255, 255, 255);
     }
 }
