@@ -26,14 +26,11 @@ public class DongAttack : MonoBehaviour
             return;
         }
         if (Input.GetKeyDown(KeyCode.X)) {
+            can_attack = false;
             GetComponent<FormController>().can_move = false;
             rb.velocity = Vector2.zero;
             SnapToGrid();
             StartCoroutine(ChargeUp());
-        }
-
-        if (Input.GetKeyUp(KeyCode.X)) {
-            StartCoroutine(Attack()); 
         }
     }
 
@@ -63,15 +60,22 @@ public class DongAttack : MonoBehaviour
             shrink_amount = new Vector3(0.01f, 0, 0);
         }
 
+        //forced charge
+        for (launch_amount = 0; launch_amount < 10; ++launch_amount) {
+            transform.localScale -= shrink_amount * 1.5f;
+            yield return new WaitForSeconds(0.05f);
+        }
+
+        //optional charge
         while (Input.GetKey(KeyCode.X)) {
             if (launch_amount < 20) {
                 ++launch_amount;
                 transform.localScale -= shrink_amount;
             }
-            yield return new WaitForSeconds(0.015f);
+            yield return new WaitForSeconds(0.05f);
         }
         transform.localScale = original_scale;
-        yield return null;
+        yield return StartCoroutine(Attack());
     }
 
     IEnumerator Attack() {
@@ -81,13 +85,13 @@ public class DongAttack : MonoBehaviour
         for (int i = 0; i <= launch_amount; ++i) {
             rb.velocity = attack_speed * GetComponent<DongMovement>().GetCurrentDirection();
             StartCoroutine(GetComponent<DongMovement>().UpdateSprite(GetComponent<DongMovement>().GetCurrentDirection()));
-            yield return new WaitForSeconds(0.025f);
+            yield return new WaitForSeconds(0.02f);
         }
         attacking = false;
-        GetComponent<Health>().Invincible = true;
+        GetComponent<Health>().Invincible = false;
         GetComponent<FormController>().can_move = true;
         launch_amount = 0;
-
+        can_attack = true;
         yield return null;
     }
 

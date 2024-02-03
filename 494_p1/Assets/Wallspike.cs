@@ -5,7 +5,7 @@ using UnityEngine;
 public class Wallspike : MonoBehaviour
 {
     // Start is called before the first frame update
-    void OnCollisionEnter(Collision other)
+    void OnCollisionStay(Collision other)
     {
         if (other.gameObject.CompareTag("Player")) {
             Debug.Log("Pokey");
