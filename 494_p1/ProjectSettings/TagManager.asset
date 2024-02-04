@@ -17,12 +17,7 @@ TagManager:
   - Weapon
   - Wall
   - AltItem
-  - Red
-  - Blue
-  - Green
-  - Red Wall
-  - Blue Wall
-  - Green Wall
+  - Egg
   layers:
   - Default
   - TransparentFX
