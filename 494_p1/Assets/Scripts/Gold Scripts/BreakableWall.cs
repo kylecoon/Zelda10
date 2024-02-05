@@ -18,6 +18,8 @@ public class BreakableWall : MonoBehaviour
             if (other.gameObject.GetComponent<DongAttack>().attacking) {
                 StartCoroutine(Break());
             }
+        } else if(other.gameObject.name == "Wallspike"){
+            StartCoroutine(Break());
         }
     }
 
