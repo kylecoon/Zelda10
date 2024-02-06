@@ -150,6 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  spawn_sprite: {fileID: 0}
 --- !u!114 &7520518882417209073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,9 +167,12 @@ MonoBehaviour:
   rupeeDrop: {fileID: 4846494190856542011, guid: 205318423edbd497189d05441ca708ca, type: 3}
   heartDrop: {fileID: 8456612851568165429, guid: d9b003534dfa1469e9e50f44d247924d, type: 3}
   bombDrop: {fileID: 7573047373774358777, guid: 15548e08a2f404f049b064ca63c01625, type: 3}
+  keyDrop: {fileID: 0}
   invincible: 0
   is_alive: 0
   death_sprite: {fileID: -363641510, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}
+  eggDrop: 0
+  Egg: {fileID: 0}
 --- !u!114 &6031213863713916610
 MonoBehaviour:
   m_ObjectHideFlags: 0

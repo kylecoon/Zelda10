@@ -22,7 +22,7 @@ public class HumanMovement : MonoBehaviour
         current_direction = GetComponent<FormController>().direction_controller;
         StartCoroutine(UpdateSprite(current_direction));
 
-        box.size = new Vector2(0.9f, 0.9f);
+        box.size = new Vector3(0.9f, 0.9f, 1.0f);
         box.center = new Vector2(0.0f, 0.0f);
     }
 

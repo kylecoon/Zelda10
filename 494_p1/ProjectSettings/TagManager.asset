@@ -18,6 +18,7 @@ TagManager:
   - Wall
   - AltItem
   - Egg
+  - Wallspike
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - UI
   - Player
   - Enemy
-  - 
+  - Sword
   - 
   - 
   - 
