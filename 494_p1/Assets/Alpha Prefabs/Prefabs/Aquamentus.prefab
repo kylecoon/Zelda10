@@ -76,12 +76,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 1997113154, guid: ef938784a6e804437a31d4d80683d433, type: 3}
+  m_Sprite: {fileID: 1278903112, guid: 0610017125b1a466ebf12907941cad90, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.24, y: 0.32}
+  m_Size: {x: 1.9702275, y: 2.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -140,6 +140,9 @@ MonoBehaviour:
   rupeeDrop: {fileID: 0}
   heartDrop: {fileID: 0}
   bombDrop: {fileID: 0}
+  keyDrop: {fileID: 0}
   invincible: 0
   is_alive: 0
   death_sprite: {fileID: -28047889, guid: 0a9a6c9325f874690adcdd202c074d32, type: 3}
+  eggDrop: 0
+  Egg: {fileID: 0}
