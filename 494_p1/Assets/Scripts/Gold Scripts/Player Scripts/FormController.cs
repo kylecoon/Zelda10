@@ -11,6 +11,7 @@ public class FormController : MonoBehaviour
     public bool can_move;
     private BoxCollider box;
 
+    public bool wall_mode;
     public bool in_knockback;
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,8 @@ public class FormController : MonoBehaviour
         direction_controller = Vector2.down;
 
         in_knockback = false;
+
+        wall_mode = false;
     }
 
     void Update()
@@ -37,7 +40,7 @@ public class FormController : MonoBehaviour
     }
 
     void GetInput() {
-        if (!can_move) {
+        if (!can_move || wall_mode) {
             return;
         }
         if (Input.GetKeyDown(KeyCode.Alpha1) && numForms >= 1 && formID != 1) {
@@ -69,7 +72,6 @@ public class FormController : MonoBehaviour
             DeactivateComponents();
 
             gameObject.GetComponent<BallMovement>().enabled = true;
-            gameObject.GetComponent<BallAttack>().enabled = true;
 
             StartCoroutine(GreenFlash());
         }
@@ -105,7 +107,6 @@ public class FormController : MonoBehaviour
         gameObject.GetComponent<DongAttack>().enabled = false;
 
         gameObject.GetComponent<BallMovement>().enabled = false;
-        gameObject.GetComponent<BallAttack>().enabled = false;
 
         gameObject.GetComponent<AquaMovement>().enabled = false;
         gameObject.GetComponent<AquaAttack>().enabled = false;
@@ -138,5 +139,9 @@ public class FormController : MonoBehaviour
         GetComponent<SpriteRenderer>().color = new Color (0, 255, 0, 255);
         yield return new WaitForSeconds(0.1f);
         GetComponent<SpriteRenderer>().color = new Color (255, 255, 255, 255);
+    }
+
+    public bool IsInWallMode() {
+        return wall_mode;
     }
 }

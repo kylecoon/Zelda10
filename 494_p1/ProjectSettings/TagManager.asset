@@ -19,6 +19,7 @@ TagManager:
   - AltItem
   - Egg
   - Wallspike
+  - Water
   layers:
   - Default
   - TransparentFX

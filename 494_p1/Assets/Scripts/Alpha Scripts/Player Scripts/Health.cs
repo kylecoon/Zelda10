@@ -118,6 +118,7 @@ public class Health : MonoBehaviour
     public IEnumerator Hit(Vector3 collider){
 
         Debug.Log("hit");
+
          if(!Invincible && Time.frameCount > lastHurtFrame + 12){
 
             health--; 
@@ -150,6 +151,11 @@ public class Health : MonoBehaviour
                     direction = Vector2.left;
                 } else {
                     direction = Vector2.right;
+                }
+            }
+            if (GetComponent<BallMovement>() != null) {
+                if (GetComponent<BallMovement>().isActiveAndEnabled) {
+                    GetComponent<BallMovement>().most_recent_input = direction;
                 }
             }
 
