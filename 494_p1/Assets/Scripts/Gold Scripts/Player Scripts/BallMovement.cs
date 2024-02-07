@@ -291,6 +291,9 @@ public class BallMovement : MonoBehaviour
     }
 
     private bool CheckUp() {
+        if (transform.position.y % 11.0f >= 7.5f) {
+            return true;
+        }
         RaycastHit hit;
         //check up
         if (Physics.Raycast(transform.position, Vector2.up, out hit, 1.1f)) {
@@ -302,6 +305,9 @@ public class BallMovement : MonoBehaviour
     }
 
     private bool CheckDown() {
+        if (transform.position.y % 11.0f <= 2.5f) {
+            return true;
+        }
         RaycastHit hit;
         //check up
         if (Physics.Raycast(transform.position, Vector2.down, out hit, 1.1f)) {
@@ -313,6 +319,9 @@ public class BallMovement : MonoBehaviour
     }
 
     private bool CheckLeft() {
+        if (transform.position.x % 16.0f <= 2.5f) {
+            return true;
+        }
         RaycastHit hit;
         //check up
         if (Physics.Raycast(transform.position, Vector2.left, out hit, 1.1f)) {
@@ -324,6 +333,9 @@ public class BallMovement : MonoBehaviour
     }
 
     private bool CheckRight() {
+        if (transform.position.x % 16.0f >= 12.5) {
+            return true;
+        }
         RaycastHit hit;
         //check up
         if (Physics.Raycast(transform.position, Vector2.right, out hit, 1.1f)) {

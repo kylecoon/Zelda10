@@ -75,19 +75,19 @@ public class EnemyMovement : MonoBehaviour
     public Vector2 PickDirection() {
         directions.Clear();
 
-        Physics.Raycast(transform.position, transform.TransformDirection(Vector2.up), out hit, 1.5f);
+        Physics.Raycast(transform.position, transform.TransformDirection(Vector2.up), out hit, 1.0f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
             directions.Add(Vector2.up);
         }
-        Physics.Raycast(transform.position, transform.TransformDirection(Vector2.down), out hit, 1.5f);
+        Physics.Raycast(transform.position, transform.TransformDirection(Vector2.down), out hit, 1.0f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
             directions.Add(Vector2.down);
         }
-        Physics.Raycast(transform.position, transform.TransformDirection(Vector2.left), out hit, 1.5f);
+        Physics.Raycast(transform.position, transform.TransformDirection(Vector2.left), out hit, 1.0f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
             directions.Add(Vector2.left);
         }
-        Physics.Raycast(transform.position, transform.TransformDirection(Vector2.right), out hit, 1.5f);
+        Physics.Raycast(transform.position, transform.TransformDirection(Vector2.right), out hit, 1.0f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
             directions.Add(Vector2.right);
         }

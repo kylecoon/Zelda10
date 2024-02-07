@@ -114,6 +114,10 @@ public class DongAI : MonoBehaviour
             else {
                 sprt.sprite = sprites[1];
             }
+            if (transform.position.x % 16.0f <= 2.8) {
+                StartCoroutine(ShakeCamera());
+                StartCoroutine(WalkBackwards());
+            }
             yield return new WaitForSeconds(0.05f);
         }
         yield return null;

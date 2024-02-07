@@ -7,26 +7,14 @@ public class AquaAttack : MonoBehaviour
     // Start is called before the first frame update
 
     public GameObject fireball;
-    private Dictionary<Vector2, Sprite> sprite_dictionary = new Dictionary<Vector2, Sprite>();
     bool canShoot = true;
     SpriteRenderer sprt;
-
-    private Sprite[] sprites;
-    void Start()
+    private Rigidbody rb;
+    public Sprite attack_sprite;
+    void Awake()
     {
-        sprites = Resources.LoadAll<Sprite>("Zelda/aqua-new");
         sprt = GetComponent<SpriteRenderer>();
-
-        sprite_dictionary.Add(Vector2.left, sprites[0]);
-
-        //match right direction to right facing sprites
-        sprite_dictionary.Add(Vector2.right, sprites[7]);
-        //match up direction to up facing sprites
-        sprite_dictionary.Add(Vector2.up, sprites[1]);
-        //match down direction to down facing sprites
-        sprite_dictionary.Add(Vector2.down, sprites[6]);
-
-    
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -42,8 +30,7 @@ public class AquaAttack : MonoBehaviour
         // if (GetComponent<AquaMove>().Check_CanMove()) {
         
             //use sword
-        if(Input.GetKey(KeyCode.Z)){
-            Debug.Log("Z");
+        if(Input.GetKey(KeyCode.X)){
             StartCoroutine(ShootFireballs());
         }
         // }
@@ -51,32 +38,18 @@ public class AquaAttack : MonoBehaviour
 
     IEnumerator ShootFireballs() {
 
-        if(sprt.sprite == sprites[0]){
-            sprt.sprite = sprites[2];
-        } else if(sprt.sprite == sprites[3]){
-            sprt.sprite = sprites[1];
-        } else if(sprt.sprite == sprites[4]){
-            sprt.sprite = sprites[6];
-        } else if(sprt.sprite == sprites[5]){
-            sprt.sprite = sprites[7];
-        }
-
-        Rigidbody rb = GetComponent<Rigidbody>();
         // rb.isKinematic = true;
-
+        sprt.sprite = attack_sprite;
         rb.velocity = Vector2.zero; 
 
-        sprite_dictionary.Add(Vector2.zero, sprt.sprite);
-
         Debug.Log("fireballs");
-        sprt.sprite = sprite_dictionary[GetComponent<Movement>().Get_CurrentDirection()];
 
         canShoot = false;
 
-        float flip = 1;
+        float flip = -1;
 
-        if(sprt.sprite == sprites[4] || sprt.sprite == sprites[5] ||  sprt.sprite == sprites[6] || sprt.sprite == sprites[7]){
-            flip = -1;
+        if(sprt.flipX == false){
+            flip = 1;
         }
         
 
@@ -94,8 +67,6 @@ public class AquaAttack : MonoBehaviour
             // rb.isKinematic = false;
             // yield return null;
         }
-
-        sprite_dictionary.Remove(Vector2.zero);
 
         canShoot = true;
         // yield return null;

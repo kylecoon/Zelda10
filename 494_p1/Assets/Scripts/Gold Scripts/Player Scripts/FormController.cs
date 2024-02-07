@@ -81,7 +81,7 @@ public class FormController : MonoBehaviour
 
             DeactivateComponents();
 
-            gameObject.GetComponent<AquaMovement>().enabled = true;
+            gameObject.GetComponent<AquaMoveHuman>().enabled = true;
             gameObject.GetComponent<AquaAttack>().enabled = true;
 
             StartCoroutine(GreenFlash());
@@ -108,7 +108,7 @@ public class FormController : MonoBehaviour
 
         gameObject.GetComponent<BallMovement>().enabled = false;
 
-        gameObject.GetComponent<AquaMovement>().enabled = false;
+        gameObject.GetComponent<AquaMoveHuman>().enabled = false;
         gameObject.GetComponent<AquaAttack>().enabled = false;
 
         gameObject.GetComponent<OldManMovement>().enabled = false;

@@ -65,24 +65,23 @@ public class EnemyHealth : MonoBehaviour
         if (gameObject.name == "Aquamentus") {
             //drop heart container?
             yield return new WaitForSeconds(0.8f);
+            if(eggDrop){
+                Instantiate(Egg, drop_position, Quaternion.identity);
+            }
             if (gameObject != null) {
                 Destroy(gameObject);
                 yield break;
             }
         }
 
-        if (gameObject.name == "StalfosKey") {
+        else if (gameObject.name == "StalfosKey") {
             Instantiate(keyDrop, drop_position, Quaternion.identity);
             if (gameObject != null) {
                 Destroy(gameObject);
             }
             yield break;
         }
-        
-        if(eggDrop){
-            Instantiate(Egg, drop_position, Quaternion.identity);
-
-        } else {
+        else {
             int drop_chance = Random.Range(0, 10);
             if (drop_chance < 5) {
                 Instantiate(rupeeDrop, drop_position, Quaternion.identity);

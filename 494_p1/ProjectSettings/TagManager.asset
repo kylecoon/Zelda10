@@ -3,28 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - rupee
-  - ->North
-  - ->South
-  - ->West
-  - ->East
-  - key
-  - attack
-  - Enemy
-  - heart
-  - bomb
-  - Weapon
-  - Wall
-  - AltItem
-  - Egg
-<<<<<<< HEAD
-  - Wallspike
-  - Water
-  - BallEnemy
-=======
-  - MoveBlock
->>>>>>> acb477d (ball rooms done)
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -32,10 +11,10 @@ TagManager:
   - 
   - Water
   - UI
-  - Player
-  - Enemy
-  - Sword
-  - Water
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
