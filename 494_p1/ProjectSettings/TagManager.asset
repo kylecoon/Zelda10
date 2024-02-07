@@ -20,6 +20,7 @@ TagManager:
   - Egg
   - Wallspike
   - Water
+  - BallEnemy
   layers:
   - Default
   - TransparentFX
@@ -30,7 +31,7 @@ TagManager:
   - Player
   - Enemy
   - Sword
-  - 
+  - Water
   - 
   - 
   - 

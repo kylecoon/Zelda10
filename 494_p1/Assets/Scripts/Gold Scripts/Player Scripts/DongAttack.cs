@@ -7,7 +7,7 @@ public class DongAttack : MonoBehaviour
     public bool attacking;
     public Sprite[] sprites; //0 = up, 1 = down, 2 = horizontal
 
-    private int launch_amount;
+    public int launch_amount;
     private Rigidbody rb;
     public int attack_speed = 8;
 

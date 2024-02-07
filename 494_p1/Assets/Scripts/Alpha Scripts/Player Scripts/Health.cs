@@ -159,9 +159,6 @@ public class Health : MonoBehaviour
                 }
             }
 
-            Debug.Log("Direction = ");
-            Debug.Log(direction);
-
             //UpdateHP();
             //GetComponent<Movement>().Flip_CanMove(); FIX FOR ALPHA LEVEL
             GetComponent<FormController>().can_move = false;
