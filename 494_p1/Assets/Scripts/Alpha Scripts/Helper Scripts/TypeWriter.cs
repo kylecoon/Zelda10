@@ -79,18 +79,23 @@ public class TypeWriter : MonoBehaviour
     public string[] sentences;
     private int currentSentenceIndex = 0;
 
+    private AudioClip sound;
+
     // private void Start(){
 
     //     StartCoroutine(TypeSentence(sentences[currentSentenceIndex]));
     // }
+    void Start(){
+        sound = Resources.Load<AudioClip>("Zelda/Sound-Effects/textSound");
+    }
 
     private IEnumerator TypeSentence(string sentence)
     {
         textMeshPro.text = "";
         
-        foreach (char letter in sentence)
-        {
+        foreach (char letter in sentence){
             textMeshPro.text += letter;
+            AudioSource.PlayClipAtPoint(sound, Camera.main.transform.position);
             yield return new WaitForSeconds(typingSpeed);
         }
 
@@ -115,6 +120,7 @@ public class TypeWriter : MonoBehaviour
     }
 
     void OnTriggerExit(){
+        textMeshPro.gameObject.SetActive(true);
         StartCoroutine(TypeSentence(sentences[currentSentenceIndex]));
     }
 }

@@ -17,6 +17,8 @@ public class MoveableBlock : MonoBehaviour
     void Start() //gpt helped
     {
         rb = GetComponent<Rigidbody>();
+
+        origin = gameObject.transform.position;
         // if (rb == null)
         // {
         //     Debug.LogError("Rigidbody component not found on the object.");
