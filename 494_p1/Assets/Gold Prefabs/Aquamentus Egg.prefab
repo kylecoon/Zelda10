@@ -98,7 +98,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4718683778871671308, guid: 2d240054df0db432e9fe569bd1b708be, type: 3}
       propertyPath: m_Name
-      value: Aquamentus Variant
+      value: Aquamentus Egg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
