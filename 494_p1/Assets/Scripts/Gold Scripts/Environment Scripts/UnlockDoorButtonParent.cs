@@ -27,7 +27,8 @@ public class UnlockDoorButtonParent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!open){
+
+        if(!open && buttons.Length != 0){
             bool check = true;
             for(int i = 0; i < buttons.Length; ++i){
                 check = buttons[i].GetComponent<MovableBlockDetector>().IsBlockPlaced();
@@ -40,6 +41,7 @@ public class UnlockDoorButtonParent : MonoBehaviour
                     door[i].GetComponent<BoxCollider>().enabled = false;
                 }
                 AudioSource.PlayClipAtPoint(sound, Camera.main.transform.position);
+                Debug.Log("secret sound" + gameObject.transform.position.x + gameObject.transform.position.y);
 
             } 
         } 

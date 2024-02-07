@@ -67,10 +67,11 @@ public class Collector : MonoBehaviour
 
             GetComponent<Attacking>().AddAlt(object_collided_with.name);
             Destroy(object_collided_with);
-        } else if(object_collided_with.CompareTag("Omni")){
+
+        } else if(object_collided_with.CompareTag("Omni") || object_collided_with.CompareTag("Egg")){
             AudioSource.PlayClipAtPoint(BombCollect, Camera.main.transform.position);
 
-            GetComponent<Attacking>().AddAlt(object_collided_with.name);
+            GetComponent<FormController>().AddForm();
             Destroy(object_collided_with);
         }
 
