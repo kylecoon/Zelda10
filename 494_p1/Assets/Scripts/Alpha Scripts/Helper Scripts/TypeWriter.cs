@@ -79,10 +79,15 @@ public class TypeWriter : MonoBehaviour
     public string[] sentences;
     private int currentSentenceIndex = 0;
 
+    private AudioClip sound;
+
     // private void Start(){
 
     //     StartCoroutine(TypeSentence(sentences[currentSentenceIndex]));
     // }
+    void Start(){
+        sound = Resources.Load<AudioClip>("Zelda/Sound-Effects/textSound");
+    }
 
     private IEnumerator TypeSentence(string sentence)
     {
@@ -91,6 +96,7 @@ public class TypeWriter : MonoBehaviour
         foreach (char letter in sentence)
         {
             textMeshPro.text += letter;
+            AudioSource.PlayClipAtPoint(sound, Camera.main.transform.position);
             yield return new WaitForSeconds(typingSpeed);
         }
 

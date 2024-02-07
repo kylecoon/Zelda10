@@ -42,6 +42,7 @@ public class BallAI : MonoBehaviour
         }
         sprt.color = new Color(255, 255, 255, 255);
         sprt.sprite = sprites[0];
+        // parent.GetComponent<DoorTrigger>().Close();
         StartCoroutine(Fight());
         indicator = Instantiate(indicatorObject, transform.position, Quaternion.identity);
         indicator.transform.parent = gameObject.transform;
@@ -223,6 +224,8 @@ public class BallAI : MonoBehaviour
         }
     }
 
+    public GameObject door;
+
     IEnumerator TakeDamage() {
         --health;
         sprt.color = new Color(255, 0, 0, 255);
@@ -234,6 +237,7 @@ public class BallAI : MonoBehaviour
         if (health <= 0) {
             rb.velocity = Vector3.zero;
             Instantiate(egg, death_position, Quaternion.identity);
+            door.GetComponent<DoorTrigger>().reOpen();
             Destroy(gameObject);
             yield break;
         }

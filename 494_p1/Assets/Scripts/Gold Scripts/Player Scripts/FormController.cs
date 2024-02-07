@@ -13,6 +13,8 @@ public class FormController : MonoBehaviour
 
     public bool wall_mode;
     public bool in_knockback;
+
+    public GameObject[] newFormRevealer;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +23,7 @@ public class FormController : MonoBehaviour
         can_move = true;
         formID = 1;
 
-        numForms = 5;
+        numForms = -1;
 
         DeactivateComponents();
         gameObject.GetComponent<HumanMovement>().enabled = true;
@@ -125,6 +127,25 @@ public class FormController : MonoBehaviour
 
     public void AddForm() {
         numForms += 1;
+        
+        if(numForms == 0){
+            Destroy(newFormRevealer[0]);
+
+        } else if(numForms == 1){
+            Destroy(newFormRevealer[1]);
+
+        } else if(numForms == 2){
+            Destroy(newFormRevealer[2]);
+
+        } else if(numForms == 3){
+            Destroy(newFormRevealer[3]);
+
+        } else if(numForms == 4){
+            Destroy(newFormRevealer[4]);
+
+        } else if(numForms == 5){
+            Destroy(newFormRevealer[5]);
+        } 
     }
 
     IEnumerator GreenFlash() {
