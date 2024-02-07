@@ -93,8 +93,7 @@ public class TypeWriter : MonoBehaviour
     {
         textMeshPro.text = "";
         
-        foreach (char letter in sentence)
-        {
+        foreach (char letter in sentence){
             textMeshPro.text += letter;
             AudioSource.PlayClipAtPoint(sound, Camera.main.transform.position);
             yield return new WaitForSeconds(typingSpeed);
@@ -121,6 +120,7 @@ public class TypeWriter : MonoBehaviour
     }
 
     void OnTriggerExit(){
+        textMeshPro.gameObject.SetActive(true);
         StartCoroutine(TypeSentence(sentences[currentSentenceIndex]));
     }
 }

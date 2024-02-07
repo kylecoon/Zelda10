@@ -1,10 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Fireball : MonoBehaviour
 {
-        int countdown = 100;
+        public bool enemyAttack = false;
+        int countdown;
+        void Start(){
+            if(enemyAttack){
+                countdown = 100000;
+            } else{
+                countdown = 200;
+            }
+        }
+        
         void Update(){
             countdown--;
 

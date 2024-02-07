@@ -85,7 +85,7 @@ public class OldManBossAttack : MonoBehaviour
     IEnumerator MakespikeAttack(){
         for(int i = 0; i < spikeAttacks.Length; ++i){
             spikeAttacks[i].SetActive(true);
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.2f);
         }
         yield return new WaitForSeconds(2f);
         for(int i = 0; i < spikeAttacks.Length; ++i){
@@ -116,6 +116,36 @@ public class OldManBossAttack : MonoBehaviour
         // }
         yield return new WaitForSeconds(10f);
         spikeBlockWall.SetActive(false);
+        yield return null;
+    }
+
+
+    public GameObject fireWall;
+    IEnumerator MakeFireAttack(){
+
+        // spikeBlockWall.SetActive(true);
+        
+        for(int i = 0; i < 3; ++i){
+            GameObject wall = Instantiate(fireWall, (Vector2)transform.position + new Vector2(5, -3), Quaternion.identity);
+            // yield return new WaitForSeconds(0.5f);
+        // GameObject fireball2 = Instantiate(fireball, (Vector2)transform.position + new Vector2(-1.5f, 0.0f), Quaternion.identity);
+        // GameObject fireball3 = Instantiate(fireball, (Vector2)transform.position + new Vector2(-1.5f, -0.5f), Quaternion.identity);
+
+            wall.GetComponent<Rigidbody>().velocity = new Vector2(1.0f, 0) * 5;
+            yield return new WaitForSeconds(3f);
+
+        }
+        // for(int i = 0; i < spikeAttacks.Length; ++i){
+        //     spikeAttacks[i].SetActive(true);
+        //     yield return new WaitForSeconds(0.1f);
+        // }
+        // yield return new WaitForSeconds(2f);
+        // for(int i = 0; i < spikeAttacks.Length; ++i){
+        //     spikeAttacks[i].SetActive(false);
+        //     yield return new WaitForSeconds(0.1f);
+        // }
+        yield return new WaitForSeconds(1f);
+        // spikeBlockWall.SetActive(false);
         yield return null;
     }
 

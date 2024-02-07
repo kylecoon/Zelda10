@@ -6,7 +6,7 @@ using UnityEngine;
 public class FormController : MonoBehaviour
 {
     private int formID; // 1 = human, 2 = dong, 3 = ball, 4 = aqua, 5 = oldMan
-    private int numForms;
+    public int numForms;
     public Vector2 direction_controller;
     public bool can_move;
     private BoxCollider box;
@@ -127,24 +127,24 @@ public class FormController : MonoBehaviour
 
     public void AddForm() {
         numForms += 1;
-        
+
         if(numForms == 0){
-            Destroy(newFormRevealer[0]);
+            newFormRevealer[0].SetActive(true);
 
         } else if(numForms == 1){
-            Destroy(newFormRevealer[1]);
+            newFormRevealer[1].SetActive(true);
 
         } else if(numForms == 2){
-            Destroy(newFormRevealer[2]);
+            newFormRevealer[2].SetActive(true);
 
         } else if(numForms == 3){
-            Destroy(newFormRevealer[3]);
+            newFormRevealer[3].SetActive(true);
 
         } else if(numForms == 4){
-            Destroy(newFormRevealer[4]);
+            newFormRevealer[4].SetActive(true);
 
         } else if(numForms == 5){
-            Destroy(newFormRevealer[5]);
+            newFormRevealer[5].SetActive(true);
         } 
     }
 

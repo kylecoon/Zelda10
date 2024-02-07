@@ -10,6 +10,8 @@ public class Wallspike : MonoBehaviour
         if (other.gameObject.CompareTag("Player")) {
             Debug.Log("Pokey");
             StartCoroutine(other.gameObject.GetComponent<Health>().Hit(transform.position));
+        } else if(other.gameObject.CompareTag("->East")){
+            StartCoroutine(other.gameObject.GetComponent<BreakableWall>().Break());
         }
     }
 }
