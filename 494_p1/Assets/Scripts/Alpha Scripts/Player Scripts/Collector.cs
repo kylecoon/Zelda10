@@ -48,16 +48,10 @@ public class Collector : MonoBehaviour
             AudioSource.PlayClipAtPoint(HeartCollect, Camera.main.transform.position);
 
             Debug.Log("pickup heart");
-
-            if (gameObject.GetComponent<FormController>() == null) {
-                Health curHP = GetComponent<Health>();
-                if(curHP.health < curHP.MaxHP) curHP.health++;
-                Destroy(object_collided_with);
-                curHP.UpdateHP();
-            }
-            else {
-
-            }
+            Health curHP = GetComponent<Health>();
+            if(curHP.health < curHP.MaxHP) curHP.health++;
+            Destroy(object_collided_with);
+            curHP.UpdateHP();
 
         } else if(object_collided_with.CompareTag("bomb")){
 
@@ -73,6 +67,12 @@ public class Collector : MonoBehaviour
 
             GetComponent<Attacking>().AddAlt(object_collided_with.name);
             Destroy(object_collided_with);
+        } else if(object_collided_with.CompareTag("Omni")){
+            AudioSource.PlayClipAtPoint(BombCollect, Camera.main.transform.position);
+
+            GetComponent<Attacking>().AddAlt(object_collided_with.name);
+            Destroy(object_collided_with);
         }
+
     }
 }
