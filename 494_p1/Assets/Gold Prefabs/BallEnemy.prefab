@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -7931414395960432838}
   m_Layer: 0
   m_Name: BallEnemy
-  m_TagString: BallEnemy
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -156,4 +156,4 @@ MonoBehaviour:
   movement_speed: 4
   indicatorObject: {fileID: 1773854142597291271, guid: b860717ebb64e45da9a0b86ee35ff377, type: 3}
   egg: {fileID: 2016815761677422895, guid: 7991f1aebe5ca4b8fb4331729c52a70b, type: 3}
-  parent: {fileID: 0}
+  door: {fileID: 0}
