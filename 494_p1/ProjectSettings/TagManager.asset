@@ -18,9 +18,13 @@ TagManager:
   - Wall
   - AltItem
   - Egg
+<<<<<<< HEAD
   - Wallspike
   - Water
   - BallEnemy
+=======
+  - MoveBlock
+>>>>>>> acb477d (ball rooms done)
   layers:
   - Default
   - TransparentFX
