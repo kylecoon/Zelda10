@@ -18,17 +18,22 @@ public class OldManBossMove : MonoBehaviour
 
     IEnumerator moveBackAndForth(){
 
+        Queue<IEnumerator> Movequeue = new Queue<IEnumerator>();
+
         Vector2 start = gameObject.transform.position;
-        StartCoroutine(CoroutineUtilities.MoveObjectOverTime(gameObject.transform, gameObject.transform.position, new Vector2(gameObject.transform.position.x, gameObject.transform.position.y + 2), 2.5f));
+        yield return new WaitForSeconds(0.01f);
+        Movequeue.Enqueue(CoroutineUtilities.MoveObjectOverTime(gameObject.transform, gameObject.transform.position, new Vector2(gameObject.transform.position.x, gameObject.transform.position.y + 2), 2.5f));
+        yield return new WaitForSeconds(0.01f);
 
         while(!GetComponent<oldManBosHealth>().isDead){
-
-            StartCoroutine(CoroutineUtilities.MoveObjectOverTime(gameObject.transform, gameObject.transform.position, new Vector2(gameObject.transform.position.x, gameObject.transform.position.y - 4), 2.5f));
-
-            StartCoroutine(CoroutineUtilities.MoveObjectOverTime(gameObject.transform, gameObject.transform.position, new Vector2(gameObject.transform.position.x, gameObject.transform.position.y + 4), 2.5f));
-
+            yield return StartCoroutine(Movequeue.Dequeue());
+            Movequeue.Enqueue(CoroutineUtilities.MoveObjectOverTime(gameObject.transform, gameObject.transform.position, new Vector2(gameObject.transform.position.x, gameObject.transform.position.y - 4), 2.5f));
+            yield return StartCoroutine(Movequeue.Dequeue());
+            Movequeue.Enqueue(CoroutineUtilities.MoveObjectOverTime(gameObject.transform, gameObject.transform.position, new Vector2(gameObject.transform.position.x, gameObject.transform.position.y + 4), 2.5f));
         }
+        Movequeue.Clear();
 
+        yield return new WaitForSeconds(0.01f);
         StartCoroutine(CoroutineUtilities.MoveObjectOverTime(gameObject.transform, gameObject.transform.position, start, 2.5f));
 
 

@@ -17,6 +17,8 @@ public class OldManBossAttack : MonoBehaviour
 
     public GameObject spikeBlockWall;
 
+    public Sprite broken;
+
     
 
 
@@ -33,10 +35,14 @@ public class OldManBossAttack : MonoBehaviour
 
     IEnumerator opening(){
 
+        GetComponent<BoxCollider>().enabled = false;
+
         for(int i = 0; i < plants.Length; ++i){
             plants[i].SetActive(true);
             yield return new WaitForSeconds(0.3f);
         }
+
+        GetComponent<BoxCollider>().enabled = true;
 
         StartCoroutine(fighting());
         
@@ -51,22 +57,37 @@ public class OldManBossAttack : MonoBehaviour
 
             if(attack == 0){
                 stone.GetComponent<SpriteRenderer>().color = Color.green;
+                yield return new WaitForSecondsRealtime(5f);
                 oldManBosHealth.EnqueueCoroutine(MakeplantAttack());
 
             } else if(attack == 1){
                 stone.GetComponent<SpriteRenderer>().color = Color.blue;
-                oldManBosHealth.EnqueueCoroutine(MakespikeAttack());
+                yield return new WaitForSecondsRealtime(5f);
+                oldManBosHealth.EnqueueCoroutine(MakeFireAttack());
 
             } else {
                 stone.GetComponent<SpriteRenderer>().color = Color.red;
+                yield return new WaitForSecondsRealtime(5f);
                 oldManBosHealth.EnqueueCoroutine(MakeBlockAttack());
                 // breakable wall attack
             }
-            yield return new WaitForSecondsRealtime(10f);
             stone.GetComponent<SpriteRenderer>().color = Color.black;
+            yield return new WaitForSecondsRealtime(5f);
             
 
         }
+
+        stone.GetComponent<SpriteRenderer>().sprite = broken;
+
+        yield return new WaitForSeconds(0.5f);
+
+        Destroy(stone);
+
+        for (int i = 0; i < transform.childCount; i++){
+            transform.GetChild(i).gameObject.SetActive(false);
+        }
+
+        
     }
 
     IEnumerator MakeplantAttack(){
@@ -99,7 +120,7 @@ public class OldManBossAttack : MonoBehaviour
 
         spikeBlockWall.SetActive(true);
         
-        GameObject wall = Instantiate(breakableWall, (Vector2)transform.position + new Vector2(5, -3), Quaternion.identity);
+        GameObject wall = Instantiate(breakableWall, new Vector2(58, 40.5f), Quaternion.identity);
         yield return new WaitForSeconds(0.5f);
         // GameObject fireball2 = Instantiate(fireball, (Vector2)transform.position + new Vector2(-1.5f, 0.0f), Quaternion.identity);
         // GameObject fireball3 = Instantiate(fireball, (Vector2)transform.position + new Vector2(-1.5f, -0.5f), Quaternion.identity);
@@ -126,12 +147,14 @@ public class OldManBossAttack : MonoBehaviour
         // spikeBlockWall.SetActive(true);
         
         for(int i = 0; i < 3; ++i){
-            GameObject wall = Instantiate(fireWall, (Vector2)transform.position + new Vector2(5, -3), Quaternion.identity);
+            GameObject wall = Instantiate(fireWall, new Vector2(67, 43.5f), Quaternion.identity);
             // yield return new WaitForSeconds(0.5f);
         // GameObject fireball2 = Instantiate(fireball, (Vector2)transform.position + new Vector2(-1.5f, 0.0f), Quaternion.identity);
         // GameObject fireball3 = Instantiate(fireball, (Vector2)transform.position + new Vector2(-1.5f, -0.5f), Quaternion.identity);
+            // wall.GetComponent<Rigidbody>().velocity = new Vector2(2.0f, 0) * 2;
 
-            wall.GetComponent<Rigidbody>().velocity = new Vector2(1.0f, 0) * 5;
+            wall.GetComponent<Rigidbody>().AddForce(1.0f, 0, 0, ForceMode.Impulse);
+            
             yield return new WaitForSeconds(3f);
 
         }

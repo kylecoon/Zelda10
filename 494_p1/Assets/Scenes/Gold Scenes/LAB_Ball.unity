@@ -191,11 +191,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2107881721}
     m_Modifications:
     - target: {fileID: 6800506357067097562, guid: 597359ba76356405e845b5adae1e5816, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 32
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6800506357067097562, guid: 597359ba76356405e845b5adae1e5816, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15878,13 +15878,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448097962}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32, y: 0, z: -0.113158494}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.113158494}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1098010836}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2107881721}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &448130180
 PrefabInstance:
@@ -67297,6 +67297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireball: {fileID: 1806262064939574195, guid: 11917caf6845c4014874d1b1a9f2218f, type: 3}
+  attack_sprite: {fileID: 0}
 --- !u!114 &1939176241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67390,10 +67391,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8ab2e3822f8a430189152085f7b50e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numForms: 0
   direction_controller: {x: 0, y: 0}
   can_move: 0
   wall_mode: 0
   in_knockback: 0
+  newFormRevealer: []
 --- !u!114 &1939176247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67576,6 +67579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movement_speed: 4
   in_knockback: 0
+  sprites: []
 --- !u!1001 &1948484609
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73313,6 +73317,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3268843709739078296, guid: 2ba7d5a73e785487e9883009ae9a734d, type: 3}
   m_PrefabInstance: {fileID: 2105678324}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2107881720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2107881721}
+  m_Layer: 0
+  m_Name: BallBossParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2107881721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107881720}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 32, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1302064}
+  - {fileID: 448097964}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2118478624
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74666,5 +74703,4 @@ SceneRoots:
   - {fileID: 691281277}
   - {fileID: 2045130156}
   - {fileID: 1939176253}
-  - {fileID: 1302063}
-  - {fileID: 448097964}
+  - {fileID: 2107881721}

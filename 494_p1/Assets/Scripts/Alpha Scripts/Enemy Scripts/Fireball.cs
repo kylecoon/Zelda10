@@ -32,6 +32,8 @@ public class Fireball : MonoBehaviour
         void OnTriggerEnter(Collider other){
             if(other.CompareTag("Wall") || other.CompareTag("Player")){
                 Destroy(gameObject);
+            } else if(other.CompareTag("->North")){
+                StartCoroutine(other.GetComponent<oldManBosHealth>().AlterHealth(-1));
             }
         }
 }

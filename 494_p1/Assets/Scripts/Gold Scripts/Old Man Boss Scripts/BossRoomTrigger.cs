@@ -50,11 +50,17 @@ public class BossRoomTrigger : MonoBehaviour
         yield return new WaitForSeconds(1);
 
         boss.SetActive(true);
+    }
+
+    void Update(){
 
     }
 
     void OnTriggerExit(UnityEngine.Collider other){
-        if(!triggered) StartCoroutine(removeDarkeness());
+        if(!triggered && other.CompareTag("Player")){
+            StartCoroutine(removeDarkeness());
+            GetComponent<TypeWriter>().DoSentences();
+        }
         
     }
     

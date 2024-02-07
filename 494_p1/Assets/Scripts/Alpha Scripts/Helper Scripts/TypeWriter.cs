@@ -76,6 +76,8 @@ public class TypeWriter : MonoBehaviour
     public TextMeshProUGUI textMeshPro;
     public float typingSpeed = 0.05f;
 
+    // public string[] Startsentences;
+
     public string[] sentences;
     private int currentSentenceIndex = 0;
 
@@ -119,8 +121,10 @@ public class TypeWriter : MonoBehaviour
         }
     }
 
-    void OnTriggerExit(){
+    public void DoSentences(){
         textMeshPro.gameObject.SetActive(true);
         StartCoroutine(TypeSentence(sentences[currentSentenceIndex]));
+        textMeshPro.gameObject.SetActive(false);
     }
+
 }
