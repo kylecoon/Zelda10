@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FormController : MonoBehaviour
 {
@@ -42,6 +43,9 @@ public class FormController : MonoBehaviour
     }
 
     void GetInput() {
+        if (Input.GetKeyDown(KeyCode.Alpha8)) {
+            SceneManager.LoadScene("gold_main", LoadSceneMode.Single);
+        }
         if (!can_move || wall_mode) {
             return;
         }

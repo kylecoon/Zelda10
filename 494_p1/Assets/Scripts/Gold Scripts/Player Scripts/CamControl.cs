@@ -16,15 +16,19 @@ public class CamControl : MonoBehaviour
     // Start is called before the first frame update
     void OnTriggerEnter(Collider collider){
         if (collider.gameObject.CompareTag("->North") && rb.velocity.y > 0) {
+            transform.position = new Vector3(transform.position.x, transform.position.y + 2.0f, transform.position.z);
             StartCoroutine(WaitForPlayerInputToTransition(new Vector3(0, 11, 0) ));
         }
         else if (collider.gameObject.CompareTag("->South") && rb.velocity.y < 0) {
+            transform.position = new Vector3(transform.position.x, transform.position.y - 2.0f, transform.position.z);
             StartCoroutine(WaitForPlayerInputToTransition(new Vector3(0, -11, 0) ));
         }
         else if (collider.gameObject.CompareTag("->East") && rb.velocity.x > 0) {
+            transform.position = new Vector3(transform.position.x + 2.0f, transform.position.y, transform.position.z);
             StartCoroutine(WaitForPlayerInputToTransition(new Vector3(16, 0, 0) ));
         }
         else if (collider.gameObject.CompareTag("->West") && rb.velocity.x < 0) {
+            transform.position = new Vector3(transform.position.x - 2.0f, transform.position.y, transform.position.z);
             StartCoroutine(WaitForPlayerInputToTransition(new Vector3(-16, 0, 0) ));
         }
         
