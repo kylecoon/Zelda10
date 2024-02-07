@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Teleport : MonoBehaviour
 {
@@ -58,7 +57,7 @@ public class Teleport : MonoBehaviour
     
         public static IEnumerator fadeToBlack(int fadeSpeed, bool fade2Black, GameObject BlackSquare){
         
-        Color objectColor = BlackSquare.GetComponent<UnityEngine.UI.Image>().color;
+        Color objectColor = new Color(0, 0, 0, 255);
         float fadeAmount;
 
         if(fade2Black){

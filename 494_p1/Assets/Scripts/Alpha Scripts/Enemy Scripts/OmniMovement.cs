@@ -70,37 +70,54 @@ public class OmniMovement : MonoBehaviour
 
         Physics.Raycast(transform.position, transform.TransformDirection(Vector2.up), out hit, 1.5f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
-            directions.Add(Vector2.up);
+            if (transform.position.y % 11.0f < 7.5f) {
+                directions.Add(Vector2.up);
+            }
         }
         Physics.Raycast(transform.position, transform.TransformDirection(Vector2.down), out hit, 1.5f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
-            directions.Add(Vector2.down);
+            if (transform.position.y % 11.0f > 2.5f) {
+                directions.Add(Vector2.down);
+            }
         }
         Physics.Raycast(transform.position, transform.TransformDirection(Vector2.left), out hit, 1.5f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
-            directions.Add(Vector2.left);
+            if (transform.position.x % 16.0f > 2.5f) {
+                directions.Add(Vector2.left);
+            }
         }
         Physics.Raycast(transform.position, transform.TransformDirection(Vector2.right), out hit, 1.5f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
-            directions.Add(Vector2.right);
+            if (transform.position.x % 16.0f < 12.5f) {
+                directions.Add(Vector2.right);
+            }
         }
 
         Physics.Raycast(transform.position, transform.TransformDirection(Vector2.right + Vector2.up), out hit, 1.5f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
-            directions.Add(Vector2.right + Vector2.up);
+            if (transform.position.x % 16.0f < 12.5f && transform.position.y % 11.0f < 7.5f) {
+                directions.Add(Vector2.right + Vector2.up);
+            }
         }
 
         Physics.Raycast(transform.position, transform.TransformDirection(Vector2.right + Vector2.down), out hit, 1.5f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
-            directions.Add(Vector2.right + Vector2.down);
+            if (transform.position.x % 16.0f < 12.5f && transform.position.y % 11.0f > 2.5f) {
+                directions.Add(Vector2.right + Vector2.down);
+            }
+            
         }
         Physics.Raycast(transform.position, transform.TransformDirection(Vector2.left + Vector2.down), out hit, 1.5f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
-            directions.Add(Vector2.left + Vector2.down);
+            if (transform.position.x % 16.0f > 2.5f && transform.position.y % 11.0f > 2.5f) {
+                directions.Add(Vector2.left + Vector2.down);
+            }
         }
         Physics.Raycast(transform.position, transform.TransformDirection(Vector2.left + Vector2.up), out hit, 1.5f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
-            directions.Add(Vector2.left + Vector2.up);
+            if (transform.position.x % 16.0f > 2.5f && transform.position.y % 11.0f < 7.5f) {
+                directions.Add(Vector2.left + Vector2.up);
+            }
         }
 
         //if can't go in any direction, return 0

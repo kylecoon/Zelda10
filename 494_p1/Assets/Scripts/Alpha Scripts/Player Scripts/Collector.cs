@@ -48,10 +48,16 @@ public class Collector : MonoBehaviour
             AudioSource.PlayClipAtPoint(HeartCollect, Camera.main.transform.position);
 
             Debug.Log("pickup heart");
-            Health curHP = GetComponent<Health>();
-            if(curHP.health < curHP.MaxHP) curHP.health++;
-            Destroy(object_collided_with);
-            curHP.UpdateHP();
+
+            if (gameObject.GetComponent<FormController>() == null) {
+                Health curHP = GetComponent<Health>();
+                if(curHP.health < curHP.MaxHP) curHP.health++;
+                Destroy(object_collided_with);
+                curHP.UpdateHP();
+            }
+            else {
+
+            }
 
         } else if(object_collided_with.CompareTag("bomb")){
 

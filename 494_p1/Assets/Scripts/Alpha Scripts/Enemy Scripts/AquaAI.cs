@@ -72,7 +72,7 @@ public class AquaAI : MonoBehaviour
                 transform.position = Vector3.Lerp(end_position, start_position, elapsedTime / duration);
                 elapsedTime += 0.1f;
                 yield return new WaitForSeconds(0.1f);
-                if (Random.Range(0, 20) == 10 && canShoot) {
+                if (Random.Range(0, 30) == 10 && canShoot) {
                     StartCoroutine(ShootFireballs());
                 }
             }

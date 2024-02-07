@@ -109,6 +109,8 @@ MonoBehaviour:
   invincible: 0
   is_alive: 0
   death_sprite: {fileID: 0}
+  eggDrop: 0
+  Egg: {fileID: 0}
 --- !u!54 &3422373776105806011
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -128,7 +130,7 @@ Rigidbody:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
@@ -149,7 +151,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0

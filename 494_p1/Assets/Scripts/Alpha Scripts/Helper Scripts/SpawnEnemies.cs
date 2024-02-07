@@ -78,6 +78,7 @@ public class SpawnEnemies : MonoBehaviour
     }
 
     IEnumerator SpawnHands() {
+        yield return new WaitForSeconds(5.0f);
         while (in_room) {
             Instantiate(hand, GameObject.Find("Player").transform.position, Quaternion.identity);
             yield return new WaitForSeconds(Random.Range(2.5f, 4.5f));

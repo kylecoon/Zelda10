@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using TreeEditor;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -77,19 +78,27 @@ public class EnemyMovement : MonoBehaviour
 
         Physics.Raycast(transform.position, transform.TransformDirection(Vector2.up), out hit, 1.0f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
-            directions.Add(Vector2.up);
+            if (transform.position.y % 11.0f < 7.5f) {
+                directions.Add(Vector2.up);
+            }
         }
         Physics.Raycast(transform.position, transform.TransformDirection(Vector2.down), out hit, 1.0f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
-            directions.Add(Vector2.down);
+            if (transform.position.y % 11.0f > 2.5f) {
+                directions.Add(Vector2.down);
+            }
         }
         Physics.Raycast(transform.position, transform.TransformDirection(Vector2.left), out hit, 1.0f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
-            directions.Add(Vector2.left);
+            if (transform.position.x % 16.0f > 2.5f) {
+                directions.Add(Vector2.left);
+            }
         }
         Physics.Raycast(transform.position, transform.TransformDirection(Vector2.right), out hit, 1.0f);
         if (hit.transform == null || !hit.transform.gameObject.CompareTag("Wall")) {
-            directions.Add(Vector2.right);
+            if (transform.position.x % 16.0f < 12.5f) {
+                directions.Add(Vector2.right);
+            }
         }
         //if can't go in any direction, return 0
         if (directions.Count == 0) {

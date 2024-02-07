@@ -51,11 +51,11 @@ public class Health : MonoBehaviour
             if(!Invincible){
                 Invincible = true;
                 Inventory inven = GetComponent<Inventory>();
-                inven.rupee_count = int.MaxValue;
+                inven.rupee_count = 9999;
                 inven.UpdateRupCount();
-                inven.numBombs = int.MaxValue;
+                inven.numBombs = 9999;
                 inven.UpdateBombCount();
-                inven.numKeys = int.MaxValue;
+                inven.numKeys = 9999;
                 inven.UpdateKeyCount();
                 
             }else{
@@ -159,11 +159,15 @@ public class Health : MonoBehaviour
                 }
             }
 
-            //UpdateHP();
-            //GetComponent<Movement>().Flip_CanMove(); FIX FOR ALPHA LEVEL
-            GetComponent<FormController>().can_move = false;
-            GetComponent<FormController>().in_knockback = true;
-            //GetComponent<Movement>().in_knockback = true;
+            UpdateHP();
+            if (GetComponent<FormController>() == null) {
+                GetComponent<Movement>().Flip_CanMove();
+                GetComponent<Movement>().in_knockback = true;
+            }
+            else {
+                GetComponent<FormController>().can_move = false;
+                GetComponent<FormController>().in_knockback = true;
+            }
 
             Rigidbody rb = GetComponent<Rigidbody>();
             rb.velocity = direction * 6.0f;
@@ -177,15 +181,17 @@ public class Health : MonoBehaviour
             
             //animations.Play("linkHurt");
             yield return new WaitForSeconds(0.3f);
-            
-            //GetComponent<Movement>().in_knockback = false;
 
             Invincible = false;
             SRenderer.color = new Color(255,255,255,255);
-            //GetComponent<Movement>().Flip_CanMove();
-            GetComponent<FormController>().can_move = true;
-            GetComponent<FormController>().in_knockback = false;
-            
+            if (GetComponent<FormController>() == null) {
+                GetComponent<Movement>().in_knockback = false;
+                GetComponent<Movement>().Flip_CanMove();
+            }
+            else {
+                GetComponent<FormController>().can_move = true;
+                GetComponent<FormController>().in_knockback = false;
+            }
         }
 
         yield return null;

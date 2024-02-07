@@ -23,7 +23,7 @@ public class FormController : MonoBehaviour
         can_move = true;
         formID = 1;
 
-        numForms = -1;
+        numForms = 1;
 
         DeactivateComponents();
         gameObject.GetComponent<HumanMovement>().enabled = true;
