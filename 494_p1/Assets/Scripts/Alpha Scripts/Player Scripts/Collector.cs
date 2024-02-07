@@ -6,7 +6,6 @@ public class Collector : MonoBehaviour
 {
     Inventory inventory;
 
-
     public AudioClip RupCollect;
     public AudioClip keyCollect;
 
