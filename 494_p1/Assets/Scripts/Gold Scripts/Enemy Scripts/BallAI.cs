@@ -152,6 +152,9 @@ public class BallAI : MonoBehaviour
             current_direction = Vector2.down;
         }
         while (attacking) {
+            if (health <= 0) {
+                yield break;
+            }
             rb.velocity = current_direction * 4.0f;
             yield return new WaitForSeconds(0.01f);
         }
@@ -161,7 +164,9 @@ public class BallAI : MonoBehaviour
 
         //return to wall
         while (transform.position.y % 11.0f <= 7.5f && transform.position.y % 11.0f >= 2.5f) {
-            
+            if (health <= 0) {
+                yield break;
+            }
             rb.velocity = current_direction * 3.0f;
             yield return new WaitForSeconds(0.01f);
         }
@@ -225,8 +230,10 @@ public class BallAI : MonoBehaviour
             player.GetComponent<DongAttack>().launch_amount = 0;
         }
         yield return new WaitForSeconds(0.75f);
+        Vector2 death_position = transform.position;
         if (health <= 0) {
-            Instantiate(egg, transform.position, Quaternion.identity);
+            rb.velocity = Vector3.zero;
+            Instantiate(egg, death_position, Quaternion.identity);
             Destroy(gameObject);
             yield break;
         }
