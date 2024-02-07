@@ -38,6 +38,8 @@ public class AquaMoveHuman : MonoBehaviour
         sprt = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody>();
 
+        box = GetComponent<BoxCollider>();
+
         can_move = true;
 
         current_direction = Vector2.down;
