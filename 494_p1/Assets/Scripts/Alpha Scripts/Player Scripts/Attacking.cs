@@ -5,6 +5,7 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class Attacking : MonoBehaviour
 {
     SpriteRenderer sprt;
@@ -72,6 +73,9 @@ public class Attacking : MonoBehaviour
     }
 
     void GetInput() {
+        if (Input.GetKeyDown(KeyCode.Alpha8)) {
+            SceneManager.LoadScene("gold_custom", LoadSceneMode.Single);
+        }
 
         if (GetComponent<Movement>().Check_CanMove()) {
         

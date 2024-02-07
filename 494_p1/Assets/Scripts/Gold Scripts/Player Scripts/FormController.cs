@@ -95,7 +95,6 @@ public class FormController : MonoBehaviour
             DeactivateComponents();
 
             gameObject.GetComponent<OldManMovement>().enabled = true;
-            gameObject.GetComponent<OldManAttack>().enabled = true;
 
             StartCoroutine(GreenFlash());
         }
@@ -114,7 +113,6 @@ public class FormController : MonoBehaviour
         gameObject.GetComponent<AquaAttack>().enabled = false;
 
         gameObject.GetComponent<OldManMovement>().enabled = false;
-        gameObject.GetComponent<OldManAttack>().enabled = false;
     }
 
     public int GetFormID() {
