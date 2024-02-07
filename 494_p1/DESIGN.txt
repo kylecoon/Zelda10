@@ -1,0 +1,14 @@
+﻿Controls: arrow keys/wasd, x to use form abillity, 1-5 to switch form if available, 8 to change scenes, 9 to activate invincibility
+
+a. A strange man offers you a device to mutate into another being. Traverse your way through the dungeon, encountering 4 custom bosses, and assuming their powers upon defeat. At the end you may just meet your maker.
+
+b. After defeating a boss, you have the ability to transform into it and use its custom abilities. You enter as default Link with only a sword, but gain the abilities to become a battering ram, stick to walls, and shoot fireballs. 
+
+c. As you add more abilites, each room because an independent puzzle where you have to deduce which ability, or combination of abilities, will get you to the next door.
+
+d. Sacrificing movement or combat abilities for the alternative. 
+
+e. The user interface shows which abilities are newly gained and what button switches you to that ability. Only on button is needed to used each mutations special ability.
+
+f. kylecoon.github.io/494
+   github.com/nogivner/Noah-Givner-Portfolio
