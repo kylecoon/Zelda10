@@ -22,6 +22,11 @@ public class DongAI : MonoBehaviour
     private GameObject player;
     private Vector2 initial_position;
     public GameObject egg;
+
+    private AudioClip damageSound;
+
+    private AudioClip battleCry;
+    private bool shaking_camera;
     // Start is called before the first frame update
     void OnEnable()
     {
@@ -31,6 +36,9 @@ public class DongAI : MonoBehaviour
         player = GameObject.Find("Player");
         initial_position = transform.position;
         StartCoroutine(Spawn());   
+        shaking_camera = false;
+        damageSound = Resources.Load<AudioClip>("Zelda/Sound-Effects/SoundEffect6");
+        battleCry = Resources.Load<AudioClip>("Zelda/Sound-Effects/SoundEffect17");
     }
 
     IEnumerator Spawn() {
@@ -44,6 +52,7 @@ public class DongAI : MonoBehaviour
         can_move = true;
         sprt.color = new Color(255, 255, 255, 255);
         sprt.sprite = sprites[0];
+        AudioSource.PlayClipAtPoint(battleCry, Camera.main.transform.position);
         StartCoroutine(Fight());
         yield return null;
     }
@@ -100,6 +109,7 @@ public class DongAI : MonoBehaviour
     }
 
     IEnumerator Attack() {
+        AudioSource.PlayClipAtPoint(battleCry, Camera.main.transform.position);
         for (int i = 0; i < 20; ++i) {
             transform.localScale -= new Vector3(0.01f, 0);
             yield return new WaitForSeconds(0.05f);
@@ -114,7 +124,10 @@ public class DongAI : MonoBehaviour
                 sprt.sprite = sprites[1];
             }
             if (transform.position.x % 16.0f <= 2.8) {
-                StartCoroutine(ShakeCamera());
+                if (!shaking_camera) {
+                    shaking_camera = true;
+                    StartCoroutine(ShakeCamera());
+                }
                 StartCoroutine(WalkBackwards());
             }
             yield return new WaitForSeconds(0.05f);
@@ -132,13 +145,19 @@ public class DongAI : MonoBehaviour
             if (other.gameObject.GetComponent<BreakableWall>() != null) {
                 StartCoroutine(other.gameObject.GetComponent<BreakableWall>().Break());
             }
-            StartCoroutine(ShakeCamera());
+            if (!shaking_camera) {
+                shaking_camera = true;
+                StartCoroutine(ShakeCamera());
+            }
             StartCoroutine(WalkBackwards());
         }
         else if (other.gameObject.CompareTag("Wallspike")) {
             rb.velocity = Vector2.zero;
             transform.position = new Vector3(transform.position.x + 0.25f, transform.position.y, transform.position.z);
-            StartCoroutine(ShakeCamera());
+            if (!shaking_camera) {
+                shaking_camera = true;
+                StartCoroutine(ShakeCamera());
+            }
             StartCoroutine(TakeDamage());
         }
     }
@@ -168,10 +187,12 @@ public class DongAI : MonoBehaviour
             yield return new WaitForSeconds(0.03f);
         }
         cam.transform.position = original_position;
+        shaking_camera = false;
         yield return null;
     }
 
     IEnumerator TakeDamage() {
+        AudioSource.PlayClipAtPoint(damageSound, Camera.main.transform.position);
         sprt.color = new Color(255, 0, 0, 255);
         sprt.sprite = sprites[2];
         health--;

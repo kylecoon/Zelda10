@@ -20,6 +20,10 @@ public class BallMovement : MonoBehaviour
     private bool touchingRight;
     public Vector2 most_recent_input;
     private Vector2 last_direction_touched;
+    
+    private AudioClip wallModeSound;
+
+    private AudioClip failedWallModeSound;
 
 
     // Start is called before the first frame update
@@ -30,6 +34,8 @@ public class BallMovement : MonoBehaviour
         box.center = Vector3.zero;
         box.size = new Vector3(2.0f, 2.0f, 1.0f);
         transform.localScale = new Vector3(0.95f, 0.95f, 1.0f);
+        wallModeSound = Resources.Load<AudioClip>("Zelda/Sound-Effects/SoundEffect12");
+        failedWallModeSound = Resources.Load<AudioClip>("Zelda/Sound-Effects/SoundEffect13");
     }
 
     
@@ -61,6 +67,7 @@ public class BallMovement : MonoBehaviour
             //attempt activate wall mode
             if (!form.wall_mode) {
                 if (TouchingWall()) {
+                    AudioSource.PlayClipAtPoint(wallModeSound, Camera.main.transform.position);
                     form.wall_mode = true;
                     indicator = Instantiate(indicatorObject, transform.position, Quaternion.identity);
                     indicator.transform.parent = gameObject.transform;
@@ -72,6 +79,7 @@ public class BallMovement : MonoBehaviour
             }
             //deactivate wall mode
             else {
+                AudioSource.PlayClipAtPoint(wallModeSound, Camera.main.transform.position);
                 form.wall_mode = false;
                 Destroy(indicator);
                 touchingUp = false;
@@ -283,6 +291,7 @@ public class BallMovement : MonoBehaviour
     }
 
     IEnumerator FailedWallMode() {
+        AudioSource.PlayClipAtPoint(failedWallModeSound, Camera.main.transform.position);
         GameObject failedIndicator = Instantiate(indicatorObject, transform.position, Quaternion.identity);
         failedIndicator.transform.parent = gameObject.transform;
         failedIndicator.GetComponent<SpriteRenderer>().color = new Color(255, 0, 0, 255);

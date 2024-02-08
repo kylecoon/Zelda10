@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2259815640381252728}
   m_Layer: 0
   m_Name: BombAlt
-  m_TagString: bomb
+  m_TagString: AltItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

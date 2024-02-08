@@ -7,11 +7,13 @@ public class BreakableWall : MonoBehaviour
     private bool broken;
     public Sprite broken_sprite;
     private SpriteRenderer sprt;
+    private AudioClip breakSound;
 
     void Start()
     {
         broken = false;
         sprt = GetComponent<SpriteRenderer>();
+        breakSound = Resources.Load<AudioClip>("Zelda/Sound-Effects/SoundEffect11");
     }
     // Start is called before the first frame update
     void OnCollisionStay(Collision other)
@@ -26,6 +28,7 @@ public class BreakableWall : MonoBehaviour
     }
 
     public IEnumerator Break() {
+        AudioSource.PlayClipAtPoint(breakSound, Camera.main.transform.position);
         broken = true;
         GetComponent<BoxCollider>().enabled = false;
         sprt.sprite = broken_sprite;

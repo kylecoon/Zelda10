@@ -13,12 +13,15 @@ public class DongAttack : MonoBehaviour
 
     private bool can_attack;
 
+    private AudioClip battleCry;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         attacking = false;
         launch_amount = 0;
         can_attack = true;
+        battleCry = Resources.Load<AudioClip>("Zelda/Sound-Effects/SoundEffect17");
     }
     void Update()
     {
@@ -54,6 +57,7 @@ public class DongAttack : MonoBehaviour
     IEnumerator ChargeUp() {
         Vector3 original_scale = transform.localScale;
         Vector3 shrink_amount;
+        AudioSource.PlayClipAtPoint(battleCry, Camera.main.transform.position);
         if (GetComponent<DongMovement>().GetCurrentDirection() == Vector2.up || GetComponent<DongMovement>().GetCurrentDirection() == Vector2.down) {
             shrink_amount = new Vector3(0, 0.01f, 0);
         }

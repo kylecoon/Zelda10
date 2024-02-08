@@ -62,7 +62,7 @@ public class EnemyHealth : MonoBehaviour
         GetComponent<SpriteRenderer>().sprite = death_sprite;
         GetComponent<SpriteRenderer>().color = GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 255);
         
-        if (gameObject.name == "Aquamentus") {
+        if (eggDrop) {
             //drop heart container?
             yield return new WaitForSeconds(0.8f);
             if(eggDrop){
@@ -89,7 +89,7 @@ public class EnemyHealth : MonoBehaviour
             else if (drop_chance > 7) {
                 Instantiate(heartDrop, drop_position, Quaternion.identity);
             }
-            else if (drop_chance == 6) {
+            else if (drop_chance == 6 && GameObject.Find("Player").GetComponent<FormController>() == null) {
                 Instantiate(bombDrop, drop_position, Quaternion.identity);
             }
             yield return new WaitForSeconds(0.8f);

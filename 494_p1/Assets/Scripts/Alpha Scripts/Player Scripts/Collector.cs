@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Collector : MonoBehaviour
@@ -11,9 +12,10 @@ public class Collector : MonoBehaviour
 
     public AudioClip BombCollect;
     public AudioClip HeartCollect;
+    private bool adding_form;
     void Start()
     {
-        
+        adding_form = false;
         inventory = GetComponent<Inventory>();
         if (inventory == null) {
             Debug.LogWarning("WARNING: Gameobject with a collector has no inventory to store things in!");
@@ -69,10 +71,18 @@ public class Collector : MonoBehaviour
 
         } else if(object_collided_with.CompareTag("Omni") || object_collided_with.CompareTag("Egg")){
             AudioSource.PlayClipAtPoint(BombCollect, Camera.main.transform.position);
-
-            GetComponent<FormController>().AddForm();
             Destroy(object_collided_with);
+            if (!adding_form) {
+                adding_form = true;
+                StartCoroutine(AddForm());
+            }
         }
 
+    }
+
+    IEnumerator AddForm() {
+        GetComponent<FormController>().AddForm();
+        yield return new WaitForSeconds(1.0f);
+        adding_form = false;
     }
 }

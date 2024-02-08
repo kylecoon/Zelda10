@@ -11,12 +11,15 @@ public class Bomb : MonoBehaviour
     public GameObject smoke;
     private List<GameObject> smokes = new List<GameObject>();
     public int num_smokes;
+
+    private AudioClip explosionSound;
     // Start is called before the first frame update
     void Awake()
     {
         hitbox = GetComponent<BoxCollider>();
         hitbox.enabled = false;
         blast_radius = hitbox.size.x / 2.0f;
+        explosionSound = Resources.Load<AudioClip>("Zelda/Sound-Effects/SoundEffect11");
     }
     void OnTriggerStay(Collider other)
     {
@@ -27,6 +30,7 @@ public class Bomb : MonoBehaviour
     }
 
     public IEnumerator Explode() {
+        AudioSource.PlayClipAtPoint(explosionSound, Camera.main.transform.position);
         GetComponent<SpriteRenderer>().enabled = false;
         hitbox.enabled = true;
         //spawn smokes randomly

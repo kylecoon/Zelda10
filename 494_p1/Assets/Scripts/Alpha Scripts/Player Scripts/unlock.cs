@@ -20,12 +20,15 @@ public class unlock : MonoBehaviour
 
     public bool doubleDoor;
 
+    private AudioClip openSound;
+
     //public bool primed = false;
     // Start is called before the first frame update
     void Start()
     {
         renderer = GetComponent<SpriteRenderer>();
         box = GetComponent<Collider>();
+        openSound = Resources.Load<AudioClip>("Zelda/Sound-Effects/key");
     }
 
     // Update is called once per frame
@@ -49,6 +52,7 @@ public class unlock : MonoBehaviour
             if(doubleDoor){
                 //Inventory inven = collision.collider.gameObject.GetComponent<Inventory>();
                 if(inven.numKeys > 0){
+                    AudioSource.PlayClipAtPoint(openSound, Camera.main.transform.position);
                     inven.numKeys--;
                     inven.UpdateKeyCount();
                     lDoor.GetComponent<SpriteRenderer>().sprite = open[0];
@@ -58,6 +62,7 @@ public class unlock : MonoBehaviour
             } else {
             //Inventory inven = collision.collider.gameObject.GetComponent<Inventory>();
                 if(inven.numKeys > 0){
+                    AudioSource.PlayClipAtPoint(openSound, Camera.main.transform.position);
                     inven.numKeys--;
                     inven.UpdateKeyCount();
                     renderer.sprite = open[0];

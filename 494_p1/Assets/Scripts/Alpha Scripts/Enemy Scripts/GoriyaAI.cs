@@ -84,7 +84,7 @@ public class GoriyaAI : MonoBehaviour
                 continue;
             }
             direction = mov.PickDirection();
-            yield return StartCoroutine(mov.MoveEnemy(direction, 3.0f));
+            yield return StartCoroutine(mov.MoveEnemy(direction, 2.0f));
             int odds = Random.Range(0, 8);
             if (odds == 7) {
                 GetComponent<EnemyMovement>().can_move = false;

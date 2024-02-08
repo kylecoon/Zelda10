@@ -31,6 +31,10 @@ public class Health : MonoBehaviour
 
     AnimationClip[] animations;
 
+    private AudioClip damageSound;
+
+    private AudioClip LowHPSound;
+
     //private GameObject parent; 
 
     void Start()
@@ -40,7 +44,8 @@ public class Health : MonoBehaviour
         Screen.SetResolution(1020, 960, true);
        //animations = GetComponent<Animation>();
         sprites = Resources.LoadAll<Sprite>("Zelda/Link_Sprites");
-
+        damageSound = Resources.Load<AudioClip>("Zelda/Sound-Effects/SoundEffect3");
+        LowHPSound = Resources.Load<AudioClip>("Zelda/Sound-Effects/SoundEffect5");
     }
 
     // Update is called once per frame
@@ -49,6 +54,7 @@ public class Health : MonoBehaviour
         // cheat mode toggle
         if(gameObject.CompareTag("Player") && Input.GetKeyDown(KeyCode.Alpha9)){
             if(!Invincible){
+                health = MaxHP;
                 Invincible = true;
                 Inventory inven = GetComponent<Inventory>();
                 inven.rupee_count = 9999;
@@ -75,7 +81,11 @@ public class Health : MonoBehaviour
         if(coll.CompareTag("Enemy")){
             if(health <= 1){
                 health--;
-                StartCoroutine(Death());
+                if(health <= 0){
+                    Movement mov = GetComponent<Movement>();
+                    mov.cam.transform.position = new Vector2(39.4778f,70.975f);
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                }
             }
             else {
                 StartCoroutine(Hit(coll.transform.position));
@@ -85,21 +95,6 @@ public class Health : MonoBehaviour
 
     public void UpdateHP(){
         HPshown.text = "HP: " + health;
-    }
-
-    IEnumerator Death(){
-
-        //Animation hurt = GetComponent<Animation>();
-        //animations.Play();
-        GetComponent<Movement>().movement_speed = 0;
-       
-        
-        //yield  WaitForSecondsRealtime(0.1f);
-        
-        GetComponent<Movement>().movement_speed = 4;  
-        health = MaxHP;
-        UpdateHP();
-        yield return null;
     }
 
     void OnCollisionEnter(Collision c){
@@ -117,17 +112,25 @@ public class Health : MonoBehaviour
 
     public IEnumerator Hit(Vector3 collider){
 
+        AudioSource.PlayClipAtPoint(damageSound, Camera.main.transform.position);
+
         Debug.Log("hit");
 
          if(!Invincible && Time.frameCount > lastHurtFrame + 12){
 
             health--; 
 
+            if (health == 1) {
+                StartCoroutine(LowHPAudioLoop());
+            }
+
             if(health <= 0){
-                Movement mov = GetComponent<Movement>();
-                mov.cam.transform.position = new Vector2(39.4778f,70.975f);
-                StartCoroutine(Death());
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                if (GetComponent<FormController>() == null) {
+                    SceneManager.LoadScene("gold_main", LoadSceneMode.Single);
+                }
+                else {
+                    SceneManager.LoadScene("gold_custom", LoadSceneMode.Single);
+                }
                 yield break;
             }
 
@@ -194,6 +197,14 @@ public class Health : MonoBehaviour
             }
         }
 
+        yield return null;
+    }
+
+    IEnumerator LowHPAudioLoop() {
+        while (health == 1) {
+            AudioSource.PlayClipAtPoint(LowHPSound, Camera.main.transform.position);
+            yield return new WaitForSeconds(1.0f);
+        }
         yield return null;
     }
 

@@ -11,11 +11,14 @@ public class Beam : MonoBehaviour
     public int projectile_damage;
     public SpriteRenderer sprt;
     private Rigidbody rb;
-    public Sprite brokenProjectile;
+    public GameObject contact;
+
+    private AudioClip projectileBreakSound;
     // Start is called before the first frame update
     void Start() {
         rb = GetComponent<Rigidbody>();
         sprt = GetComponent<SpriteRenderer>();
+        projectileBreakSound = Resources.Load<AudioClip>("Zelda/Sound-Effects/SoundEffect3");
     }
     void OnCollisionEnter(Collision collision)
     {
@@ -45,15 +48,30 @@ public class Beam : MonoBehaviour
     }
 
     IEnumerator DestoryProjectile() {
-
+        AudioSource.PlayClipAtPoint(projectileBreakSound, Camera.main.transform.position);
         gameObject.GetComponent<BoxCollider>().enabled = false;
+        gameObject.GetComponent<SpriteRenderer>().enabled = false;
 
         rb.velocity = Vector2.zero;
 
-        sprt.sprite = brokenProjectile;
+        GameObject topLeft = Instantiate(contact, transform.position, Quaternion.identity);
+        topLeft.GetComponent<Rigidbody>().velocity = (Vector2.up + Vector2.left) * 3.0f;
 
-        yield return new WaitForSeconds(0.5f);
+        GameObject topRight = Instantiate(contact, transform.position, Quaternion.Euler(0, 0, -90));
+        topRight.GetComponent<Rigidbody>().velocity = (Vector2.up + Vector2.right) * 3.0f;
 
+        GameObject bottomLeft = Instantiate(contact, transform.position, Quaternion.Euler(0, 0, 90));
+        bottomLeft.GetComponent<Rigidbody>().velocity = (Vector2.down + Vector2.left) * 3.0f;
+
+        GameObject bottomRight = Instantiate(contact, transform.position, Quaternion.Euler(0, 0, 180));
+        bottomRight.GetComponent<Rigidbody>().velocity = (Vector2.down + Vector2.right) * 3.0f;
+
+        yield return new WaitForSeconds(0.3f);
+
+        Destroy(topLeft);
+        Destroy(topRight);
+        Destroy(bottomLeft);
+        Destroy(bottomRight);
         Destroy(this.gameObject);
     }
 }

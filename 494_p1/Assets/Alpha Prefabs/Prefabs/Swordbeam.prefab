@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 7942918897962271782}
   - component: {fileID: 9160788018805904954}
   - component: {fileID: 8269227104598408759}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Swordbeam
-  m_TagString: attack
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50,7 +50,7 @@ MonoBehaviour:
   projectile_speed: 6
   projectile_damage: 0
   sprt: {fileID: 0}
-  brokenProjectile: {fileID: 21300340, guid: 45afd34443b96473598b76e2b1778b4e, type: 3}
+  contact: {fileID: 5768315153442355900, guid: 78f1958d840ed460c9b0a457d9c5fc32, type: 3}
 --- !u!65 &7942918897962271782
 BoxCollider:
   m_ObjectHideFlags: 0

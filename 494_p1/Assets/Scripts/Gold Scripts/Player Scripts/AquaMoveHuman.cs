@@ -19,7 +19,7 @@ public class AquaMoveHuman : MonoBehaviour
     void OnEnable()
     {
         current_direction = GetComponent<FormController>().direction_controller;
-        UpdateSprite(current_direction);
+        StartCoroutine(UpdateSprite(current_direction));
         box.center = Vector3.zero;
         box.size = new Vector3(2.0f, 2.0f, 1.0f);
         transform.localScale = new Vector3(0.95f, 0.95f, 1.0f);
@@ -30,6 +30,7 @@ public class AquaMoveHuman : MonoBehaviour
     {
         GetComponent<FormController>().direction_controller = current_direction;
         box.size = new Vector3(0.9f, 0.9f, 1.0f);
+        sprt.flipX = false;
     }
     void Awake()
     {
@@ -100,7 +101,7 @@ public class AquaMoveHuman : MonoBehaviour
             return new_direction;
         }
 
-        UpdateSprite(new_direction);
+        StartCoroutine(UpdateSprite(current_direction));
 
         //attempting to walk vertically
         if (new_direction.x == 0.0f) {
@@ -153,17 +154,24 @@ public class AquaMoveHuman : MonoBehaviour
         return new_direction;
     }
 
-    public void UpdateSprite(Vector2 new_direction) {
+    IEnumerator UpdateSprite(Vector2 new_direction) {
+        yield return new WaitForEndOfFrame();
         if (new_direction == Vector2.left) {
             sprt.flipX = false;
             if (transform.position.x % 1.0f > 0.5) {
-            sprt.sprite = sprites[0];
+                sprt.sprite = sprites[0];
+            }
+            else {
+                sprt.sprite = sprites[1];
             }
         }
         else if (new_direction == Vector2.right) {
             sprt.flipX = true;
             if (transform.position.x % 1.0f > 0.5) {
-            sprt.sprite = sprites[0];
+                sprt.sprite = sprites[0];
+            }
+            else {
+                sprt.sprite = sprites[1];
             }
         }
         else if (transform.position.y % 1.0f > 0.5) {

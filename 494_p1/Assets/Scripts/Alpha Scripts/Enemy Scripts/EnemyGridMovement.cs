@@ -154,6 +154,7 @@ public class EnemyMovement : MonoBehaviour
             StartCoroutine(PerformKnockback(direction));
     }
     IEnumerator PerformKnockback(Vector2 direction) {
+        can_move = false;
         yield return new WaitForEndOfFrame();
         Debug.Log("Knocking back");
         moving = true;
@@ -161,7 +162,6 @@ public class EnemyMovement : MonoBehaviour
             yield break;
         }
         GetComponent<EnemyHealth>().invincible = true;
-        can_move = false;
         rb.velocity = direction * 8;
         SnapToGrid(0.5f);
 

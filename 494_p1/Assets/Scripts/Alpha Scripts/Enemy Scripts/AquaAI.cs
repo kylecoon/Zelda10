@@ -10,16 +10,15 @@ public class AquaAI : MonoBehaviour
     public GameObject fireball;
     public Sprite[] sprites;
     private SpriteRenderer sprt;
-    bool spawned;
-    bool moving;
+
+    public Sprite spawn_sprite;
+    bool spawned = false;
     void Start()
     {
         start_position = transform.position;
         end_position = start_position - new Vector2(2.0f, 0);
         sprt = GetComponent<SpriteRenderer>();
-        StartCoroutine(Movement());
         spawned = false;
-        moving = false;
     }
 
     void Update()
@@ -28,14 +27,12 @@ public class AquaAI : MonoBehaviour
             spawned = true;
             StartCoroutine(Spawn());
         }
-        else if (!moving) {
-            moving = true;
-            StartCoroutine(Movement());
-        }
     }
 
     IEnumerator Movement() {
-        while (GetComponent<EnemyHealth>().GetHealth() >= 0) {
+        yield return new WaitForEndOfFrame();
+        Debug.Log(GetComponent<EnemyHealth>().GetHealth());
+        while (GetComponent<EnemyHealth>().GetHealth() > 0) {
 
             float duration = 7.0f;
             float elapsedTime = 0.0f;
@@ -113,7 +110,9 @@ public class AquaAI : MonoBehaviour
     }
 
     IEnumerator Spawn() {
+        Debug.Log("Spawning");
+        sprt.sprite = spawn_sprite;
         yield return new WaitForSeconds(3.0f);
-        moving = true;
+        StartCoroutine(Movement());
     }
 }

@@ -23,12 +23,18 @@ public class BallAI : MonoBehaviour
 
     public GameObject egg;
 
+    private AudioClip changeDirectionSound;
+    private AudioClip damageSound;
+    private AudioClip wallModeSound;
     void OnEnable()
     {
         sprt = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody>();
         StartCoroutine(Spawn());  
         player = GameObject.Find("Player");
+        changeDirectionSound = Resources.Load<AudioClip>("Zelda/Sound-Effects/SoundEffect9");
+        damageSound = Resources.Load<AudioClip>("Zelda/Sound-Effects/SoundEffect6");
+        wallModeSound = Resources.Load<AudioClip>("Zelda/Sound-Effects/SoundEffect12");
     }
 
     IEnumerator Spawn() {
@@ -40,7 +46,6 @@ public class BallAI : MonoBehaviour
         }
         sprt.color = new Color(255, 255, 255, 255);
         sprt.sprite = sprites[0];
-        // parent.GetComponent<DoorTrigger>().Close();
         StartCoroutine(Fight());
         indicator = Instantiate(indicatorObject, transform.position, Quaternion.identity);
         indicator.transform.parent = gameObject.transform;
@@ -142,6 +147,7 @@ public class BallAI : MonoBehaviour
     }
 
     IEnumerator Attack() {
+        AudioSource.PlayClipAtPoint(wallModeSound, Camera.main.transform.position);
         //go up
         if (transform.position.y % 11.0f <= 5.5f) {
             current_direction = Vector2.up;
@@ -171,6 +177,7 @@ public class BallAI : MonoBehaviour
         }
 
         //made it to wall continue loop
+        AudioSource.PlayClipAtPoint(wallModeSound, Camera.main.transform.position);
         returning = false;
         transform.position = new Vector3(transform.position.x, Mathf.Floor(transform.position.y) + 0.5f, transform.position.z);
         indicator.GetComponent<SpriteRenderer>().enabled = true;
@@ -222,9 +229,8 @@ public class BallAI : MonoBehaviour
         }
     }
 
-    public GameObject door;
-
     IEnumerator TakeDamage() {
+        AudioSource.PlayClipAtPoint(damageSound, Camera.main.transform.position);
         --health;
         sprt.color = new Color(255, 0, 0, 255);
         if (player.GetComponent<DongAttack>() != null) {
@@ -235,7 +241,6 @@ public class BallAI : MonoBehaviour
         if (health <= 0) {
             rb.velocity = Vector3.zero;
             Instantiate(egg, death_position, Quaternion.identity);
-            door.GetComponent<DoorTrigger>().reOpen();
             Destroy(gameObject);
             yield break;
         }
@@ -251,6 +256,7 @@ public class BallAI : MonoBehaviour
     }
 
     private void SwitchDirection() {
+        AudioSource.PlayClipAtPoint(changeDirectionSound, Camera.main.transform.position);
         if (current_direction == Vector2.left) {
             current_direction = Vector2.right;
         }

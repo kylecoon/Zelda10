@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Fireball : MonoBehaviour
 {
+    private AudioClip fireballSound;
         public bool enemyAttack = false;
         int countdown;
         void Start(){
@@ -13,6 +14,8 @@ public class Fireball : MonoBehaviour
             } else{
                 countdown = 200;
             }
+            fireballSound = Resources.Load<AudioClip>("Zelda/Sound-Effects/SoundEffect15");
+            AudioSource.PlayClipAtPoint(fireballSound, Camera.main.transform.position);
         }
         
         void Update(){

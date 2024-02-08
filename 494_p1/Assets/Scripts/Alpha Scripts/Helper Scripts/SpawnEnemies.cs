@@ -53,9 +53,9 @@ public class SpawnEnemies : MonoBehaviour
 
 
     void OnTriggerEnter(Collider collider){
-        in_room = true;
         Debug.Log("Spawning Enemies");
         if(collider.CompareTag("Player")){
+            in_room = true;
             if(!handy){
                 for (int i = 0; i < transform.childCount; i++){
                     transform.GetChild(i).gameObject.SetActive(true);
@@ -68,9 +68,9 @@ public class SpawnEnemies : MonoBehaviour
         }
     }
     void OnTriggerExit(Collider collider){
-        in_room = false;
         Debug.Log("despawning Enemies");
         if(collider.CompareTag("Player")){
+            in_room = false;
             for (int i = 0; i < transform.childCount; i++){
                 transform.GetChild(i).gameObject.SetActive(false);
             }

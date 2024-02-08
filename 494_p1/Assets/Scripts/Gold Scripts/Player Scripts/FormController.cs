@@ -16,15 +16,20 @@ public class FormController : MonoBehaviour
     public bool in_knockback;
 
     public GameObject[] newFormRevealer;
+
+    private AudioClip formChangeSound;
+
     // Start is called before the first frame update
     void Start()
     {
+        formChangeSound = Resources.Load<AudioClip>("Zelda/Sound-Effects/SoundEffect12");
+
         box = GetComponent<BoxCollider>();
         
         can_move = true;
         formID = 1;
 
-        numForms = -1;
+        numForms = 0;
 
         DeactivateComponents();
         gameObject.GetComponent<HumanMovement>().enabled = true;
@@ -46,10 +51,11 @@ public class FormController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha8)) {
             SceneManager.LoadScene("gold_main", LoadSceneMode.Single);
         }
-        if (!can_move || wall_mode) {
+        if (!can_move || wall_mode || transform.position.x % 16.0f < 1.75f || transform.position.x % 16.0f > 13.25f || transform.position.y % 11.0f < 1.75f || transform.position.y % 11.0f > 8.25f) {
             return;
         }
         if (Input.GetKeyDown(KeyCode.Alpha1) && numForms >= 1 && formID != 1) {
+            AudioSource.PlayClipAtPoint(formChangeSound, Camera.main.transform.position);
             formID = 1;
 
             DeactivateComponents();
@@ -62,6 +68,7 @@ public class FormController : MonoBehaviour
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2) && numForms >= 2 && formID != 2) {
+            AudioSource.PlayClipAtPoint(formChangeSound, Camera.main.transform.position);
             formID = 2;
 
             DeactivateComponents();
@@ -73,6 +80,7 @@ public class FormController : MonoBehaviour
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3) && numForms >= 3 && formID != 3) {
+            AudioSource.PlayClipAtPoint(formChangeSound, Camera.main.transform.position);
             formID = 3;
 
             DeactivateComponents();
@@ -83,6 +91,7 @@ public class FormController : MonoBehaviour
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha4) && numForms >= 4 && formID != 4) {
+            AudioSource.PlayClipAtPoint(formChangeSound, Camera.main.transform.position);
             formID = 4;
 
             DeactivateComponents();
@@ -94,6 +103,7 @@ public class FormController : MonoBehaviour
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha5) && numForms >= 5 && formID != 5) {
+            AudioSource.PlayClipAtPoint(formChangeSound, Camera.main.transform.position);
             formID = 5;
 
             DeactivateComponents();
@@ -130,24 +140,21 @@ public class FormController : MonoBehaviour
     public void AddForm() {
         numForms += 1;
 
-        if(numForms == 0){
+        if(numForms == 1){
             newFormRevealer[0].SetActive(true);
 
-        } else if(numForms == 1){
+        } else if(numForms == 2){
             newFormRevealer[1].SetActive(true);
 
-        } else if(numForms == 2){
+        } else if(numForms == 3){
             newFormRevealer[2].SetActive(true);
 
-        } else if(numForms == 3){
+        } else if(numForms == 4){
             newFormRevealer[3].SetActive(true);
 
-        } else if(numForms == 4){
-            newFormRevealer[4].SetActive(true);
-
         } else if(numForms == 5){
-            newFormRevealer[5].SetActive(true);
-        } 
+            newFormRevealer[4].SetActive(true);
+        }
     }
 
     IEnumerator GreenFlash() {
